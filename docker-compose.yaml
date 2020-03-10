@@ -1,0 +1,36 @@
+version: "2"
+services:
+  sitiasa:
+    container_name: sitiasa_web
+    image: bylexus/apache-php56:v2
+    ports:
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - .:/var/www/
+    environment:
+      PHP_ERROR_REPORTING: 'E_ALL & ~E_STRICT'
+    depends_on:
+      - mysqlserver
+
+  mysqlserver:
+    container_name: mysql_sitiasa
+    image: mysql:5.7.17
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: sitiasa
+    volumes:
+      - ../db_sitiasa:/var/lib/mysql_sitiasa
+      # - ./db/startup:/docker-entrypoint-initdb.d
+
+  phpmyadmin:
+    container_name: phpmyadmin_sitiasa
+    image: phpmyadmin/phpmyadmin:4.7
+    environment:
+      PMA_HOST: mysqlserver
+    ports:
+      - "9000:80"
+    depends_on:
+      - mysqlserver
+    volumes:
+      - ../conf/conf.php:/etc/phpmyadmin/config.user.inc.php

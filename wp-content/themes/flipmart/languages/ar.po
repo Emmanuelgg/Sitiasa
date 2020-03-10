@@ -1,0 +1,5865 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flipmart WordPress Theme\n"
+"POT-Creation-Date: 2.27-09-24 18:35+0000\n"
+"PO-Revision-Date: 2.27-09-24 18:36+0000\n"
+"Last-Translator: CkThemes WordPress <ckthemes@gmail.com>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n;"
+"_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: "
+
+#: 404.php:22 theme/theme-options/yog-page-404.php:14
+msgid "404"
+msgstr ""
+
+#: 404.php:23
+msgid "We are sorry, the page you've requested is not available."
+msgstr ""
+
+#: 404.php:27 templates/page/content-none.php:28
+#: templates/page/content-none.php:36 yog/structure/markup.php:522
+msgid "Search"
+msgstr ""
+
+#: 404.php:28 templates/page/content-none.php:29
+#: templates/page/content-none.php:37
+msgid "Go"
+msgstr ""
+
+#: 404.php:32
+msgid "Go To Homepage"
+msgstr ""
+
+#: archive.php:104 index.php:90 search.php:92 single.php:97
+#: templates/page/content-default.php:31 templates/page/content-page.php:31
+#: templates/page/content-sidebar.php:47 woocommerce/myaccount/orders.php:114
+msgid "Next"
+msgstr ""
+
+#: archive.php:105 index.php:91 search.php:93 single.php:98
+#: templates/page/content-default.php:32 templates/page/content-page.php:32
+#: templates/page/content-sidebar.php:48 woocommerce/myaccount/orders.php:110
+msgid "Previous"
+msgstr ""
+
+#: author-bio.php:28 theme/theme-hooks.php:94 yog/structure/markup.php:298
+msgid "Facebook"
+msgstr ""
+
+#: author-bio.php:30 theme/theme-hooks.php:93
+#: theme/theme-options/yog-general.php:83 yog/structure/markup.php:628
+msgid "Twitter"
+msgstr ""
+
+#: author-bio.php:32 theme/theme-options/yog-general.php:77
+#: yog/structure/markup.php:414
+msgid "Linkedin"
+msgstr ""
+
+#: single.php:83
+#, php-format
+msgid "Continue reading \"%s\""
+msgstr ""
+
+#: templates/comment/comment.php:14
+#, php-format
+msgid "%1$s at %2$s / %3$s"
+msgstr ""
+
+#: templates/comment/nav.php:5
+msgid "Comments Navigation"
+msgstr ""
+
+#: templates/comment/nav.php:8
+msgid "Older Comments"
+msgstr ""
+
+#: templates/comment/nav.php:12
+msgid "Newer Comments"
+msgstr ""
+
+#: templates/comment/ping.php:7
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: templates/comment/ping.php:9
+msgid "Permalink"
+msgstr ""
+
+#: templates/header/shopping-cart.php:11
+msgid "Cart"
+msgstr ""
+
+#: templates/header/shopping-cart.php:54 woocommerce/cart/cart.php:61
+#: woocommerce/cart/mini-cart.php:52
+msgid "Remove this item"
+msgstr ""
+
+#: templates/header/shopping-cart.php:73 woocommerce/cart/mini-cart.php:77
+#: woocommerce/cart/mini-cart.php:85
+msgid "No products in the cart."
+msgstr ""
+
+#: templates/header/shopping-cart.php:84
+msgid "Checkout"
+msgstr ""
+
+#: templates/page/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/page/content-none.php:22
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: templates/page/content-none.php:22
+msgid "Get started here"
+msgstr ""
+
+#: templates/page/content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/page/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/redux/footer.tpl.php:57
+#: templates/redux/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: templates/redux/footer.tpl.php:61
+#: templates/redux/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: templates/redux/footer.tpl.php:62
+#: templates/redux/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: templates/redux/footer.tpl.php:67
+#: templates/redux/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: templates/redux/header.tpl.php:11 templates/redux/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: templates/redux/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: templates/redux/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: templates/redux/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: templates/redux/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: templates/redux/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: templates/redux/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: templates/redux/header_stickybar.tpl.php:15
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:1033
+#: yog/structure/markup.php:2.2
+msgid "Expand"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:16 theme/theme-options/yog-sidebars.php:12
+msgid "Page"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:23
+msgid "Page Layout"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:24
+msgid "Select which layout displays on this page."
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:26 theme/theme-options/yog-general.php:118
+msgid "Default"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:27
+msgid "Full Width"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:28
+msgid "Sidebar"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:35
+msgid "Page Sidebar"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:36
+msgid "Select sidebar that will display on this page."
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:45 theme/theme-options/yog-sidebars.php:41
+msgid "Global Page Sidebar Position"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:46 theme/theme-options/yog-sidebars.php:42
+msgid "Controls the position of sidebar 1 for all pages."
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:48 theme/theme-options/yog-sidebars.php:44
+#: theme/theme-options/yog-sidebars.php:85
+#: theme/theme-options/yog-sidebars.php:127
+#: theme/theme-options/yog-sidebars.php:169
+#: theme/theme-options/yog-sidebars.php:2.2
+#: theme/theme-options/yog-sidebars.php:252
+#: theme/theme-options/yog-sidebars.php:293
+msgid "Left"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:49 theme/theme-options/yog-sidebars.php:45
+#: theme/theme-options/yog-sidebars.php:86
+#: theme/theme-options/yog-sidebars.php:128
+#: theme/theme-options/yog-sidebars.php:170
+#: theme/theme-options/yog-sidebars.php:212
+#: theme/theme-options/yog-sidebars.php:253
+#: theme/theme-options/yog-sidebars.php:294
+msgid "Right"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:58 theme/metaboxes/yog-page.php:65
+#: theme/theme-options/yog-general.php:139
+msgid "Breadcrumb"
+msgstr ""
+
+#: theme/metaboxes/yog-page.php:66 theme/theme-options/yog-general.php:140
+msgid "Controls the site breadcrumb."
+msgstr ""
+
+#: theme/metaboxes/yog-testimonial.php:16
+msgid "Testimonial Information"
+msgstr ""
+
+#: theme/metaboxes/yog-testimonial.php:23
+msgid "Testimonial Content"
+msgstr ""
+
+#: theme/metaboxes/yog-testimonial.php:29
+msgid "Company Name"
+msgstr ""
+
+#: theme/metaboxes/yog-woocommerce.php:16
+msgid "WooCommerce"
+msgstr ""
+
+#: theme/metaboxes/yog-woocommerce.php:21
+msgid "Hot Product"
+msgstr ""
+
+#: theme/metaboxes/yog-woocommerce.php:24
+msgid "Display the \"Hot\" flash badge"
+msgstr ""
+
+#: theme/metaboxes/yog-woocommerce.php:32
+msgid "Hot Product Discount"
+msgstr ""
+
+#: theme/metaboxes/yog-woocommerce.php:43
+msgid "Time Limit"
+msgstr ""
+
+#: theme/theme-hooks.php:95
+msgid "LinkedIn"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:7
+msgid "Advanced"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:13
+msgid "Code Fields (Tracking etc.)"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:20
+msgid "Tracking Code"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:21
+msgid ""
+"Paste your tracking code here. This will be added into the header template "
+"of your theme. Place code inside &lt;script&gt; tags."
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:30
+msgid "Space before &lt;/head&gt;"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:31
+msgid ""
+"Only accepts javascript code wrapped with &lt;script&gt; tags and HTML "
+"markup that is valid inside the &lt;/head&gt; tag."
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:40
+msgid "Space before &lt;/body&gt;"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:41
+msgid ""
+"Only accepts javascript code, wrapped with &lt;script&gt; tags and valid "
+"HTML markup inside the &lt;/body&gt; tag."
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:51
+msgid "Core"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:58
+msgid "Clear Static Files Query String"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:59
+msgid ""
+"If enabled qeury string variable \"ver\" will be removed from query string "
+"for JS and CSS files."
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:67
+msgid "Dynamic CSS"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:74
+msgid "Dynamic Css"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:75
+msgid "Turn on to generate dynamic CSS. dynamic css generate for typography"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:82
+msgid "CSS Compiler"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:83
+msgid ""
+"Turn on to compile the dynamic CSS into a file. A separate file will be "
+"created for each of your pages & posts inside of the uploads/flipmart-styles "
+"folder."
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:90
+msgid "Database Caching for Dynamic CSS"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:91
+msgid "Turn on to enable caching the dynamic CSS in your database."
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:98
+msgid "Cache Server IP"
+msgstr ""
+
+#: theme/theme-options/yog-advanced.php:99
+msgid ""
+"For unique cases where you are using cloud flare and a cache server, ex: "
+"varnish cache. Enter your cache server IP to clear the theme options dynamic "
+"CSS cache. Consult with your server admin for help."
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:7
+msgid "Blog"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:12 theme/theme-options/yog-general.php:7
+#: yog/admin/views/yog-header.php:23
+msgid "General"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:17 theme/theme-options/yog-blog.php:77
+#: theme/theme-options/yog-woocommerce.php:150
+#: theme/theme-options/yog-woocommerce.php:179
+#: theme/theme-options/yog-woocommerce.php:226
+#: theme/theme-options/yog-woocommerce.php:274
+msgid "Animation"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:21 theme/theme-options/yog-blog.php:81
+#: theme/theme-options/yog-woocommerce.php:154
+#: theme/theme-options/yog-woocommerce.php:183
+#: theme/theme-options/yog-woocommerce.php:230
+#: theme/theme-options/yog-woocommerce.php:279
+msgid "Choose Animation from the drop down list."
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:25 theme/theme-options/yog-blog.php:85
+#: theme/theme-options/yog-woocommerce.php:158
+#: theme/theme-options/yog-woocommerce.php:188
+#: theme/theme-options/yog-woocommerce.php:235
+#: theme/theme-options/yog-woocommerce.php:283
+msgid "Delay"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:34
+msgid "Single Post"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:41
+msgid "Blog Post Social Share Links"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:47
+msgid "Social Share"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:48
+msgid "Did You Like This Post? Please Share on"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:50 theme/theme-options/yog-blog.php:66
+#: theme/theme-options/yog-blog.php:157 theme/theme-options/yog-general.php:46
+#: theme/theme-options/yog-header.php:28 theme/theme-options/yog-header.php:37
+#: theme/theme-options/yog-header.php:47 theme/theme-options/yog-header.php:65
+#: theme/theme-options/yog-header.php:82
+#: theme/theme-options/yog-page-translation.php:16
+#: theme/theme-options/yog-sidebars.php:232
+#: theme/theme-options/yog-sidebars.php:273
+#: theme/theme-options/yog-woocommerce.php:68
+#: theme/theme-options/yog-woocommerce.php:77
+#: theme/theme-options/yog-woocommerce.php:86
+#: theme/theme-options/yog-woocommerce.php:101
+#: theme/theme-options/yog-woocommerce.php:174
+#: theme/theme-options/yog-woocommerce.php:207
+#: theme/theme-options/yog-woocommerce.php:255
+#: theme/theme-options/yog-woocommerce.php:302
+msgid "Yes"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:51 theme/theme-options/yog-blog.php:67
+#: theme/theme-options/yog-blog.php:158 theme/theme-options/yog-general.php:47
+#: theme/theme-options/yog-header.php:29 theme/theme-options/yog-header.php:38
+#: theme/theme-options/yog-header.php:48 theme/theme-options/yog-header.php:66
+#: theme/theme-options/yog-header.php:83
+#: theme/theme-options/yog-page-translation.php:17
+#: theme/theme-options/yog-sidebars.php:233
+#: theme/theme-options/yog-sidebars.php:274
+#: theme/theme-options/yog-woocommerce.php:69
+#: theme/theme-options/yog-woocommerce.php:78
+#: theme/theme-options/yog-woocommerce.php:87
+#: theme/theme-options/yog-woocommerce.php:102
+#: theme/theme-options/yog-woocommerce.php:175
+#: theme/theme-options/yog-woocommerce.php:208
+#: theme/theme-options/yog-woocommerce.php:256
+#: theme/theme-options/yog-woocommerce.php:303
+msgid "No"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:57
+msgid "Blog Author Bio"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:63
+msgid "Author Info Box"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:64
+msgid "Turn on to display the author info box below posts."
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:73
+msgid "Blog Single Animation"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:94
+msgid "Blog Post Excerpt"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:101
+msgid "Excerpt Settings"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:107
+msgid "Length by"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:110
+msgid "Words"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:111
+msgid "Character"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:119
+msgid "Excerpt Length"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:120
+msgid "Choose Excerpt Length of portfolio posts on archive portfolio page."
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:121
+msgid "Slider description. Min: 1, max: 200, step: 1, default value: 120"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:129
+msgid "Ellipsis"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:132
+msgid "&hellip;"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:136
+msgid "Before Text"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:138
+msgid "Additional information appear before read more link"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:144
+msgid "After Text"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:146
+msgid "Additional information appear after read more link"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:152
+msgid "Show Read More"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:155
+msgid "If yes, will be show the Read More Link."
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:162
+msgid "Link Text"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:164
+msgid "Read More"
+msgstr ""
+
+#: theme/theme-options/yog-blog.php:166
+msgid "Insert text fo ream more link."
+msgstr ""
+
+#: theme/theme-options/yog-custom-code.php:7
+msgid "Custom CSS"
+msgstr ""
+
+#: theme/theme-options/yog-custom-code.php:14
+msgid "CSS Code"
+msgstr ""
+
+#: theme/theme-options/yog-custom-code.php:15
+msgid ""
+"Enter your CSS code in the field below. Do not include any tags or HTML in "
+"the field. Custom CSS entered here will override the theme CSS. In some "
+"cases, the !important tag may be needed. Don't URL encode image or svg paths."
+" Contents of this field will be auto encoded."
+msgstr ""
+
+#: theme/theme-options/yog-export.php:6
+msgid "Import/Export"
+msgstr ""
+
+#: theme/theme-options/yog-export.php:7
+msgid "Import/Export Options"
+msgstr ""
+
+#: theme/theme-options/yog-export.php:15
+msgid "TODO"
+msgstr ""
+
+#: theme/theme-options/yog-export.php:21
+msgid "Import Export"
+msgstr ""
+
+#: theme/theme-options/yog-export.php:22
+msgid "Save and restore your Redux options"
+msgstr ""
+
+#: theme/theme-options/yog-extras.php:6
+msgid "Extras"
+msgstr ""
+
+#: theme/theme-options/yog-footer.php:7 theme/theme-options/yog-footer.php:12
+msgid "Footer"
+msgstr ""
+
+#: theme/theme-options/yog-footer.php:20
+msgid "Payment Method Logos"
+msgstr ""
+
+#: theme/theme-options/yog-footer.php:27
+msgid "Payment Method Logo"
+msgstr ""
+
+#: theme/theme-options/yog-footer.php:28
+msgid "Select an image file for your payment method logo."
+msgstr ""
+
+#: theme/theme-options/yog-general.php:13
+msgid "General Settings"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:20
+msgid "Custom Sidebars"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:21
+msgid "Custom sidebars can be assigned to any page or post."
+msgstr ""
+
+#: theme/theme-options/yog-general.php:22
+msgid "You can add as many custom sidebars as you need."
+msgstr ""
+
+#: theme/theme-options/yog-general.php:28
+msgid "Google map API key"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:30
+msgid ""
+"Add your Google map API key here. You can get Google API key from https:"
+"//developers.google.com/maps/documentation/javascript/get-api-key"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:37
+msgid "Social Networks Icons Setting"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:38
+msgid "Please insert your social icons for your site."
+msgstr ""
+
+#: theme/theme-options/yog-general.php:44
+msgid "Show Social Icon"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:55
+msgid "Social identities"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:61 theme/widgets/banner.php:55
+#: theme/widgets/category-accordion.php:90 theme/widgets/contact-info.php:83
+#: theme/widgets/flickr.php:58 theme/widgets/mega-menu.php:69
+#: theme/widgets/post-tab.php:76 theme/widgets/product-hot-deals.php:166
+#: theme/widgets/testimonials.php:89
+msgid "Title"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:67
+msgid "Icon"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:69 yog/structure/markup.php:272
+msgid "Dribbble"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:70 yog/structure/markup.php:273
+msgid "Dropbox"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:71 yog/structure/markup.php:282
+msgid "Envelope"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:72
+msgid "FaceBook"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:73 yog/structure/markup.php:340
+msgid "Foursquare"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:74
+msgid "Github "
+msgstr ""
+
+#: theme/theme-options/yog-general.php:75
+msgid "Google+"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:76 yog/structure/markup.php:387
+msgid "Instagram"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:78 yog/structure/markup.php:433
+msgid "Maxcdn"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:79 yog/structure/markup.php:474
+msgid "Pinterest"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:80 yog/structure/markup.php:514
+msgid "Rss"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:81 yog/structure/markup.php:539
+msgid "Skype"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:82 yog/structure/markup.php:624
+msgid "Tumblr"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:84 yog/structure/markup.php:645
+msgid "Vk"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:85 yog/structure/markup.php:666
+msgid "Youtube"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:92
+msgid "Url"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:101
+msgid "Theme Features"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:109
+#: theme/theme-options/yog-general.php:116
+msgid "Site Version"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:110
+msgid "Please choose site version settings."
+msgstr ""
+
+#: theme/theme-options/yog-general.php:119
+msgid "Two"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:120
+msgid "Three"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:121
+msgid "Four"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:122
+msgid "Five"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:123
+msgid "Six"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:132
+msgid "Site Breadcrumb"
+msgstr ""
+
+#: theme/theme-options/yog-general.php:133
+msgid "Please choose site breadcrumb setting."
+msgstr ""
+
+#: theme/theme-options/yog-header.php:6 theme/theme-options/yog-header.php:11
+#: yog/structure/markup.php:371
+msgid "Header"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:19
+msgid "Header Top Bar Setting"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:20
+msgid ""
+"Please choose header top bar settings using options ( Top Bar Enable / "
+"Disable etc.. )."
+msgstr ""
+
+#: theme/theme-options/yog-header.php:26
+#: theme/theme-options/yog-woocommerce.php:66
+msgid "Show Top Bar"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:35
+msgid "Show Currency Switcher"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:44
+msgid "Show Menu"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:45
+msgid "Show or hide top bar menu"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:55
+msgid "Header Search Area Setting"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:56
+msgid "Please choose header search area settings."
+msgstr ""
+
+#: theme/theme-options/yog-header.php:62
+msgid "Show Search Area"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:63
+msgid ""
+"Show or hide search area which contain search form and category selector"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:73
+msgid "Header Add to Cart Button Setting"
+msgstr ""
+
+#: theme/theme-options/yog-header.php:74
+msgid "Please insert header add to cart button settings."
+msgstr ""
+
+#: theme/theme-options/yog-header.php:80
+msgid "Show Add to Cart Button"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:7 theme/theme-options/yog-logo.php:13
+msgid "Logo"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:21
+msgid "Default Logo"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:22
+msgid "Select an image file for your logo."
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:29 theme/theme-options/yog-logo.php:36
+msgid "Favicon"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:37
+msgid "Favicon for your website at 16px x 16px."
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:43
+msgid "Apple iPhone Icon Upload"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:44
+msgid "Favicon for Apple iPhone at 57px x 57px."
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:50
+msgid "Apple iPhone Retina Icon Upload"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:51
+msgid "Favicon for Apple iPhone Retina Version at 114px x 114px."
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:61
+msgid "Apple iPad Icon Upload"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:62
+msgid "Favicon for Apple iPad at 72px x 72px."
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:68
+msgid "Apple iPad Retina Icon Upload"
+msgstr ""
+
+#: theme/theme-options/yog-logo.php:69
+msgid "Favicon for Apple iPad Retina Version at 144px x 144px."
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:6
+msgid "404 Page"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:13
+msgid "Page Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:20
+msgid "Sub Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:21
+msgid "Oops! the page you were looking for, couldn't be found."
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:27
+#: theme/theme-options/yog-woocommerce.php:129
+msgid "Content"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:28
+msgid "Try the search below to find matching pages:"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:34
+msgid "Enable Search"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:35
+msgid "If on, the search module will be displayed."
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:46
+msgid "Search Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:59
+msgid "Search Form Button"
+msgstr ""
+
+#: theme/theme-options/yog-page-404.php:71
+msgid "Back To Home Button"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:7
+msgid "Translation"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:14
+msgid "Enable Theme Translation"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:24
+msgid "Blog Breadcrumb Translation"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:30
+#: theme/theme-options/yog-page-translation.php:38
+msgid "Blog Category"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:31
+msgid "Blog <span>Details</span>"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:32
+msgid "Enter Blog Single Breadcrumb Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:39
+#: theme/theme-translation.php:22
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:40
+msgid "Enter Blog Category Breadcrumb Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:46
+msgid "Blog Tags"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:47
+#: theme/theme-translation.php:23
+#, php-format
+msgid "Tags: %s"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:48
+msgid "Enter Blog Tag Breadcrumb Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:54
+msgid "Blog Day"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:55
+#: theme/theme-translation.php:24
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:56
+msgid "Enter Blog Day Breadcrumb Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:62
+msgid "Blog Monthly"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:63
+#: theme/theme-translation.php:25
+#, php-format
+msgid "Monthly: %s"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:64
+msgid "Enter Blog Monthly Breadcrumb Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:70
+msgid "Blog Yearly"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:71
+#: theme/theme-translation.php:26
+#, php-format
+msgid "Yearly: %s"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:72
+msgid "Enter Blog Yearly Breadcrumb Title"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:79
+msgid "Blog Comments Translation"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:85
+msgid "Blog Comment"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:87
+msgid "Blog Comment Template Singular Comment"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:93
+msgid "Blog Comments"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:94
+#: theme/theme-translation.php:32 yog/structure/markup.php:248
+msgid "Comments"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:95
+msgid "Blog Comment Template Comments"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:101
+msgid "Blog Comment Off"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:102
+msgid "Comment Off"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:103
+msgid "Blog Comment Template Comments Off"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:110
+msgid "Blog Search Translation"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:116
+msgid "Blog Comment Reply"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:117
+#: theme/theme-translation.php:34 yog/structure/markup.php:505
+msgid "Reply"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:118
+msgid "Blog Comment Template Comments Reply"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:124
+msgid "Search Form"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:126
+msgid "Enter Search Form Placholder"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:132
+msgid "Search Form Result"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:133
+#, php-format
+msgid "Search Result of %s"
+msgstr ""
+
+#: theme/theme-options/yog-page-translation.php:134
+msgid "Enter Search Form Result"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:6
+msgid "Sidebars"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:19
+msgid "Activate Global Sidebar For Pages"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:20
+msgid ""
+"Turn on if you want to use the same sidebars on all pages. This option "
+"overrides the page options."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:32
+msgid "Global Page Sidebar"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:33
+msgid "Select sidebar that will display on all pages."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:54
+msgid "Blog Posts"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:61
+msgid "Activate Global Sidebar For Blog Posts"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:62
+msgid "Turn on if you want to use the sidebars on all blog posts."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:74
+msgid "Global Blog Posts Sidebar"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:75
+msgid "Select sidebar that will display on all blog posts."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:82
+msgid "Global Blog Sidebar Position"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:83
+msgid "Controls the position of sidebar for all blog posts."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:96
+msgid "Blog Single"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:103
+msgid "Activate Global Sidebar For Blog Single Post"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:104
+msgid "Turn on if you want to use the sidebars on blog single post."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:116
+msgid "Global Blog Single Post Sidebar"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:117
+msgid "Select sidebar that will display on blog single post."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:124
+msgid "Global Blog Single Sidebar Position"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:125
+msgid "Controls the position of sidebar for blog single post."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:138
+msgid "Blog Archive"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:145
+msgid "Activate Global Sidebar For Archive Posts"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:146
+msgid ""
+"Turn on if you want to use the sidebars on all blog posts render on archive."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:158
+msgid "Blog Archive Sidebar"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:159
+msgid "Select sidebar that will display on the blog archive pages."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:166
+msgid "Archive Sidebar Position"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:167
+msgid "Controls the position of sidebar for the Archive results page."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:180
+msgid "Search Page"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:187
+msgid "Activate Global Sidebar For Search Page"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:188
+msgid ""
+"Turn on if you want to use the sidebars on all blog posts render on search "
+"page."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:200
+msgid "Search Page Sidebar"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:2.2
+msgid "Select sidebar that will display on the search results page."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:208
+msgid "Search Sidebar Position"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:209
+msgid "Controls the position of sidebar for the search results page."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:222
+msgid "WooCommerce Shop"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:229
+msgid "Activate Global Sidebar For WooCommerce Shop Page"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:230
+msgid "Turn on if you want to use the sidebars on WooCommerce shop page."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:239
+msgid "Global WooCommerce Shop Page Sidebar"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:240
+msgid "Select sidebar that will display on all WooCommerce shop page."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:249
+msgid "Global WooCommerce Page Sidebar Position"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:250
+msgid "Controls the position of sidebar for WooCommerce shop page."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:263
+msgid "WooCommerce Single Product"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:270
+msgid "Activate Global Sidebar For WooCommerce Single Product"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:2.2
+msgid "Turn on if you want to use the sidebars on WooCommerce single product."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:280
+msgid "Global WooCommerce Single Product Sidebar"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:2.2
+msgid "Select sidebar that will display on all WooCommerce single product."
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:290
+msgid "Global WooCommerce Single Product Sidebar Position"
+msgstr ""
+
+#: theme/theme-options/yog-sidebars.php:2.2
+msgid "Controls the position of sidebar for WooCommerce single product."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:7
+msgid "Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:13
+#: theme/theme-options/yog-typography.php:19
+msgid "Body Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:20
+msgid "These settings control the typography for all body text."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:41
+msgid "Headers Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:47
+msgid "H1 Headers Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:48
+msgid "These settings control the typography for all H1 Headers."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:66
+msgid "H2 Headers Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:67
+msgid "These settings control the typography for all H2 Headers."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:85
+msgid "H3 Headers Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:86
+msgid "These settings control the typography for all H3 Headers."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:104
+msgid "H4 Headers Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:105
+msgid "These settings control the typography for all H4 Headers."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:123
+msgid "H5 Headers Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:124
+msgid "These settings control the typography for all H5 Headers."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:142
+msgid "H6 Headers Typography"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:143
+msgid "These settings control the typography for all H6 Headers."
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:163
+msgid "Additional Fonts"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:169
+#: theme/theme-options/yog-typography.php:185
+#: theme/theme-options/yog-typography.php:2.2
+msgid "Google Font"
+msgstr ""
+
+#: theme/theme-options/yog-typography.php:170
+#: theme/theme-options/yog-typography.php:186
+#: theme/theme-options/yog-typography.php:202
+msgid "Select additional google font to load in theme"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:6
+#: theme/theme-register-plugins.php:47
+msgid "Woocommerce"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:12
+msgid "Shop Settings"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:17
+msgid "Shop Layout"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:21
+msgid "Grid Layout"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:22
+msgid "List Layout"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:24
+msgid "Choose shop page layout from the drop down list."
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:31
+msgid "Shop column"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:32
+msgid "Choose Shop Gird Column."
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:33
+msgid "Slider description. Min: 1, max: 4, step: 1, default value: 4"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:45
+msgid "Shop Products"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:46
+msgid "Choose Shop Products."
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:47
+#: theme/theme-options/yog-woocommerce.php:216
+#: theme/theme-options/yog-woocommerce.php:264
+#: theme/theme-options/yog-woocommerce.php:311
+msgid "Slider description. Min: 1, max: 40, step: 4, default value: 16"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:59
+msgid "Shop Top Bar"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:60
+msgid "Please choose shop top bar setting"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:75
+msgid "Show Catalog Ordering"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:84
+msgid "Show Pagination"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:93
+msgid "Product Sale Banner"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:99
+msgid "Show Banner"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:109
+msgid "Banner Background Image"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:110
+msgid "Select an image file for your banner background."
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:115
+msgid "Heading"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:122
+msgid "Sub Heading"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:139
+msgid "Single Product"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:146
+msgid "Product single contents"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:166
+msgid "Product single tab"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:172
+msgid "Product Tab"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:198
+#: theme/theme-options/yog-woocommerce.php:205
+#: theme/theme-options/yog-woocommerce.php:214
+msgid "Related Products"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:199
+msgid "Please choose related products setting"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:215
+msgid "Choose Related Products."
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:245
+#: theme/theme-options/yog-woocommerce.php:253
+#: theme/theme-options/yog-woocommerce.php:262
+msgid "Up Sell Products"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:246
+msgid "Please choose up sell products setting"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:263
+msgid "Choose Up Sell Products."
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:293
+#: theme/theme-options/yog-woocommerce.php:300
+#: theme/theme-options/yog-woocommerce.php:309
+msgid "Cross Sell Products"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:294
+msgid "Please choose cross sell products setting"
+msgstr ""
+
+#: theme/theme-options/yog-woocommerce.php:310
+msgid "Choose Cross Sell Products."
+msgstr ""
+
+#: theme/theme-register-plugins.php:21
+msgid "Flipmart Addons"
+msgstr ""
+
+#: theme/theme-register-plugins.php:25
+msgid "CKThemes"
+msgstr ""
+
+#: theme/theme-register-plugins.php:26
+msgid "Flipmart core theme plugin."
+msgstr ""
+
+#: theme/theme-register-plugins.php:30
+msgid "Redux Framework"
+msgstr ""
+
+#: theme/theme-register-plugins.php:33
+msgid "Team Redux"
+msgstr ""
+
+#: theme/theme-register-plugins.php:34
+msgid "Redux truly extensible options framework."
+msgstr ""
+
+#: theme/theme-register-plugins.php:38
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: theme/theme-register-plugins.php:42
+msgid "Michael M - WPBakery.com"
+msgstr ""
+
+#: theme/theme-register-plugins.php:43
+msgid "Drag and drop page builder for WordPress."
+msgstr ""
+
+#: theme/theme-register-plugins.php:50
+msgid "WooThemes"
+msgstr ""
+
+#: theme/theme-register-plugins.php:51
+msgid "An e-commerce toolkit that helps you sell anything. Beautifully."
+msgstr ""
+
+#: theme/theme-register-plugins.php:55
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: theme/theme-register-plugins.php:58 theme/theme-register-plugins.php:66
+msgid "YITHEMES"
+msgstr ""
+
+#: theme/theme-register-plugins.php:59
+msgid ""
+"YITH WooCommerce Wishlist allows you to add Wishlist functionality in e-"
+"commerce."
+msgstr ""
+
+#: theme/theme-register-plugins.php:63
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: theme/theme-register-plugins.php:67
+msgid ""
+"YITH WooCommerce Compare allows you to compare more products with "
+"WooCommerce plugin, through product attributes."
+msgstr ""
+
+#: theme/theme-register-plugins.php:71
+msgid "Currency Switcher"
+msgstr ""
+
+#: theme/theme-register-plugins.php:74
+msgid "realmag777"
+msgstr ""
+
+#: theme/theme-register-plugins.php:75
+msgid ""
+"Plugin that allows to the visitors and customers switch currencies on "
+"woocommerce store site."
+msgstr ""
+
+#: theme/theme-register-plugins.php:79
+msgid "Contact Form 7"
+msgstr ""
+
+#: theme/theme-register-plugins.php:83
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr ""
+
+#: theme/theme-register-plugins.php:87
+msgid "MailChimp"
+msgstr ""
+
+#: theme/theme-register-plugins.php:90
+msgid "ibericode"
+msgstr ""
+
+#: theme/theme-register-plugins.php:91
+msgid ""
+"MailChimp for WordPress by ibericode. Adds effective sign-up methods to your "
+"site."
+msgstr ""
+
+#: theme/theme-register-plugins.php:95
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: theme/theme-register-plugins.php:98
+msgid "John Havlik"
+msgstr ""
+
+#: theme/theme-register-plugins.php:99
+msgid ""
+"Adds a breadcrumb navigation showing the visitor&#39;s path to their current "
+"location."
+msgstr ""
+
+#: theme/theme-register-plugins.php:103
+msgid "Widget Importer & Exporter"
+msgstr ""
+
+#: theme/theme-register-plugins.php:106
+msgid "churchthemes.com"
+msgstr ""
+
+#: theme/theme-register-plugins.php:107
+msgid ""
+"Widget Importer & Exporter is useful for moving widgets from one WordPress "
+"site to another."
+msgstr ""
+
+#: theme/theme-scripts.php:58 theme/theme-scripts.php:63
+#: theme/theme-scripts.php:68 yog/admin/yog-admin-init.php:54
+#: yog/admin/yog-admin-init.php:60
+msgid "on"
+msgstr ""
+
+#: theme/theme-setup.php:57
+msgid "Primary Menu"
+msgstr ""
+
+#: theme/theme-setup.php:58
+msgid "Top Bar Menu"
+msgstr ""
+
+#: theme/theme-setup.php:69
+msgid "Default Sidebar Widget Area"
+msgstr ""
+
+#: theme/theme-setup.php:71
+msgid "Appears in primary sidebar area."
+msgstr ""
+
+#: theme/theme-setup.php:80
+msgid "Woocommerce Widget Area"
+msgstr ""
+
+#: theme/theme-setup.php:82
+msgid "Appears in woocommerce sidebar area."
+msgstr ""
+
+#: theme/theme-setup.php:94
+msgid "Footer "
+msgstr ""
+
+#: theme/theme-setup.php:95
+msgid "A widget area loaded in the footer of the site."
+msgstr ""
+
+#: theme/theme-setup.php:119 theme/theme-setup.php:126
+#: theme/theme-setup.php:133 theme/theme-setup.php:140
+#: theme/theme-setup.php:147
+msgid "Flipmart"
+msgstr ""
+
+#: theme/theme-setup.php:120
+msgid "import complete demo of theme one version"
+msgstr ""
+
+#: theme/theme-setup.php:127
+msgid "import complete demo of theme two version"
+msgstr ""
+
+#: theme/theme-setup.php:134
+msgid "import complete demo of theme three version"
+msgstr ""
+
+#: theme/theme-setup.php:141
+msgid "import complete demo of theme four version"
+msgstr ""
+
+#: theme/theme-setup.php:148
+msgid "import complete demo of theme five version"
+msgstr ""
+
+#: theme/theme-translation.php:21
+msgid "Blog Details"
+msgstr ""
+
+#: theme/theme-translation.php:28
+#, php-format
+msgid "Search Result : %s"
+msgstr ""
+
+#: theme/theme-translation.php:33
+msgid "Comments Off"
+msgstr ""
+
+#: theme/widgets/banner.php:13
+msgid "Show your banner image."
+msgstr ""
+
+#: theme/widgets/banner.php:17
+msgid "Flipmart: Banner"
+msgstr ""
+
+#: theme/widgets/banner.php:62 yog/extensions/mega-menu/yog-mega-menu.php:348
+msgid "Banner Image Url"
+msgstr ""
+
+#: theme/widgets/category-accordion.php:13
+msgid "Display categry in accordion."
+msgstr ""
+
+#: theme/widgets/category-accordion.php:17
+msgid "Flipmart: Category Accordion"
+msgstr ""
+
+#: theme/widgets/category-accordion.php:99
+msgid "Post Category"
+msgstr ""
+
+#: theme/widgets/category-accordion.php:100
+msgid "Product Category"
+msgstr ""
+
+#: theme/widgets/contact-info.php:13
+msgid "Add contact information."
+msgstr ""
+
+#: theme/widgets/contact-info.php:17
+msgid "Flipmart: Contact Info"
+msgstr ""
+
+#: theme/widgets/contact-info.php:90
+msgid "Address"
+msgstr ""
+
+#: theme/widgets/contact-info.php:97
+msgid "Phone Number"
+msgstr ""
+
+#: theme/widgets/flickr.php:13
+msgid "Show your flickr images."
+msgstr ""
+
+#: theme/widgets/flickr.php:17
+msgid "Flipmart: Flickr Feeds"
+msgstr ""
+
+#: theme/widgets/flickr.php:52
+msgid "Flickr Feed"
+msgstr ""
+
+#: theme/widgets/flickr.php:65
+msgid "User Name"
+msgstr ""
+
+#: theme/widgets/flickr.php:72
+msgid "Number of Images"
+msgstr ""
+
+#: theme/widgets/mega-menu.php:13
+msgid "Add mega menu."
+msgstr ""
+
+#: theme/widgets/mega-menu.php:17
+msgid "Flipmart: Mega Menu"
+msgstr ""
+
+#: theme/widgets/post-tab.php:13
+msgid "Display popular posts and recent posts in tab."
+msgstr ""
+
+#: theme/widgets/post-tab.php:17
+msgid "Flipmart: Tab Posts"
+msgstr ""
+
+#: theme/widgets/post-tab.php:71
+msgid "Popular"
+msgstr ""
+
+#: theme/widgets/post-tab.php:83
+msgid "Popular posts tab title"
+msgstr ""
+
+#: theme/widgets/post-tab.php:90
+msgid "Number of popular posts to show:"
+msgstr ""
+
+#: theme/widgets/post-tab.php:97
+msgid "Latest posts tab title"
+msgstr ""
+
+#: theme/widgets/post-tab.php:104
+msgid "Number of latest posts to show:"
+msgstr ""
+
+#: theme/widgets/product-hot-deals.php:13
+msgid "Add product which on hot deals."
+msgstr ""
+
+#: theme/widgets/product-hot-deals.php:17
+msgid "Flipmart: Product Hot Deals"
+msgstr ""
+
+#: theme/widgets/product-hot-deals.php:173
+msgid "Number Of Products"
+msgstr ""
+
+#: theme/widgets/testimonials.php:13
+msgid "Add user testimonials slider."
+msgstr ""
+
+#: theme/widgets/testimonials.php:17
+msgid "Flipmart: User Testimonials"
+msgstr ""
+
+#: theme/widgets/testimonials.php:96
+msgid "Number Of Testimonail"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50 woocommerce/cart/cart-shipping.php:87
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52 woocommerce/cart/cart-shipping.php:89
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:65
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart.php:105
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:47
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:347
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:56
+#: woocommerce/cart/shipping-calculator.php:65
+#: woocommerce/cart/shipping-calculator.php:71
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:72
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:376
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:92
+#: woocommerce/cart/shipping-calculator.php:93
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:101
+#: woocommerce/cart/shipping-calculator.php:102
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:34
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:47
+msgid "Return to cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:68
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:37
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:32
+msgid "Returning customer? Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:43
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:81
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:64
+msgid "No shipping details"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:46
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:46
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:53
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your order."
+" You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38 woocommerce/myaccount/my-orders.php:75
+#: woocommerce/myaccount/orders.php:71
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48 woocommerce/checkout/thankyou.php:88
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:60
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:65
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:72
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/compare.php:91
+msgid "Close window [X]"
+msgstr ""
+
+#: woocommerce/compare.php:118
+msgid "No products added in the compare table."
+msgstr ""
+
+#: woocommerce/compare.php:167 woocommerce/compare.php:220
+msgid "Add Cart"
+msgstr ""
+
+#: woocommerce/default-woocommerce-widgets.php:421
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: woocommerce/default-woocommerce-widgets.php:703
+msgid "Min price"
+msgstr ""
+
+#: woocommerce/default-woocommerce-widgets.php:704
+msgid "Max price"
+msgstr ""
+
+#: woocommerce/default-woocommerce-widgets.php:770
+#: woocommerce/default-woocommerce-widgets.php:779
+#: woocommerce/default-woocommerce-widgets.php:784
+msgid "Remove filter"
+msgstr ""
+
+#: woocommerce/default-woocommerce-widgets.php:779
+msgid "Min"
+msgstr ""
+
+#: woocommerce/default-woocommerce-widgets.php:784
+msgid "Max"
+msgstr ""
+
+#: woocommerce/default-woocommerce-widgets.php:948
+msgid "No product categories exist."
+msgstr ""
+
+#: woocommerce/global/form-login.php:35
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:39 woocommerce/myaccount/form-login.php:53
+#: woocommerce/myaccount/form-login.php:105
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:47 woocommerce/myaccount/form-login.php:61
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:49 woocommerce/myaccount/form-login.php:63
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/global/form-login.php:54 woocommerce/myaccount/form-login.php:41
+#: woocommerce/myaccount/form-login.php:68
+msgid "Login"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:24
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/result-count.php:40
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:62
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:68
+msgid "Never"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:76 yog/structure/markup.php:2.2
+msgid "Download"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:98 woocommerce/myaccount/orders.php:122
+msgid "Go shop"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:100
+msgid "No downloads available yet."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:53
+#: woocommerce/myaccount/payment-methods.php:79
+msgid "Add payment method"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:59
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:30
+msgid "Account Details"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:33
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Password change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:55
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:67
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:81
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:54
+msgid "Save address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:42
+msgid "Hello, Welcome to your account."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:49
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:81
+#: woocommerce/myaccount/form-login.php:118
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:82
+msgid "Create your new account."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:91
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:112
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:41
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:31
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:48
+#: woocommerce/wishlist-view.php:46 yog/structure/markup.php:518
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:52 yog/structure/markup.php:275
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:72
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:14
+#: yog/extensions/redux-datetime/datetime/field_datetime.php:185
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:15
+#: yog/libs/class-tgm-plugin-activation.php:2542
+msgid "Status"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:55 woocommerce/myaccount/orders.php:51
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:67 woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%1$s for %2$s item"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:79 woocommerce/myaccount/orders.php:75
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:83 woocommerce/myaccount/orders.php:79
+#: woocommerce/wishlist-view.php:50
+#: yog/extensions/mega-menu/yog-mega-menu.php:379
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:124
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:52
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:73
+msgid "No saved methods found."
+msgstr ""
+
+#: woocommerce/new-badge.php:21
+msgid "New Badge"
+msgstr ""
+
+#: woocommerce/new-badge.php:26
+msgid "Product Newness"
+msgstr ""
+
+#: woocommerce/new-badge.php:27
+msgid "Display the 'New' flash for how many days?"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:30
+msgid "Track your Order"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:38
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:39
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:42
+msgid "Billing email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:43
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:47
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-again.php:25
+msgid "Order again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:27
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:35
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:42
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:49
+msgid "Phone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:71
+#: woocommerce/order/order-details-customer.php:85
+#: woocommerce/single-product/meta.php:32
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:31
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/tracking.php:27
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/order/tracking.php:35
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/order/tracking.php:41
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search products&hellip;"
+msgstr "البحث عن المنتجات"
+
+#: woocommerce/single-product-reviews.php:35
+#, php-format
+msgid "%1$s review for %2$s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:121
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:40
+msgid "Qty :"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:33
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:45
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:32
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:38
+msgid "Tag:"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/product-thumbnails.php:98
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:42
+#, php-format
+msgid "%s customer review"
+msgstr ""
+
+#: woocommerce/single-product/related.php:31
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:31
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:37
+msgid "Edit title"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:98
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:104
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:104
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:110
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:117
+#: yog/extensions/mega-menu/yog-mega-menu.php:355
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:129
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:132
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:135
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:158 woocommerce/wishlist-view.php:164
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:173
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:190
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:198 woocommerce/wishlist-view.php:244
+msgid "Ask for an estimate"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:234
+msgid "Your email"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:18
+msgid ""
+"We are a creative web design that specialized in WordPress and create "
+"awesome WordPress Theme to meet anyone needs. We are smart, intelligent, "
+"talented and best of all, we are super passionate about our work."
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:19
+msgid ""
+"With our lots of talent and experience, we combine beautiful, modern designs "
+"with clean, functional code to produce stunning websites. A product that we "
+"offer help and guidance in using to each of our customers."
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:20
+msgid ""
+"Follow us to stay up to date with our latest and greatest. We are working "
+"hard to bring you some perfect themes!"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:21
+msgid "Dedicated Support System"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:22
+msgid ""
+"We are always happy to help and we value our customers. All our files come "
+"with User Manual prepared specifically for each product, these help files "
+"are located inside your download packages."
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:34
+msgid "Support Forums"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:36
+msgid "Community"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:39
+msgid "Go to forums"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:49 yog/admin/views/yog-header.php:26
+msgid "Documentation"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:51
+msgid "Knowledge Base"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:54
+msgid "Read Documentation"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:77
+msgid "Preview"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:78
+msgid "Import Demo"
+msgstr ""
+
+#: yog/admin/views/yog-dashboard.php:85
+msgid ""
+"Please install / activate Flipmart Core Addons plugin after that you can "
+"import theme demo contents"
+msgstr ""
+
+#: yog/admin/views/yog-header.php:9
+#, php-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: yog/admin/views/yog-header.php:11
+#, php-format
+msgid "Latest Update %s"
+msgstr ""
+
+#: yog/admin/views/yog-header.php:15
+msgid ""
+"Thank you for using Flipmart. CKThemes will improve your overall web "
+"publishing experience."
+msgstr ""
+
+#: yog/admin/views/yog-header.php:24
+msgid "Demos"
+msgstr ""
+
+#: yog/admin/views/yog-header.php:25
+msgid "Plugins"
+msgstr ""
+
+#: yog/admin/views/yog-plugins.php:15
+msgid "CKThemes Plugins"
+msgstr ""
+
+#: yog/admin/views/yog-plugins.php:18
+msgid "Custom and third party plugins"
+msgstr ""
+
+#: yog/admin/yog-admin-init.php:141 yog/structure/markup.php:2.2
+msgid "Dashboard"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:171
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:175
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:187
+msgid "sub item"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:202
+msgid "Move up"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:215
+msgid "Move down"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:217
+#: yog/extensions/mega-menu/yog-mega-menu.php:219
+msgid "Edit Menu Item"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:228
+msgid "URL"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:235
+msgid "Navigation Label"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:2.2
+msgid "Title Attribute"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:248
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:253
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:259
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:267
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:279
+msgid "Mega Menu"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:2.2
+msgid "Activate Mega Menu"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:286
+msgid "Label Type"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:288
+msgid "Select Label Type"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:289
+msgid "Hot Menu"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:290
+msgid "New Menu"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:301
+msgid "Mega Columns"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:303
+#: yog/extensions/mega-menu/yog-mega-menu.php:331
+msgid "Select Icon"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:320
+msgid "Is Mega Column"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:329
+msgid "Select Menu Icon"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:356
+msgid "Up one"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:357
+msgid "Down one"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:360
+msgid "To the top"
+msgstr ""
+
+#: yog/extensions/mega-menu/yog-mega-menu.php:366
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: yog/extensions/redux-datetime/datetime/field_datetime.php:186
+msgid "Time"
+msgstr ""
+
+#: yog/extensions/redux-datetime/datetime/field_datetime.php:188
+msgid "Date / Time"
+msgstr ""
+
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:866
+msgid "Options"
+msgstr ""
+
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:1019
+msgid "Settings Imported!"
+msgstr ""
+
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:1022
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:1026
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:1307
+msgid "error(s) were found!"
+msgstr ""
+
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:1029
+msgid "warning(s) were found!"
+msgstr ""
+
+#: yog/extensions/redux-metaboxes/extension_metaboxes.php:1312
+msgid "warnings(s) were found!"
+msgstr ""
+
+#: yog/extensions/redux-repeater/repeater/field_repeater.php:180
+#: yog/extensions/redux-repeater/repeater/field_repeater.php:223
+msgid "Delete"
+msgstr ""
+
+#: yog/extensions/redux-repeater/repeater/field_repeater.php:245
+msgid "Add"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:215
+msgid "Font Family"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:216
+msgid "Font family"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:242
+#: yog/extensions/redux-typography/field_typography.php:243
+msgid "Backup Font Family"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:257
+#: yog/extensions/redux-typography/field_typography.php:265
+msgid "Font style"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:258
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:265
+msgid "Style"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:305
+msgid "Font subsets"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:307
+msgid "Font Subsets"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:309
+msgid "Subsets"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:309
+msgid "Font script"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:326
+#: yog/extensions/redux-typography/field_typography.php:327
+#: yog/extensions/redux-typography/field_typography.php:328
+msgid "Text Align"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:349
+#: yog/extensions/redux-typography/field_typography.php:350
+#: yog/extensions/redux-typography/field_typography.php:351
+msgid "Text Transform"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:372
+#: yog/extensions/redux-typography/field_typography.php:373
+#: yog/extensions/redux-typography/field_typography.php:374
+msgid "Font Variant"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:392
+#: yog/extensions/redux-typography/field_typography.php:393
+#: yog/extensions/redux-typography/field_typography.php:394
+msgid "Text Decoration"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:416
+#: yog/extensions/redux-typography/field_typography.php:417
+msgid "Font Size"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:417
+msgid "Size"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:425
+#: yog/extensions/redux-typography/field_typography.php:426
+msgid "Line Height"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:426
+msgid "Height"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:434
+#: yog/extensions/redux-typography/field_typography.php:435
+msgid "Word Spacing"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:443
+#: yog/extensions/redux-typography/field_typography.php:444
+msgid "Letter Spacing"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:462
+msgid "Font Color"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:464
+msgid "Font color"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:874
+msgid "Standard Fonts"
+msgstr ""
+
+#: yog/extensions/redux-typography/field_typography.php:975
+msgid "Google Webfonts"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:316
+msgid "Install Required Plugins"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:317
+msgid "Install Plugins"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:319
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:321
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:322
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:374
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:375
+#: yog/libs/class-tgm-plugin-activation.php:2521
+#: yog/libs/class-tgm-plugin-activation.php:3568
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:376
+#: yog/libs/class-tgm-plugin-activation.php:3147
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:377
+#: yog/libs/class-tgm-plugin-activation.php:2940
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:379
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:381
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:383
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:384
+msgid "Dismiss this notice"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:385
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:386
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:503
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:504
+msgid "Update Required"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:621
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:923
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:923
+#: yog/libs/class-tgm-plugin-activation.php:926
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:926
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:1970
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:22.2
+msgid "Required"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2264
+msgid "Recommended"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2280
+msgid "WordPress Repository"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2283
+msgid "External Source"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2286
+msgid "Pre-Packaged"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2303
+msgid "Not Installed"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2307
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2309
+msgid "Active"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2.25
+msgid "Required Update not Available"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2.28
+msgid "Requires Update"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2321
+msgid "Update recommended"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2330
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2380
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2384
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2470
+msgid "unknown"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2478
+msgid "Installed version:"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2486
+msgid "Minimum required version:"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2498
+msgid "Available version:"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2521
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2535
+msgid "Plugin"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2536
+msgid "Source"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2537
+msgid "Type"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2541
+msgid "Version"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2591
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2596
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2602
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2672
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2705
+msgid "Install"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2.21
+msgid "Update"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2.24
+msgid "Activate"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2745
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2747
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2788
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2790
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2896
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:2922
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3146
+msgid "Plugin activation failed."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3486
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3489
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3491
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3495
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3497
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3497
+#: yog/libs/class-tgm-plugin-activation.php:3505
+msgid "Show Details"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3497
+#: yog/libs/class-tgm-plugin-activation.php:3505
+msgid "Hide Details"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3498
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3500
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3503
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3505
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3506
+msgid "All installations have been completed."
+msgstr ""
+
+#: yog/libs/class-tgm-plugin-activation.php:3508
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: yog/structure/comments.php:70 yog/structure/posts.php:127
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: yog/structure/markup.php:114
+msgid "Adjust"
+msgstr ""
+
+#: yog/structure/markup.php:115
+msgid "Adn"
+msgstr ""
+
+#: yog/structure/markup.php:116
+msgid "Align Center"
+msgstr ""
+
+#: yog/structure/markup.php:117
+msgid "Align Justify"
+msgstr ""
+
+#: yog/structure/markup.php:118
+msgid "Align Left"
+msgstr ""
+
+#: yog/structure/markup.php:119
+msgid "Align Right"
+msgstr ""
+
+#: yog/structure/markup.php:120
+msgid "Ambulance"
+msgstr ""
+
+#: yog/structure/markup.php:121
+msgid "Anchor"
+msgstr ""
+
+#: yog/structure/markup.php:122
+msgid "Android"
+msgstr ""
+
+#: yog/structure/markup.php:123
+msgid "Angellist"
+msgstr ""
+
+#: yog/structure/markup.php:124
+msgid "Angle Double Down"
+msgstr ""
+
+#: yog/structure/markup.php:125
+msgid "Angle Double Left"
+msgstr ""
+
+#: yog/structure/markup.php:126
+msgid "Angle Double Right"
+msgstr ""
+
+#: yog/structure/markup.php:127
+msgid "Angle Double Up"
+msgstr ""
+
+#: yog/structure/markup.php:128
+msgid "Angle Down"
+msgstr ""
+
+#: yog/structure/markup.php:129
+msgid "Angle Left"
+msgstr ""
+
+#: yog/structure/markup.php:130
+msgid "Angle Right"
+msgstr ""
+
+#: yog/structure/markup.php:131
+msgid "Angle Up"
+msgstr ""
+
+#: yog/structure/markup.php:132
+msgid "Apple"
+msgstr ""
+
+#: yog/structure/markup.php:133
+msgid "Archive"
+msgstr ""
+
+#: yog/structure/markup.php:134
+msgid "Area Chart"
+msgstr ""
+
+#: yog/structure/markup.php:135
+msgid "Arrow Circle Down"
+msgstr ""
+
+#: yog/structure/markup.php:136
+msgid "Arrow Circle Left"
+msgstr ""
+
+#: yog/structure/markup.php:137
+msgid "Arrow Circle Outline Down"
+msgstr ""
+
+#: yog/structure/markup.php:138
+msgid "Arrow Circle Outline Left"
+msgstr ""
+
+#: yog/structure/markup.php:139
+msgid "Arrow Circle Outline Right"
+msgstr ""
+
+#: yog/structure/markup.php:140
+msgid "Arrow Circle Outline Up"
+msgstr ""
+
+#: yog/structure/markup.php:141
+msgid "Arrow Circle Right"
+msgstr ""
+
+#: yog/structure/markup.php:142
+msgid "Arrow Circle Up"
+msgstr ""
+
+#: yog/structure/markup.php:143
+msgid "Arrow Down"
+msgstr ""
+
+#: yog/structure/markup.php:144
+msgid "Arrow Left"
+msgstr ""
+
+#: yog/structure/markup.php:145
+msgid "Arrow Right"
+msgstr ""
+
+#: yog/structure/markup.php:146
+msgid "Arrow Up"
+msgstr ""
+
+#: yog/structure/markup.php:147
+msgid "Arrows Alt"
+msgstr ""
+
+#: yog/structure/markup.php:148
+msgid "Arrows H"
+msgstr ""
+
+#: yog/structure/markup.php:149
+msgid "Arrows V"
+msgstr ""
+
+#: yog/structure/markup.php:150
+msgid "Arrows"
+msgstr ""
+
+#: yog/structure/markup.php:151
+msgid "Asterisk"
+msgstr ""
+
+#: yog/structure/markup.php:152
+msgid "At"
+msgstr ""
+
+#: yog/structure/markup.php:153
+msgid "Automobile"
+msgstr ""
+
+#: yog/structure/markup.php:154
+msgid "Backward"
+msgstr ""
+
+#: yog/structure/markup.php:155
+msgid "Ban"
+msgstr ""
+
+#: yog/structure/markup.php:156
+msgid "Bank"
+msgstr ""
+
+#: yog/structure/markup.php:157
+msgid "Bar Chart Outline"
+msgstr ""
+
+#: yog/structure/markup.php:158
+msgid "Bar Chart"
+msgstr ""
+
+#: yog/structure/markup.php:159
+msgid "Barcode"
+msgstr ""
+
+#: yog/structure/markup.php:160
+msgid "Bars"
+msgstr ""
+
+#: yog/structure/markup.php:161
+msgid "Beer"
+msgstr ""
+
+#: yog/structure/markup.php:162
+msgid "Behance Square"
+msgstr ""
+
+#: yog/structure/markup.php:163
+msgid "Behance"
+msgstr ""
+
+#: yog/structure/markup.php:164
+msgid "Bell Outline"
+msgstr ""
+
+#: yog/structure/markup.php:165
+msgid "Bell Slash Outline"
+msgstr ""
+
+#: yog/structure/markup.php:166
+msgid "Bell Slash"
+msgstr ""
+
+#: yog/structure/markup.php:167
+msgid "Bell"
+msgstr ""
+
+#: yog/structure/markup.php:168
+msgid "Bicycle"
+msgstr ""
+
+#: yog/structure/markup.php:169
+msgid "Binoculars"
+msgstr ""
+
+#: yog/structure/markup.php:170
+msgid "Birthday Cake"
+msgstr ""
+
+#: yog/structure/markup.php:171
+msgid "Bitbucket Square"
+msgstr ""
+
+#: yog/structure/markup.php:172
+msgid "Bitbucket"
+msgstr ""
+
+#: yog/structure/markup.php:173
+msgid "Bitcoin"
+msgstr ""
+
+#: yog/structure/markup.php:174
+msgid "Bold"
+msgstr ""
+
+#: yog/structure/markup.php:175
+msgid "Bolt"
+msgstr ""
+
+#: yog/structure/markup.php:176
+msgid "Bomb"
+msgstr ""
+
+#: yog/structure/markup.php:177
+msgid "Book"
+msgstr ""
+
+#: yog/structure/markup.php:178
+msgid "Bookmark Outline"
+msgstr ""
+
+#: yog/structure/markup.php:179
+msgid "Bookmark"
+msgstr ""
+
+#: yog/structure/markup.php:180
+msgid "Briefcase"
+msgstr ""
+
+#: yog/structure/markup.php:181
+msgid "Btc"
+msgstr ""
+
+#: yog/structure/markup.php:182
+msgid "Bug"
+msgstr ""
+
+#: yog/structure/markup.php:183
+msgid "Building Outline"
+msgstr ""
+
+#: yog/structure/markup.php:184
+msgid "Building"
+msgstr ""
+
+#: yog/structure/markup.php:185
+msgid "Bullhorn"
+msgstr ""
+
+#: yog/structure/markup.php:186
+msgid "Bullseye"
+msgstr ""
+
+#: yog/structure/markup.php:187
+msgid "Bus"
+msgstr ""
+
+#: yog/structure/markup.php:188
+msgid "CC Amex"
+msgstr ""
+
+#: yog/structure/markup.php:189
+msgid "CC Discover"
+msgstr ""
+
+#: yog/structure/markup.php:190
+msgid "CC Mastercard"
+msgstr ""
+
+#: yog/structure/markup.php:191
+msgid "CC Paypal"
+msgstr ""
+
+#: yog/structure/markup.php:192
+msgid "CC Stripe"
+msgstr ""
+
+#: yog/structure/markup.php:193
+msgid "CC Visa"
+msgstr ""
+
+#: yog/structure/markup.php:194
+msgid "Cab"
+msgstr ""
+
+#: yog/structure/markup.php:195
+msgid "Calculator"
+msgstr ""
+
+#: yog/structure/markup.php:196
+msgid "Calendar Outline"
+msgstr ""
+
+#: yog/structure/markup.php:197
+msgid "Calendar"
+msgstr ""
+
+#: yog/structure/markup.php:198
+msgid "Camera Retro"
+msgstr ""
+
+#: yog/structure/markup.php:199
+msgid "Camera"
+msgstr ""
+
+#: yog/structure/markup.php:200
+msgid "Car"
+msgstr ""
+
+#: yog/structure/markup.php:2.2
+msgid "Caret Down"
+msgstr ""
+
+#: yog/structure/markup.php:202
+msgid "Caret Left"
+msgstr ""
+
+#: yog/structure/markup.php:203
+msgid "Caret Right"
+msgstr ""
+
+#: yog/structure/markup.php:204
+msgid "Caret Square Outline Down"
+msgstr ""
+
+#: yog/structure/markup.php:205
+msgid "Caret Square Outline Left"
+msgstr ""
+
+#: yog/structure/markup.php:206
+msgid "Caret Square Outline Right"
+msgstr ""
+
+#: yog/structure/markup.php:207
+msgid "Caret Square Outline Up"
+msgstr ""
+
+#: yog/structure/markup.php:208
+msgid "Caret Up"
+msgstr ""
+
+#: yog/structure/markup.php:209
+msgid "Cc"
+msgstr ""
+
+#: yog/structure/markup.php:210
+msgid "Certificate"
+msgstr ""
+
+#: yog/structure/markup.php:2.2
+msgid "Chain Broken"
+msgstr ""
+
+#: yog/structure/markup.php:212
+msgid "Chain"
+msgstr ""
+
+#: yog/structure/markup.php:213
+msgid "Check Circle Outline"
+msgstr ""
+
+#: yog/structure/markup.php:214
+msgid "Check Circle"
+msgstr ""
+
+#: yog/structure/markup.php:215
+msgid "Check Square Outline"
+msgstr ""
+
+#: yog/structure/markup.php:216
+msgid "Check Square"
+msgstr ""
+
+#: yog/structure/markup.php:217
+msgid "Check"
+msgstr ""
+
+#: yog/structure/markup.php:218
+msgid "Chevron Circle Down"
+msgstr ""
+
+#: yog/structure/markup.php:219
+msgid "Chevron Circle Left"
+msgstr ""
+
+#: yog/structure/markup.php:220
+msgid "Chevron Circle Right"
+msgstr ""
+
+#: yog/structure/markup.php:2.2
+msgid "Chevron Circle Up"
+msgstr ""
+
+#: yog/structure/markup.php:222
+msgid "Chevron Down"
+msgstr ""
+
+#: yog/structure/markup.php:223
+msgid "Chevron Left"
+msgstr ""
+
+#: yog/structure/markup.php:224
+msgid "Chevron Right"
+msgstr ""
+
+#: yog/structure/markup.php:225
+msgid "Chevron Up"
+msgstr ""
+
+#: yog/structure/markup.php:226
+msgid "Child"
+msgstr ""
+
+#: yog/structure/markup.php:227
+msgid "Circle Outline Notch"
+msgstr ""
+
+#: yog/structure/markup.php:228
+msgid "Circle Outline"
+msgstr ""
+
+#: yog/structure/markup.php:229
+msgid "Circle Thin"
+msgstr ""
+
+#: yog/structure/markup.php:230
+msgid "Circle"
+msgstr ""
+
+#: yog/structure/markup.php:2.2
+msgid "Clipboard"
+msgstr ""
+
+#: yog/structure/markup.php:232
+msgid "Clock Outline"
+msgstr ""
+
+#: yog/structure/markup.php:233
+msgid "Close"
+msgstr ""
+
+#: yog/structure/markup.php:234
+msgid "Cloud Download"
+msgstr ""
+
+#: yog/structure/markup.php:235
+msgid "Cloud Upload"
+msgstr ""
+
+#: yog/structure/markup.php:236
+msgid "Cloud"
+msgstr ""
+
+#: yog/structure/markup.php:237
+msgid "Cny"
+msgstr ""
+
+#: yog/structure/markup.php:238
+msgid "Code Fork"
+msgstr ""
+
+#: yog/structure/markup.php:239
+msgid "Code"
+msgstr ""
+
+#: yog/structure/markup.php:240
+msgid "Codepen"
+msgstr ""
+
+#: yog/structure/markup.php:2.2
+msgid "Coffee"
+msgstr ""
+
+#: yog/structure/markup.php:242
+msgid "Cog"
+msgstr ""
+
+#: yog/structure/markup.php:243
+msgid "Cogs"
+msgstr ""
+
+#: yog/structure/markup.php:244
+msgid "Columns"
+msgstr ""
+
+#: yog/structure/markup.php:245
+msgid "Comment Outline"
+msgstr ""
+
+#: yog/structure/markup.php:247
+msgid "Comments Outline"
+msgstr ""
+
+#: yog/structure/markup.php:249
+msgid "Compass"
+msgstr ""
+
+#: yog/structure/markup.php:250
+msgid "Compress"
+msgstr ""
+
+#: yog/structure/markup.php:2.2
+msgid "Copy"
+msgstr ""
+
+#: yog/structure/markup.php:252
+msgid "Copyright"
+msgstr ""
+
+#: yog/structure/markup.php:253
+msgid "Credit Card"
+msgstr ""
+
+#: yog/structure/markup.php:254
+msgid "Crop"
+msgstr ""
+
+#: yog/structure/markup.php:255
+msgid "Crosshairs"
+msgstr ""
+
+#: yog/structure/markup.php:256
+msgid "Css3"
+msgstr ""
+
+#: yog/structure/markup.php:257
+msgid "Cube"
+msgstr ""
+
+#: yog/structure/markup.php:258
+msgid "Cubes"
+msgstr ""
+
+#: yog/structure/markup.php:259
+msgid "Cut"
+msgstr ""
+
+#: yog/structure/markup.php:260
+msgid "Cutlery"
+msgstr ""
+
+#: yog/structure/markup.php:262
+msgid "Database"
+msgstr ""
+
+#: yog/structure/markup.php:263
+msgid "Dedent"
+msgstr ""
+
+#: yog/structure/markup.php:264
+msgid "Delicious"
+msgstr ""
+
+#: yog/structure/markup.php:265
+msgid "Desktop"
+msgstr ""
+
+#: yog/structure/markup.php:266
+msgid "Deviantart"
+msgstr ""
+
+#: yog/structure/markup.php:267
+msgid "Digg"
+msgstr ""
+
+#: yog/structure/markup.php:268
+msgid "Diamond"
+msgstr ""
+
+#: yog/structure/markup.php:269
+msgid "Dollar"
+msgstr ""
+
+#: yog/structure/markup.php:270
+msgid "Dot Circle Outline"
+msgstr ""
+
+#: yog/structure/markup.php:274
+msgid "Drupal"
+msgstr ""
+
+#: yog/structure/markup.php:276
+msgid "Eject"
+msgstr ""
+
+#: yog/structure/markup.php:277
+msgid "Ellipsis H"
+msgstr ""
+
+#: yog/structure/markup.php:278
+msgid "Ellipsis V"
+msgstr ""
+
+#: yog/structure/markup.php:279
+msgid "Empire"
+msgstr ""
+
+#: yog/structure/markup.php:280
+msgid "Envelope Outline"
+msgstr ""
+
+#: yog/structure/markup.php:2.2
+msgid "Envelope Square"
+msgstr ""
+
+#: yog/structure/markup.php:283
+msgid "Envira"
+msgstr ""
+
+#: yog/structure/markup.php:284
+msgid "Eraser"
+msgstr ""
+
+#: yog/structure/markup.php:285
+msgid "Eur"
+msgstr ""
+
+#: yog/structure/markup.php:286
+msgid "Euro"
+msgstr ""
+
+#: yog/structure/markup.php:287
+msgid "Exchange"
+msgstr ""
+
+#: yog/structure/markup.php:288
+msgid "Exclamation Circle"
+msgstr ""
+
+#: yog/structure/markup.php:289
+msgid "Exclamation Triangle"
+msgstr ""
+
+#: yog/structure/markup.php:290
+msgid "Exclamation"
+msgstr ""
+
+#: yog/structure/markup.php:292
+msgid "External Link Square"
+msgstr ""
+
+#: yog/structure/markup.php:293
+msgid "External Link"
+msgstr ""
+
+#: yog/structure/markup.php:294
+msgid "Eye Slash"
+msgstr ""
+
+#: yog/structure/markup.php:295
+msgid "Eye"
+msgstr ""
+
+#: yog/structure/markup.php:296
+msgid "Eyedropper"
+msgstr ""
+
+#: yog/structure/markup.php:297
+msgid "Facebook Square"
+msgstr ""
+
+#: yog/structure/markup.php:299
+msgid "Fast Backward"
+msgstr ""
+
+#: yog/structure/markup.php:300
+msgid "Fast Forward"
+msgstr ""
+
+#: yog/structure/markup.php:301
+msgid "Fax"
+msgstr ""
+
+#: yog/structure/markup.php:302
+msgid "Female"
+msgstr ""
+
+#: yog/structure/markup.php:303
+msgid "Fighter Jet"
+msgstr ""
+
+#: yog/structure/markup.php:304
+msgid "File Archive Outline"
+msgstr ""
+
+#: yog/structure/markup.php:305
+msgid "File Audio Outline"
+msgstr ""
+
+#: yog/structure/markup.php:306
+msgid "File Code Outline"
+msgstr ""
+
+#: yog/structure/markup.php:307
+msgid "File Excel Outline"
+msgstr ""
+
+#: yog/structure/markup.php:308
+msgid "File Image Outline"
+msgstr ""
+
+#: yog/structure/markup.php:309
+msgid "File Movie Outline"
+msgstr ""
+
+#: yog/structure/markup.php:310
+msgid "File Outline"
+msgstr ""
+
+#: yog/structure/markup.php:311
+msgid "File Pdf Outline"
+msgstr ""
+
+#: yog/structure/markup.php:312
+msgid "File Photo Outline"
+msgstr ""
+
+#: yog/structure/markup.php:313
+msgid "File Picture Outline"
+msgstr ""
+
+#: yog/structure/markup.php:314
+msgid "File Powerpoint Outline"
+msgstr ""
+
+#: yog/structure/markup.php:315
+msgid "File Sound Outline"
+msgstr ""
+
+#: yog/structure/markup.php:316
+msgid "File Text Outline"
+msgstr ""
+
+#: yog/structure/markup.php:317
+msgid "File Text"
+msgstr ""
+
+#: yog/structure/markup.php:318
+msgid "File Video Outline"
+msgstr ""
+
+#: yog/structure/markup.php:319
+msgid "File Word Outline"
+msgstr ""
+
+#: yog/structure/markup.php:320
+msgid "File Zip Outline"
+msgstr ""
+
+#: yog/structure/markup.php:321
+msgid "File"
+msgstr ""
+
+#: yog/structure/markup.php:322
+msgid "Files Outline"
+msgstr ""
+
+#: yog/structure/markup.php:323
+msgid "Film"
+msgstr ""
+
+#: yog/structure/markup.php:325
+msgid "Fire Extinguisher"
+msgstr ""
+
+#: yog/structure/markup.php:326
+msgid "Fire"
+msgstr ""
+
+#: yog/structure/markup.php:327
+msgid "Flag Checkered"
+msgstr ""
+
+#: yog/structure/markup.php:328
+msgid "Flag Outline"
+msgstr ""
+
+#: yog/structure/markup.php:329
+msgid "Flag"
+msgstr ""
+
+#: yog/structure/markup.php:330 yog/structure/markup.php:694
+msgid "Flash"
+msgstr ""
+
+#: yog/structure/markup.php:331
+msgid "Flask"
+msgstr ""
+
+#: yog/structure/markup.php:332
+msgid "Flickr"
+msgstr ""
+
+#: yog/structure/markup.php:333
+msgid "Floppy Outline"
+msgstr ""
+
+#: yog/structure/markup.php:334
+msgid "Folder Outline"
+msgstr ""
+
+#: yog/structure/markup.php:335
+msgid "Folder Outlinepen Outline"
+msgstr ""
+
+#: yog/structure/markup.php:336
+msgid "Folder Outlinepen"
+msgstr ""
+
+#: yog/structure/markup.php:337
+msgid "Folder"
+msgstr ""
+
+#: yog/structure/markup.php:338
+msgid "Font"
+msgstr ""
+
+#: yog/structure/markup.php:339
+msgid "Forward"
+msgstr ""
+
+#: yog/structure/markup.php:341
+msgid "Frown Outline"
+msgstr ""
+
+#: yog/structure/markup.php:342
+msgid "Futbol Outline"
+msgstr ""
+
+#: yog/structure/markup.php:343
+msgid "Gamepad"
+msgstr ""
+
+#: yog/structure/markup.php:344
+msgid "Gavel"
+msgstr ""
+
+#: yog/structure/markup.php:345
+msgid "Gbp"
+msgstr ""
+
+#: yog/structure/markup.php:346
+msgid "Ge"
+msgstr ""
+
+#: yog/structure/markup.php:347
+msgid "Gear"
+msgstr ""
+
+#: yog/structure/markup.php:348
+msgid "Gears"
+msgstr ""
+
+#: yog/structure/markup.php:349
+msgid "Gift"
+msgstr ""
+
+#: yog/structure/markup.php:350
+msgid "Git Square"
+msgstr ""
+
+#: yog/structure/markup.php:351
+msgid "Git"
+msgstr ""
+
+#: yog/structure/markup.php:352
+msgid "Github Alt"
+msgstr ""
+
+#: yog/structure/markup.php:353
+msgid "Github Square"
+msgstr ""
+
+#: yog/structure/markup.php:354
+msgid "Github"
+msgstr ""
+
+#: yog/structure/markup.php:355
+msgid "Gittip"
+msgstr ""
+
+#: yog/structure/markup.php:356
+msgid "Glass"
+msgstr ""
+
+#: yog/structure/markup.php:357
+msgid "Globe"
+msgstr ""
+
+#: yog/structure/markup.php:358
+msgid "Google Plus Square"
+msgstr ""
+
+#: yog/structure/markup.php:359
+msgid "Google Plus"
+msgstr ""
+
+#: yog/structure/markup.php:360
+msgid "Google Wallet"
+msgstr ""
+
+#: yog/structure/markup.php:361
+msgid "Google"
+msgstr ""
+
+#: yog/structure/markup.php:362
+msgid "Graduation Cap"
+msgstr ""
+
+#: yog/structure/markup.php:363
+msgid "Group"
+msgstr ""
+
+#: yog/structure/markup.php:364
+msgid "H Square"
+msgstr ""
+
+#: yog/structure/markup.php:365
+msgid "Hacker News"
+msgstr ""
+
+#: yog/structure/markup.php:366
+msgid "Hand Outline Down"
+msgstr ""
+
+#: yog/structure/markup.php:367
+msgid "Hand Outline Left"
+msgstr ""
+
+#: yog/structure/markup.php:368
+msgid "Hand Outline Right"
+msgstr ""
+
+#: yog/structure/markup.php:369
+msgid "Hand Outline Up"
+msgstr ""
+
+#: yog/structure/markup.php:370
+msgid "Hdd Outline"
+msgstr ""
+
+#: yog/structure/markup.php:372
+msgid "Headphones"
+msgstr ""
+
+#: yog/structure/markup.php:373
+msgid "Heart Outline"
+msgstr ""
+
+#: yog/structure/markup.php:374
+msgid "Heart"
+msgstr ""
+
+#: yog/structure/markup.php:375
+msgid "Heart Beat"
+msgstr ""
+
+#: yog/structure/markup.php:376
+msgid "History"
+msgstr ""
+
+#: yog/structure/markup.php:377
+msgid "Home"
+msgstr ""
+
+#: yog/structure/markup.php:378
+msgid "Hospital Outline"
+msgstr ""
+
+#: yog/structure/markup.php:379
+msgid "Html5"
+msgstr ""
+
+#: yog/structure/markup.php:380
+msgid "Ils"
+msgstr ""
+
+#: yog/structure/markup.php:382
+msgid "Inbox"
+msgstr ""
+
+#: yog/structure/markup.php:383
+msgid "Indent"
+msgstr ""
+
+#: yog/structure/markup.php:384
+msgid "Info Circle"
+msgstr ""
+
+#: yog/structure/markup.php:385
+msgid "Info"
+msgstr ""
+
+#: yog/structure/markup.php:386
+msgid "Inr"
+msgstr ""
+
+#: yog/structure/markup.php:388
+msgid "Institution"
+msgstr ""
+
+#: yog/structure/markup.php:389
+msgid "Ioxhost"
+msgstr ""
+
+#: yog/structure/markup.php:390
+msgid "Italic"
+msgstr ""
+
+#: yog/structure/markup.php:391
+msgid "Joomla"
+msgstr ""
+
+#: yog/structure/markup.php:392
+msgid "Jpy"
+msgstr ""
+
+#: yog/structure/markup.php:393
+msgid "Jsfiddle"
+msgstr ""
+
+#: yog/structure/markup.php:394
+msgid "Key"
+msgstr ""
+
+#: yog/structure/markup.php:395
+msgid "Keyboard Outline"
+msgstr ""
+
+#: yog/structure/markup.php:396
+msgid "Krw"
+msgstr ""
+
+#: yog/structure/markup.php:397
+msgid "Language"
+msgstr ""
+
+#: yog/structure/markup.php:398
+msgid "Laptop"
+msgstr ""
+
+#: yog/structure/markup.php:399
+msgid "Lastfm Square"
+msgstr ""
+
+#: yog/structure/markup.php:400
+msgid "Lastfm"
+msgstr ""
+
+#: yog/structure/markup.php:401
+msgid "Leaf"
+msgstr ""
+
+#: yog/structure/markup.php:402
+msgid "Legal"
+msgstr ""
+
+#: yog/structure/markup.php:403
+msgid "Lemon Outline"
+msgstr ""
+
+#: yog/structure/markup.php:404
+msgid "Level Down"
+msgstr ""
+
+#: yog/structure/markup.php:405
+msgid "Level Up"
+msgstr ""
+
+#: yog/structure/markup.php:406
+msgid "Life Bouy"
+msgstr ""
+
+#: yog/structure/markup.php:407
+msgid "Life Buoy"
+msgstr ""
+
+#: yog/structure/markup.php:408
+msgid "Life Ring"
+msgstr ""
+
+#: yog/structure/markup.php:409
+msgid "Life Saver"
+msgstr ""
+
+#: yog/structure/markup.php:410
+msgid "Lightbulb Outline"
+msgstr ""
+
+#: yog/structure/markup.php:411
+msgid "Line Chart"
+msgstr ""
+
+#: yog/structure/markup.php:412
+msgid "Link"
+msgstr ""
+
+#: yog/structure/markup.php:413
+msgid "Linkedin Square"
+msgstr ""
+
+#: yog/structure/markup.php:415
+msgid "Linux"
+msgstr ""
+
+#: yog/structure/markup.php:416
+msgid "List Alt"
+msgstr ""
+
+#: yog/structure/markup.php:417
+msgid "List Outlinel"
+msgstr ""
+
+#: yog/structure/markup.php:418
+msgid "List Ul"
+msgstr ""
+
+#: yog/structure/markup.php:420
+msgid "Location Arrow"
+msgstr ""
+
+#: yog/structure/markup.php:421
+msgid "Lock"
+msgstr ""
+
+#: yog/structure/markup.php:422
+msgid "Long Arrow Down"
+msgstr ""
+
+#: yog/structure/markup.php:423
+msgid "Long Arrow Left"
+msgstr ""
+
+#: yog/structure/markup.php:424
+msgid "Long Arrow Right"
+msgstr ""
+
+#: yog/structure/markup.php:425
+msgid "Long Arrow Up"
+msgstr ""
+
+#: yog/structure/markup.php:426
+msgid "Magic"
+msgstr ""
+
+#: yog/structure/markup.php:427
+msgid "Magnet"
+msgstr ""
+
+#: yog/structure/markup.php:428
+msgid "Mail Forward"
+msgstr ""
+
+#: yog/structure/markup.php:429
+msgid "Mail Reply All"
+msgstr ""
+
+#: yog/structure/markup.php:430
+msgid "Mail Reply"
+msgstr ""
+
+#: yog/structure/markup.php:431
+msgid "Male"
+msgstr ""
+
+#: yog/structure/markup.php:432
+msgid "Map Marker"
+msgstr ""
+
+#: yog/structure/markup.php:434
+msgid "Meanpath"
+msgstr ""
+
+#: yog/structure/markup.php:435
+msgid "Medkit"
+msgstr ""
+
+#: yog/structure/markup.php:436
+msgid "Meh Outline"
+msgstr ""
+
+#: yog/structure/markup.php:437
+msgid "Microphone Slash"
+msgstr ""
+
+#: yog/structure/markup.php:438
+msgid "Microphone"
+msgstr ""
+
+#: yog/structure/markup.php:439
+msgid "Minus Circle"
+msgstr ""
+
+#: yog/structure/markup.php:440
+msgid "Minus Square Outline"
+msgstr ""
+
+#: yog/structure/markup.php:441
+msgid "Minus Square"
+msgstr ""
+
+#: yog/structure/markup.php:442
+msgid "Minus"
+msgstr ""
+
+#: yog/structure/markup.php:443
+msgid "Mobile Phone"
+msgstr ""
+
+#: yog/structure/markup.php:444
+msgid "Mobile"
+msgstr ""
+
+#: yog/structure/markup.php:445
+msgid "Money"
+msgstr ""
+
+#: yog/structure/markup.php:446
+msgid "Moon Outline"
+msgstr ""
+
+#: yog/structure/markup.php:447
+msgid "Mortar Board"
+msgstr ""
+
+#: yog/structure/markup.php:448
+msgid "Music"
+msgstr ""
+
+#: yog/structure/markup.php:449
+msgid "Navicon"
+msgstr ""
+
+#: yog/structure/markup.php:450
+msgid "Newspaper Outline"
+msgstr ""
+
+#: yog/structure/markup.php:451
+msgid "Openid"
+msgstr ""
+
+#: yog/structure/markup.php:452
+msgid "Outdent"
+msgstr ""
+
+#: yog/structure/markup.php:453
+msgid "Pagelines"
+msgstr ""
+
+#: yog/structure/markup.php:454
+msgid "Paint Brush"
+msgstr ""
+
+#: yog/structure/markup.php:455
+msgid "Paper Plane Outline"
+msgstr ""
+
+#: yog/structure/markup.php:456
+msgid "Paper Plane"
+msgstr ""
+
+#: yog/structure/markup.php:457
+msgid "Paperclip"
+msgstr ""
+
+#: yog/structure/markup.php:458
+msgid "Paragraph"
+msgstr ""
+
+#: yog/structure/markup.php:459
+msgid "Paste"
+msgstr ""
+
+#: yog/structure/markup.php:460
+msgid "Pause"
+msgstr ""
+
+#: yog/structure/markup.php:461
+msgid "Paw"
+msgstr ""
+
+#: yog/structure/markup.php:462
+msgid "Paypal"
+msgstr ""
+
+#: yog/structure/markup.php:463
+msgid "Pencil Square Outline"
+msgstr ""
+
+#: yog/structure/markup.php:464
+msgid "Pencil Square"
+msgstr ""
+
+#: yog/structure/markup.php:465
+msgid "Pencil"
+msgstr ""
+
+#: yog/structure/markup.php:466
+msgid "Phone Square"
+msgstr ""
+
+#: yog/structure/markup.php:467
+msgid "Phone"
+msgstr ""
+
+#: yog/structure/markup.php:468
+msgid "Photo"
+msgstr ""
+
+#: yog/structure/markup.php:469
+msgid "Picture Outline"
+msgstr ""
+
+#: yog/structure/markup.php:470
+msgid "Pie Chart"
+msgstr ""
+
+#: yog/structure/markup.php:471
+msgid "Pied Piper Alt"
+msgstr ""
+
+#: yog/structure/markup.php:472
+msgid "Pied Piper"
+msgstr ""
+
+#: yog/structure/markup.php:473
+msgid "Pinterest Square"
+msgstr ""
+
+#: yog/structure/markup.php:475
+msgid "Plane"
+msgstr ""
+
+#: yog/structure/markup.php:476
+msgid "Play Circle Outline"
+msgstr ""
+
+#: yog/structure/markup.php:477
+msgid "Play Circle"
+msgstr ""
+
+#: yog/structure/markup.php:478
+msgid "Play"
+msgstr ""
+
+#: yog/structure/markup.php:479
+msgid "Plug"
+msgstr ""
+
+#: yog/structure/markup.php:480
+msgid "Plus Circle"
+msgstr ""
+
+#: yog/structure/markup.php:481
+msgid "Plus Square Outline"
+msgstr ""
+
+#: yog/structure/markup.php:482
+msgid "Plus Square"
+msgstr ""
+
+#: yog/structure/markup.php:483
+msgid "Plus"
+msgstr ""
+
+#: yog/structure/markup.php:484
+msgid "Power Outlineff"
+msgstr ""
+
+#: yog/structure/markup.php:485
+msgid "Print"
+msgstr ""
+
+#: yog/structure/markup.php:486
+msgid "Puzzle Piece"
+msgstr ""
+
+#: yog/structure/markup.php:487
+msgid "Qq"
+msgstr ""
+
+#: yog/structure/markup.php:488
+msgid "Qrcode"
+msgstr ""
+
+#: yog/structure/markup.php:489
+msgid "Question Circle"
+msgstr ""
+
+#: yog/structure/markup.php:490
+msgid "Question"
+msgstr ""
+
+#: yog/structure/markup.php:491
+msgid "Quote Left"
+msgstr ""
+
+#: yog/structure/markup.php:492
+msgid "Quote Right"
+msgstr ""
+
+#: yog/structure/markup.php:493
+msgid "Ra"
+msgstr ""
+
+#: yog/structure/markup.php:494
+msgid "Random"
+msgstr ""
+
+#: yog/structure/markup.php:495
+msgid "Rebel"
+msgstr ""
+
+#: yog/structure/markup.php:496
+msgid "Recycle"
+msgstr ""
+
+#: yog/structure/markup.php:497
+msgid "Reddit Square"
+msgstr ""
+
+#: yog/structure/markup.php:498
+msgid "Reddit"
+msgstr ""
+
+#: yog/structure/markup.php:499
+msgid "Refresh"
+msgstr ""
+
+#: yog/structure/markup.php:501
+msgid "Renren"
+msgstr ""
+
+#: yog/structure/markup.php:502
+msgid "Reorder"
+msgstr ""
+
+#: yog/structure/markup.php:503
+msgid "Repeat"
+msgstr ""
+
+#: yog/structure/markup.php:504
+msgid "Reply All"
+msgstr ""
+
+#: yog/structure/markup.php:506
+msgid "Retweet"
+msgstr ""
+
+#: yog/structure/markup.php:507
+msgid "Rmb"
+msgstr ""
+
+#: yog/structure/markup.php:508
+msgid "Road"
+msgstr ""
+
+#: yog/structure/markup.php:509
+msgid "Rocket"
+msgstr ""
+
+#: yog/structure/markup.php:510
+msgid "Rotate Left"
+msgstr ""
+
+#: yog/structure/markup.php:511
+msgid "Rotate Right"
+msgstr ""
+
+#: yog/structure/markup.php:512
+msgid "Rouble"
+msgstr ""
+
+#: yog/structure/markup.php:513
+msgid "Rss Square"
+msgstr ""
+
+#: yog/structure/markup.php:515
+msgid "Rub"
+msgstr ""
+
+#: yog/structure/markup.php:516
+msgid "Ruble"
+msgstr ""
+
+#: yog/structure/markup.php:517
+msgid "Rupee"
+msgstr ""
+
+#: yog/structure/markup.php:519
+msgid "Scissors"
+msgstr ""
+
+#: yog/structure/markup.php:520
+msgid "Search Minus"
+msgstr ""
+
+#: yog/structure/markup.php:521
+msgid "Search Plus"
+msgstr ""
+
+#: yog/structure/markup.php:523
+msgid "Send Outline"
+msgstr ""
+
+#: yog/structure/markup.php:524
+msgid "Send"
+msgstr ""
+
+#: yog/structure/markup.php:525
+msgid "Share Alt Square"
+msgstr ""
+
+#: yog/structure/markup.php:526
+msgid "Share Alt"
+msgstr ""
+
+#: yog/structure/markup.php:527
+msgid "Share Square Outline"
+msgstr ""
+
+#: yog/structure/markup.php:528
+msgid "Share Square"
+msgstr ""
+
+#: yog/structure/markup.php:529
+msgid "Share"
+msgstr ""
+
+#: yog/structure/markup.php:530
+msgid "Shekel"
+msgstr ""
+
+#: yog/structure/markup.php:531
+msgid "Sheqel"
+msgstr ""
+
+#: yog/structure/markup.php:532
+msgid "Shield"
+msgstr ""
+
+#: yog/structure/markup.php:533
+msgid "Shopping Cart"
+msgstr ""
+
+#: yog/structure/markup.php:534
+msgid "Shopping Bag"
+msgstr ""
+
+#: yog/structure/markup.php:535
+msgid "Sign In"
+msgstr ""
+
+#: yog/structure/markup.php:536
+msgid "Sign Outlineut"
+msgstr ""
+
+#: yog/structure/markup.php:537
+msgid "Signal"
+msgstr ""
+
+#: yog/structure/markup.php:538
+msgid "Sitemap"
+msgstr ""
+
+#: yog/structure/markup.php:540
+msgid "Slack"
+msgstr ""
+
+#: yog/structure/markup.php:541
+msgid "Sliders"
+msgstr ""
+
+#: yog/structure/markup.php:542
+msgid "Slideshare"
+msgstr ""
+
+#: yog/structure/markup.php:543
+msgid "Smile Outline"
+msgstr ""
+
+#: yog/structure/markup.php:544
+msgid "Soccer Ball Outline"
+msgstr ""
+
+#: yog/structure/markup.php:545
+msgid "Sort Alpha Asc"
+msgstr ""
+
+#: yog/structure/markup.php:546
+msgid "Sort Alpha Desc"
+msgstr ""
+
+#: yog/structure/markup.php:547
+msgid "Sort Amount Asc"
+msgstr ""
+
+#: yog/structure/markup.php:548
+msgid "Sort Amount Desc"
+msgstr ""
+
+#: yog/structure/markup.php:549
+msgid "Sort Asc"
+msgstr ""
+
+#: yog/structure/markup.php:550
+msgid "Sort Desc"
+msgstr ""
+
+#: yog/structure/markup.php:551
+msgid "Sort Down"
+msgstr ""
+
+#: yog/structure/markup.php:552
+msgid "Sort Numeric Asc"
+msgstr ""
+
+#: yog/structure/markup.php:553
+msgid "Sort Numeric Desc"
+msgstr ""
+
+#: yog/structure/markup.php:554
+msgid "Sort Up"
+msgstr ""
+
+#: yog/structure/markup.php:555
+msgid "Sort"
+msgstr ""
+
+#: yog/structure/markup.php:556
+msgid "Soundcloud"
+msgstr ""
+
+#: yog/structure/markup.php:557
+msgid "Space Shuttle"
+msgstr ""
+
+#: yog/structure/markup.php:558
+msgid "Spinner"
+msgstr ""
+
+#: yog/structure/markup.php:559
+msgid "Spoon"
+msgstr ""
+
+#: yog/structure/markup.php:560
+msgid "Spotify"
+msgstr ""
+
+#: yog/structure/markup.php:561
+msgid "Square Outline"
+msgstr ""
+
+#: yog/structure/markup.php:562
+msgid "Square"
+msgstr ""
+
+#: yog/structure/markup.php:563
+msgid "Stack Exchange"
+msgstr ""
+
+#: yog/structure/markup.php:564
+msgid "Stack Outlineverflow"
+msgstr ""
+
+#: yog/structure/markup.php:565
+msgid "Star Half Empty"
+msgstr ""
+
+#: yog/structure/markup.php:566
+msgid "Star Half Full"
+msgstr ""
+
+#: yog/structure/markup.php:567
+msgid "Star Half Outline"
+msgstr ""
+
+#: yog/structure/markup.php:568
+msgid "Star Half"
+msgstr ""
+
+#: yog/structure/markup.php:569
+msgid "Star Outline"
+msgstr ""
+
+#: yog/structure/markup.php:570
+msgid "Star"
+msgstr ""
+
+#: yog/structure/markup.php:571
+msgid "Steam Square"
+msgstr ""
+
+#: yog/structure/markup.php:572
+msgid "Steam"
+msgstr ""
+
+#: yog/structure/markup.php:573
+msgid "Step Backward"
+msgstr ""
+
+#: yog/structure/markup.php:574
+msgid "Step Forward"
+msgstr ""
+
+#: yog/structure/markup.php:575
+msgid "Stethoscope"
+msgstr ""
+
+#: yog/structure/markup.php:576
+msgid "Stop"
+msgstr ""
+
+#: yog/structure/markup.php:577
+msgid "Strikethrough"
+msgstr ""
+
+#: yog/structure/markup.php:578
+msgid "Stumbleupon Circle"
+msgstr ""
+
+#: yog/structure/markup.php:579
+msgid "Stumbleupon"
+msgstr ""
+
+#: yog/structure/markup.php:580
+msgid "Subscript"
+msgstr ""
+
+#: yog/structure/markup.php:581
+msgid "Suitcase"
+msgstr ""
+
+#: yog/structure/markup.php:582
+msgid "Sun Outline"
+msgstr ""
+
+#: yog/structure/markup.php:583
+msgid "Superscript"
+msgstr ""
+
+#: yog/structure/markup.php:584
+msgid "Support"
+msgstr ""
+
+#: yog/structure/markup.php:585
+msgid "Table"
+msgstr ""
+
+#: yog/structure/markup.php:586
+msgid "Tablet"
+msgstr ""
+
+#: yog/structure/markup.php:587
+msgid "Tachometer"
+msgstr ""
+
+#: yog/structure/markup.php:588
+msgid "Tag"
+msgstr ""
+
+#: yog/structure/markup.php:589
+msgid "Tags"
+msgstr ""
+
+#: yog/structure/markup.php:590
+msgid "Tasks"
+msgstr ""
+
+#: yog/structure/markup.php:591
+msgid "Taxi"
+msgstr ""
+
+#: yog/structure/markup.php:592
+msgid "Tencent Weibo"
+msgstr ""
+
+#: yog/structure/markup.php:593
+msgid "Terminal"
+msgstr ""
+
+#: yog/structure/markup.php:594
+msgid "Text Height"
+msgstr ""
+
+#: yog/structure/markup.php:595
+msgid "Text Width"
+msgstr ""
+
+#: yog/structure/markup.php:596
+msgid "Th Large"
+msgstr ""
+
+#: yog/structure/markup.php:597
+msgid "Th List"
+msgstr ""
+
+#: yog/structure/markup.php:598
+msgid "Th"
+msgstr ""
+
+#: yog/structure/markup.php:599
+msgid "Thumb Tack"
+msgstr ""
+
+#: yog/structure/markup.php:600
+msgid "Thumbs Down"
+msgstr ""
+
+#: yog/structure/markup.php:601
+msgid "Thumbs Outline Down"
+msgstr ""
+
+#: yog/structure/markup.php:602
+msgid "Thumbs Outline Up"
+msgstr ""
+
+#: yog/structure/markup.php:603
+msgid "Thumbs Up"
+msgstr ""
+
+#: yog/structure/markup.php:604
+msgid "Ticket"
+msgstr ""
+
+#: yog/structure/markup.php:605
+msgid "Times Circle Outline"
+msgstr ""
+
+#: yog/structure/markup.php:606
+msgid "Times Circle"
+msgstr ""
+
+#: yog/structure/markup.php:607
+msgid "Times"
+msgstr ""
+
+#: yog/structure/markup.php:608
+msgid "Tint"
+msgstr ""
+
+#: yog/structure/markup.php:609
+msgid "Toggle Down"
+msgstr ""
+
+#: yog/structure/markup.php:610
+msgid "Toggle Left"
+msgstr ""
+
+#: yog/structure/markup.php:611
+msgid "Toggle Outlineff"
+msgstr ""
+
+#: yog/structure/markup.php:612
+msgid "Toggle Outlinen"
+msgstr ""
+
+#: yog/structure/markup.php:613
+msgid "Toggle Right"
+msgstr ""
+
+#: yog/structure/markup.php:614
+msgid "Toggle Up"
+msgstr ""
+
+#: yog/structure/markup.php:615
+msgid "Trash Outline"
+msgstr ""
+
+#: yog/structure/markup.php:616
+msgid "Trash"
+msgstr ""
+
+#: yog/structure/markup.php:617
+msgid "Tree"
+msgstr ""
+
+#: yog/structure/markup.php:618
+msgid "Trello"
+msgstr ""
+
+#: yog/structure/markup.php:619
+msgid "Trophy"
+msgstr ""
+
+#: yog/structure/markup.php:620
+msgid "Truck"
+msgstr ""
+
+#: yog/structure/markup.php:621
+msgid "Try"
+msgstr ""
+
+#: yog/structure/markup.php:622
+msgid "Tty"
+msgstr ""
+
+#: yog/structure/markup.php:623
+msgid "Tumblr Square"
+msgstr ""
+
+#: yog/structure/markup.php:625
+msgid "Turkish Lira"
+msgstr ""
+
+#: yog/structure/markup.php:626
+msgid "Twitch"
+msgstr ""
+
+#: yog/structure/markup.php:627
+msgid "Twitter Square"
+msgstr ""
+
+#: yog/structure/markup.php:629
+msgid "Umbrella"
+msgstr ""
+
+#: yog/structure/markup.php:630
+msgid "Underline"
+msgstr ""
+
+#: yog/structure/markup.php:631
+msgid "Undo"
+msgstr ""
+
+#: yog/structure/markup.php:632
+msgid "University"
+msgstr ""
+
+#: yog/structure/markup.php:633
+msgid "Unlink"
+msgstr ""
+
+#: yog/structure/markup.php:634
+msgid "Unlock Alt"
+msgstr ""
+
+#: yog/structure/markup.php:635
+msgid "Unlock"
+msgstr ""
+
+#: yog/structure/markup.php:636
+msgid "Unsorted"
+msgstr ""
+
+#: yog/structure/markup.php:637
+msgid "Upload"
+msgstr ""
+
+#: yog/structure/markup.php:638
+msgid "Usd"
+msgstr ""
+
+#: yog/structure/markup.php:639
+msgid "User Md"
+msgstr ""
+
+#: yog/structure/markup.php:640
+msgid "User"
+msgstr ""
+
+#: yog/structure/markup.php:641
+msgid "Users"
+msgstr ""
+
+#: yog/structure/markup.php:642
+msgid "Video Camera"
+msgstr ""
+
+#: yog/structure/markup.php:643
+msgid "Vimeo Square"
+msgstr ""
+
+#: yog/structure/markup.php:644
+msgid "Vine"
+msgstr ""
+
+#: yog/structure/markup.php:646
+msgid "Volume Down"
+msgstr ""
+
+#: yog/structure/markup.php:647
+msgid "Volume Outlineff"
+msgstr ""
+
+#: yog/structure/markup.php:648
+msgid "Volume Up"
+msgstr ""
+
+#: yog/structure/markup.php:649
+msgid "Warning"
+msgstr ""
+
+#: yog/structure/markup.php:650
+msgid "Wechat"
+msgstr ""
+
+#: yog/structure/markup.php:651
+msgid "Weibo"
+msgstr ""
+
+#: yog/structure/markup.php:652
+msgid "Weixin"
+msgstr ""
+
+#: yog/structure/markup.php:653
+msgid "Wheelchair"
+msgstr ""
+
+#: yog/structure/markup.php:654
+msgid "Wifi"
+msgstr ""
+
+#: yog/structure/markup.php:655
+msgid "Windows"
+msgstr ""
+
+#: yog/structure/markup.php:656
+msgid "Won"
+msgstr ""
+
+#: yog/structure/markup.php:657
+msgid "WordPress"
+msgstr ""
+
+#: yog/structure/markup.php:658
+msgid "Wrench"
+msgstr ""
+
+#: yog/structure/markup.php:659
+msgid "Xing Square"
+msgstr ""
+
+#: yog/structure/markup.php:660
+msgid "Xing"
+msgstr ""
+
+#: yog/structure/markup.php:661
+msgid "Yahoo"
+msgstr ""
+
+#: yog/structure/markup.php:662
+msgid "Yelp"
+msgstr ""
+
+#: yog/structure/markup.php:663
+msgid "Yen"
+msgstr ""
+
+#: yog/structure/markup.php:664
+msgid "Youtube Play"
+msgstr ""
+
+#: yog/structure/markup.php:665
+msgid "Youtube Square"
+msgstr ""
+
+#: yog/structure/markup.php:678
+msgid "No Animation"
+msgstr ""
+
+#: yog/structure/markup.php:679
+msgid "Bounce"
+msgstr ""
+
+#: yog/structure/markup.php:680
+msgid "Bounce In"
+msgstr ""
+
+#: yog/structure/markup.php:681
+msgid "Bounce In Up"
+msgstr ""
+
+#: yog/structure/markup.php:682
+msgid "Bounce In Down"
+msgstr ""
+
+#: yog/structure/markup.php:683
+msgid "Bounce In Left"
+msgstr ""
+
+#: yog/structure/markup.php:684
+msgid "Bounce In Right"
+msgstr ""
+
+#: yog/structure/markup.php:685
+msgid "Fade In"
+msgstr ""
+
+#: yog/structure/markup.php:686
+msgid "Fade In Up"
+msgstr ""
+
+#: yog/structure/markup.php:687
+msgid "Fade In Down"
+msgstr ""
+
+#: yog/structure/markup.php:688
+msgid "Fade In Left"
+msgstr ""
+
+#: yog/structure/markup.php:689
+msgid "Fade In Right"
+msgstr ""
+
+#: yog/structure/markup.php:690
+msgid "Fade In Up Big"
+msgstr ""
+
+#: yog/structure/markup.php:691
+msgid "Fade In Down Big"
+msgstr ""
+
+#: yog/structure/markup.php:692
+msgid "Fade In Left Big"
+msgstr ""
+
+#: yog/structure/markup.php:693
+msgid "Fade In Right Big"
+msgstr ""
+
+#: yog/structure/markup.php:695
+msgid "Flip In X"
+msgstr ""
+
+#: yog/structure/markup.php:696
+msgid "Flip In Y"
+msgstr ""
+
+#: yog/structure/markup.php:697
+msgid "Jello"
+msgstr ""
+
+#: yog/structure/markup.php:698
+msgid "Pulse"
+msgstr ""
+
+#: yog/structure/markup.php:699
+msgid "Shake"
+msgstr ""
+
+#: yog/structure/markup.php:700
+msgid "Swing"
+msgstr ""
+
+#: yog/structure/markup.php:701
+msgid "Tada"
+msgstr ""
+
+#: yog/structure/markup.php:702
+msgid "Rotate In"
+msgstr ""
+
+#: yog/structure/markup.php:703
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: yog/structure/markup.php:704
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: yog/structure/markup.php:705
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: yog/structure/markup.php:706
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: yog/structure/markup.php:707
+msgid "Rubber Band"
+msgstr ""
+
+#: yog/structure/markup.php:708
+msgid "Wobble"
+msgstr ""
+
+#: yog/structure/markup.php:709
+msgid "Wiggle"
+msgstr ""
+
+#: yog/structure/markup.php:710
+msgid "Zoom In"
+msgstr ""
+
+#: yog/structure/markup.php:711
+msgid "Zoom In Up"
+msgstr ""
+
+#: yog/structure/markup.php:712
+msgid "Zoom In Down"
+msgstr ""
+
+#: yog/structure/markup.php:713
+msgid "Zoom In Left"
+msgstr ""
+
+#: yog/structure/markup.php:714
+msgid "Zoom In Right"
+msgstr ""
+
+#: yog/structure/markup.php:715
+msgid "Zoom Out"
+msgstr ""
+
+#: yog/structure/markup.php:716
+msgid "Zoom Out Up"
+msgstr ""
+
+#: yog/structure/markup.php:717
+msgid "Zoom Out Down"
+msgstr ""
+
+#: yog/structure/markup.php:718
+msgid "Zoom Out Left"
+msgstr ""
+
+#: yog/structure/markup.php:719
+msgid "Zoom Out Right"
+msgstr ""
+
+#: yog/structure/markup.php:731
+msgid "Two Column"
+msgstr ""
+
+#: yog/structure/markup.php:732
+msgid "Three Column"
+msgstr ""
+
+#: yog/structure/markup.php:733
+msgid "Four Column"
+msgstr ""
+
+#: yog/structure/markup.php:734
+msgid "Six Column"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:130
+msgid "6"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:131
+msgid "12"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:132
+msgid "24"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:133
+msgid "48"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:134
+msgid "96"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:299
+msgid "required"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:355
+msgid "Update country"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:421
+msgid "Choose an option"
+msgstr ""
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:516
+msgid "Shipping"
+msgstr ""
+
+#: yog/yog-base.php:56
+#, php-format
+msgid ""
+"<strong>Extension Load Fail for:</strong> %1$s<br>No such file \"%2$s\" "
+"exists."
+msgstr ""
+
+#: yog/yog-base.php:56
+msgid "Load Extension"
+msgstr ""
+
+#: yog/yog-helpers.php:59
+#, php-format
+msgid "<code>%s</code> does not exist."
+msgstr ""
+
+#: yog/yog-meta-boxes-init.php:68
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: yog/yog-theme-options-init.php:57 yog/yog-theme-options-init.php:58
+msgid "Theme Options"
+msgstr ""
+
+#: author-bio.php:21
+msgid "Follow me on"
+msgstr "اتبعني"
+
+#: comments.php:69
+msgid "Your Name"
+msgstr "اسمك"
+
+#: comments.php:69 woocommerce/single-product-reviews.php:80
+msgid "Name"
+msgstr "اسم"
+
+#: comments.php:70
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: comments.php:70 theme/widgets/contact-info.php:104
+#: woocommerce/single-product-reviews.php:82
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: comments.php:71
+msgid "Website"
+msgstr "موقع الكتروني"
+
+#: comments.php:75 theme/theme-options/yog-page-translation.php:86
+#: theme/theme-translation.php:31 yog/structure/markup.php:246
+msgid "Comment"
+msgstr "تعليق"
+
+#: comments.php:77
+msgid "Submit Comment"
+msgstr "إرسال تعليق"
+
+#: single.php:104
+msgid "share post:"
+msgstr "آخر حصة:"
+
+#: templates/comment/comment.php:17
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر الموافقة عليه."
+
+#: templates/header/shopping-cart.php:81 woocommerce/cart/cart-totals.php:33
+#: woocommerce/cart/cart-totals.php:34 woocommerce/checkout/review-order.php:60
+msgid "Subtotal"
+msgstr "حاصل الجمع"
+
+#: theme/theme-options/yog-page-translation.php:125
+#: theme/theme-translation.php:27
+msgid "Search.."
+msgstr "ابحث هنا..."
+
+#: theme/widgets/category-accordion.php:97 theme/widgets/mega-menu.php:78
+msgid "Category"
+msgstr "الفئة "
+
+#: theme/widgets/product-hot-deals.php:61
+msgid "off"
+msgstr "إيقاف"
+
+#: theme/widgets/product-hot-deals.php:70
+msgid "DAYS"
+msgstr "أيام"
+
+#: theme/widgets/product-hot-deals.php:75
+msgid "HRS"
+msgstr "ساعة"
+
+#: theme/widgets/product-hot-deals.php:80
+msgid "MINS"
+msgstr "دقيقة"
+
+#: theme/widgets/product-hot-deals.php:85
+msgid "SEC"
+msgstr "ثانية"
+
+#: theme/widgets/product-hot-deals.php:123
+#: woocommerce/content-product-list.php:54
+msgid "Add to cart"
+msgstr "أضف إلى السلة"
+
+#: woocommerce/cart/cart-empty.php:39
+msgid "Your cart is currently empty."
+msgstr ""
+"عربة التسوق فارغة حاليا.\n"
+
+#: woocommerce/cart/cart-empty.php:49
+msgid "Return to shop"
+msgstr "العودة إلى متجر"
+
+#: woocommerce/cart/cart-totals.php:86 woocommerce/cart/cart-totals.php:87
+#: woocommerce/cart/cart.php:39 woocommerce/cart/cart.php:135
+#: woocommerce/checkout/review-order.php:28
+#: woocommerce/checkout/review-order.php:107
+#: woocommerce/myaccount/my-orders.php:16
+#: woocommerce/order/order-details.php:39
+msgid "Total"
+msgstr "مجموع"
+
+#: woocommerce/cart/cart-totals.php:101 woocommerce/cart/cart.php:155
+msgid "Proceed to checkout"
+msgstr "باشرالخروج من الفندق"
+
+#: woocommerce/cart/cart-totals.php:103
+msgid "Checkout with multiples address!"
+msgstr "الخروج مع عنوان مضاعفات!"
+
+#: woocommerce/cart/cart.php:34 woocommerce/compare.php:129
+#: woocommerce/wishlist-view.php:164
+#: yog/extensions/mega-menu/yog-mega-menu.php:379 yog/structure/markup.php:500
+msgid "Remove"
+msgstr "إزالة"
+
+#: woocommerce/cart/cart.php:35 yog/structure/markup.php:381
+msgid "Image"
+msgstr "صورة"
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:80
+#: woocommerce/checkout/form-pay.php:29
+#: woocommerce/checkout/review-order.php:27
+#: woocommerce/order/order-details.php:38
+msgid "Product"
+msgstr "المنتج"
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:110
+msgid "Price"
+msgstr "السعر"
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:116
+msgid "Quantity"
+msgstr "كمية"
+
+#: woocommerce/cart/cart.php:157
+msgid "Update cart"
+msgstr "تحديث العربة"
+
+#: woocommerce/cart/cart.php:186
+msgid "Discount Code"
+msgstr "الرقم التسلسلي للخصم"
+
+#: woocommerce/cart/cart.php:187
+msgid "Enter your coupon code if you have one.."
+msgstr "أدخل رمز القسيمة إذا كان لديك رمز واحد .."
+
+#: woocommerce/cart/cart.php:195 woocommerce/checkout/form-coupon.php:41
+msgid "Coupon code"
+msgstr "رمز القسيمة"
+
+#: woocommerce/cart/cart.php:198
+msgid "Apply Coupon"
+msgstr "تطبيق القسيمة"
+
+#: woocommerce/cart/shipping-calculator.php:36
+msgid "Estimate shipping and tax"
+msgstr "تقدير الشحن والضرائب"
+
+#: woocommerce/cart/shipping-calculator.php:37
+msgid "Enter your destination to get shipping and tax."
+msgstr "أدخل وجهتك للحصول على الشحن والضرائب."
+
+#: woocommerce/cart/shipping-calculator.php:45
+msgid "Country"
+msgstr "بلد"
+
+#: woocommerce/cart/shipping-calculator.php:108
+#: woocommerce/checkout/payment.php:54
+msgid "Update totals"
+msgstr "مجموع التحديثات"
+
+#: woocommerce/checkout/form-billing.php:37
+msgid "Billing details"
+msgstr "تفاصيل الفاتورة"
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Order Review"
+msgstr "مراجعة النظام"
+
+#: woocommerce/checkout/form-coupon.php:30
+msgid "Have a coupon?"
+msgstr "هل لديك قسيمة؟"
+
+#: woocommerce/checkout/form-coupon.php:45
+msgid "Apply coupon"
+msgstr "تطبيق القسيمة"
+
+#: woocommerce/checkout/form-shipping.php:30
+#: woocommerce/checkout/form-shipping.php:40
+msgid "Ship to a different address?"
+msgstr "هل تريد الشحن إلى عنوان مختلف؟"
+
+#: woocommerce/checkout/form-shipping.php:79
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr "معلومة اضافية"
+
+#: woocommerce/checkout/payment.php:30
+msgid "Payment Information"
+msgstr "معلومات الدفع"
+
+#: woocommerce/default-woocommerce-widgets.php:317
+#, php-format
+msgid "by %1$s"
+msgstr "بواسطة  %1$s"
+
+#: woocommerce/default-woocommerce-widgets.php:718 yog/structure/markup.php:324
+msgid "Filter"
+msgstr "منقي"
+
+#: woocommerce/global/shop-header.php:35
+msgid "Grid"
+msgstr "شبكة"
+
+#: woocommerce/global/shop-header.php:36 yog/structure/markup.php:419
+msgid "List"
+msgstr "قائمة"
+
+#: woocommerce/loop/orderby.php:26
+msgid "Sort by"
+msgstr "ترتيب حسب"
+
+#: woocommerce/loop/sale-flash.php:28
+msgid "Sale"
+msgstr "تخفيض السعر"
+
+#: woocommerce/loop/sale-flash.php:35
+msgid "Hot"
+msgstr "الحار"
+
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:98
+msgid "Email address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: woocommerce/new-badge.php:73
+msgid "New"
+msgstr "الجديد "
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr "استعراض"
+
+#: woocommerce/single-product-reviews.php:59
+msgid "There are no reviews yet."
+msgstr "لا توجد توصيات بعد."
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Add a review"
+msgstr "إضافة إلى استعراض"
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Your rating"
+msgstr "تقييمك"
+
+#: woocommerce/single-product-reviews.php:105
+msgid "Your review"
+msgstr "مراجعتك"
+
+#: woocommerce/single-product/meta.php:36
+msgid "Category:"
+msgstr "الفئة :"
+
+#: woocommerce/single-product/tabs/description.php:25
+#: yog/extensions/mega-menu/yog-mega-menu.php:265
+msgid "Description"
+msgstr "وصف"
+
+#: yog/vendors/woocommerce/yog-woocommerce-init.php:150
+msgid "Show"
+msgstr "تبين"

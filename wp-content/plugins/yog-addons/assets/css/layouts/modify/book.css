@@ -1,0 +1,1175 @@
+/*
+Theme Name: Book 
+Author: CKThemes
+Description:  Flipmart is a modern, clean and professional WordPress Woocommerce Theme, It is fully responsive, it looks stunning on all types of screens and devices. It is super for fashion shop, digital shop, games shop, food shop, devices shop, household appliances shop or any other categories
+Version: 2.6
+License: GNU General Public License v2 or later
+Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
+Text Domain:  flipmart
+/*===================================================================================*/
+/* GENERAL 
+/*===================================================================================*/
+ body {
+     font-family:"lato" !important;
+}
+body.home{
+     background:#fff !important;
+}
+ h1 {
+     font-size:36px;
+}
+ h3 {
+     font-size:22px;
+     font-family:"lato";
+}
+.breadcrumb ul li, 
+.breadcrumb ul li a, 
+.breadcrumb ul li span{
+    font-family:"lato" !important;
+    font-size: 15px;
+    color: #333;
+}
+.breadcrumb ul{
+    padding: 20px 0 0px;
+}
+.top-section{
+    padding: 80px 0 20px 0;
+}
+.middle-section{
+    padding-bottom: 40px;
+}
+
+/*===================================================================================*/
+/* Header 
+/*===================================================================================*/
+ header [class*="col-"], 
+ header .navbar{
+    position: relative;
+ }
+ .top-bar {
+     font-size: 14px !important;
+     background: #ddd !important;
+}
+ .top-bar a{
+    color:#222 !important;
+    padding: 0px!important;
+}
+ .top-bar span{
+    color:#f07c29;
+    padding-right:5px;
+}
+ .top-bar .cnt-account{
+    padding:0 !important;
+}
+ .top-bar .cnt-account ul > li {
+     border-right: 1px solid #e1e1e1;
+     padding: 12px 20px 12px 0px;
+     margin-right: 0px;
+}
+ .top-bar .cnt-account ul > li:last-child {
+     border: none;
+     padding-right: 0px;
+     padding-left: 20px;
+}
+ .top-bar .cnt-account ul li{
+    border:none !important;
+    padding:0 !important;
+}
+ .top-bar .cnt-account ul li a{
+    padding:13px 25px !important;
+    display: inline-table;
+}
+ .top-bar .cnt-account ul li a:hover{
+    background:#d2d2d2;
+}
+ .top-bar .cnt-account ul li{
+    line-height:normal !important;
+}
+ .top-bar .cnt-block{
+     float:left !important;
+     padding-top:12px;
+}
+ .main-header{
+    padding:15px 0 !important;
+    background: #fff;
+}
+ .book .header-style-1 .header-nav{
+    border-bottom:none !important;
+    background: #fff!important;
+}
+ .header-style-1 .navbar-nav{
+    text-align:center;
+}
+ .header-style-1 .navbar-nav > li{
+    float:none;
+    display:inline-table;
+    padding: 0px 22px;
+}
+ .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a{
+    padding:0 !important;
+    color:#222;
+    font-size:15px !important;
+    font-weight:400;
+    font-family:"lato" !important;
+}
+ .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover,
+ .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li.current-menu-item > a{
+    border-bottom:2px solid #13aec0;
+    color:#13aec0;
+}
+.header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav li a:hover{
+    color:#13aec0;
+}
+ .header-style-1 img{
+    max-width:100% !important;
+}
+ .header-style-1 .b-logo a{
+    border-bottom:none !important;
+}
+ .book-responsive-logo {
+    position: absolute;
+    z-index: 222;
+    display:none;
+    width:70%;
+}
+
+/*===================================================================================*/
+/* News Letter 
+/*===================================================================================*/
+ .book-shop-newsletter{
+    width: 100%;
+    float: left;
+    margin-top:80px;
+}
+ .book-newsletter{
+    width:645px;
+    margin:0 auto;
+}
+ .book-newsletter-content{
+    width: 100%;
+    float: left;
+    padding:40px 0;
+    text-align:center;
+}
+ .book-newsletter-content h3{
+    font-weight:600;
+    text-transform:uppercase;
+    color:#fff;
+    margin:0;
+    font-size:26px;
+}
+ .book-newsletter-content p{
+    color:#fff;
+    font-size:15px;
+    margin:0;
+    padding-bottom:15px;
+}
+ .news-letter-input{
+    width:100%;
+    float:left;
+    position:relative;
+}
+ .news-letter-input input[type="email"]{
+    width:100%;
+    background:#fff;
+    padding:8px;
+    border:none;
+}
+ .news-letter-input input[type="submit"]{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:15px;
+    background:#13aec0;
+    border:none;
+    padding:8px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+/*===================================================================================*/
+/* Slider
+/*===================================================================================*/
+ .book-shop-slider #owl-main .item,
+ .book-shop-slider #owl-main{
+    height:560px !important;
+}
+ .book-shop-slider #owl-main .owl-prev, 
+ .book-shop-slider #owl-main .owl-next {
+    font-size:40px !important;
+    width:40px !important;
+    border-radius:0 !important;
+}
+ .book-shop-slider #owl-main .owl-controls .owl-buttons .icon{
+    top:-8px;
+}
+ .book-shop-slider #owl-main:hover .owl-prev:hover, 
+ .book-shop-slider #owl-main:hover .owl-next:hover{
+    background:#13aec0 !important;
+}
+ .book-shop-slider #owl-main .item .caption{
+    left:0;
+    right:0;
+    text-align:center;
+}
+ .book-shop-slider .bg-color{
+    padding-right:0 !important;
+}
+ .book-shop-slider h1{
+    font-size:50px;
+    color:#fff;
+    text-transform:capitalize;
+    margin:0;
+    font-family:"lato" !important;
+    font-weight:bold !important;
+}
+ .book-shop-slider h1:last-child{
+    padding-bottom:20px;
+}
+ .book-shop-slider p{
+    color:#fff;
+    font-size:18px;
+    margin:0;
+}
+ .book-shop-slider span{
+    color:#f07c29
+}
+ .book-shop-slider a{
+    background:#f07c29;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:16px;
+    border:none;
+    line-height: normal;
+    padding: 18px 50px ;
+    display:inline-table;
+}
+ .book-shop-slider a:hover{
+    background:#13aec0 !important;
+}
+ 
+
+/*===================================================================================*/
+/* Sidebar & Widgets
+/*===================================================================================*/
+ .sidebar-widget{
+    width:100%;
+    float:left;
+    position: relative;
+    background: transparent;
+    box-shadow: none;
+    padding: 0px;
+}
+ .custom-sidebar h3,
+ .sidebar-widget h3{
+    text-transform:uppercase;
+    color:#fff;
+    background:#13aec0;
+    font-size:18px;
+    padding:12px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.widget-content{
+    border: 1px solid #fff;
+    background:#fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08)
+}
+.product-hot-deals .widget-content,
+.widget_products .widget-content{
+    border: none;
+    padding: 0px;
+    box-shadow: none;
+}
+
+/* Widget Best Deals */
+ .best-deal-tab{
+    border:1px solid #f2f2f2;
+    width:100%;
+    float:left;
+}
+ .book-best-deal .sale-product{
+    width: 100%;
+    float: left;
+    border-top: 1px solid #f2f2f2;
+    padding: 15px;
+}
+ .book-best-deal .sale-product h4{
+    font-size:15px;
+    text-transform:capitalize;
+    margin:0;
+    padding-bottom:10px;
+    font-family:"lato" !important;
+}
+ .book-best-deal .sale-product a{
+    color:#222;
+}
+ .book-best-deal .sale-product a:hover,
+ .products .product-info .name a:hover{
+    color:#f07c29;
+}
+ .book-best-deal .sale-product ins{
+    font-size:14px;
+    text-transform:capitalize;
+    margin:0;
+    color:#222;
+    text-decoration: none;
+}
+ .book-best-deal:hover > .cart{
+    opacity: 1;
+    top: 40%;
+}
+ .book-best-deal .product-image .tag{
+    right: 30px;
+    top: 30px;
+}
+ .book-best-deal .cart .action ul li.lnk.wishlist,
+ .book-best-deal .cart .action ul li.lnk,
+ .products .cart .action ul li.lnk.wishlist,
+ .book-best-deal .cart .action ul li.lnk,
+ .products .cart .action ul li.lnk{
+    background: #f07c29;
+}
+ .best-deal-img{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+ .best-deal-img img{
+    max-width:100%;
+}
+ .book-new-products .product-image{
+    width:48%;
+    float:left;
+}
+ .book-new-products .product-image img{
+    border:1px solid #f2f2f2;
+    max-width:100%;
+}
+ .book-new-products .sale-product{
+    padding:0;
+    border:none;
+    float:left;
+    width:50%;
+    padding-left:10px;
+    padding-top:20px;
+}
+ .book-new-products .sale-product h4{
+    font-size:14px;
+}
+ .book-new-products .custom-carousel .owl-controls .owl-prev{
+    top:-45px;
+    background:none;
+    right: 27px;
+}
+ .book-new-products .custom-carousel .owl-controls .owl-next{
+    top:-45px;
+    background:none;
+    right: 4px;
+}
+ .book-new-products .custom-carousel .owl-controls .owl-prev::before,
+ .book-new-products .custom-carousel .owl-controls .owl-next::before{
+    color:#fff;
+    font-size:30px;
+}
+ .book-new-products .custom-carousel .owl-controls .owl-prev:hover,
+ .book-new-products .custom-carousel .owl-controls .owl-next:hover{
+    background:none;
+}
+ .book-new-products .products{
+    margin-right:0 !important;
+    width:100%;
+    float:left;
+    padding:20px;
+    padding-bottom:7px !important;
+}
+
+/*===================================================================================*/
+/* PRODUCT MINI SLIDER SECTION
+/*===================================================================================*/
+ .book-products h3{
+    text-transform:uppercase;
+    color:#fff !important;
+    background:#13aec0;
+    font-size:18px;
+    padding:12px;
+    margin: 0;
+}
+ .custom-carousel .owl-controls {
+     position: absolute;
+     right: 20px;
+     top: -16px!important;
+     width: 100%;
+     display: block;
+}
+ .custom-carousel .owl-controls .owl-item{
+    margin-right:6px;
+}
+ .custom-carousel .owl-controls .owl-prev::before {
+    color:#fff !important;
+    font-size:30px;
+    font-weight: 900;
+    left:5px;
+    position: absolute;
+    top:-14px;
+}
+ .custom-carousel .owl-controls .owl-prev{
+    top:-13px;
+    background:none !important;
+    right:6px;
+}
+ .custom-carousel .owl-controls .owl-next::before {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    left:9px;
+    position: absolute;
+    top:-14px;
+}
+ .custom-carousel .owl-controls .owl-next{
+    top:-13px;
+    background:none !important;
+    right:-11px;
+}
+ .book-products .product,
+ .product.book-best-deal{
+    border:1px solid #f2f2f2;
+    margin-bottom: 0px;
+}
+ .book-products .product:last-child{
+    margin-top:30px !important;
+}
+ .products {
+    padding-bottom: 15px;
+}
+ .book-products .product-slider .products{
+    padding-bottom: 0px;
+}
+ .products .product-info .name{
+    font-size:15px;
+    text-transform:capitalize;
+    font-family:"lato" !important;
+}
+ .products .product-info .product-price del > span,
+ .products .product-price > span > span:nth-child(2){
+    text-align:right!important;
+    font-size:16px!important;
+    float:right!important;
+    color:#f07c29!important;
+    line-height: normal!important;
+}
+ .products .product-info .product-price del > span,
+ .products .product-price > span > span:nth-child(2){
+    float: none!important;
+}
+ .products .product-info .product-price ins > span, 
+ .products .product-info .product-price .woocs_price_code > span, 
+ .products .product-info .product-price > span {
+    font-size: 15px;
+    font-weight: normal;
+    color: #333;
+}
+.product .cart .action ul li.add-cart-button .btn-primary{
+    background: #f07c29;
+}
+.products .cart .action ul li.add-cart-button .btn.btn-primary.icon{
+    border: none;
+    font-size: 14px;
+    margin-top: -4px;
+    line-height: 21px;
+}
+/*===================================================================================*/
+/* BANNER IMAGE SECTION
+/*===================================================================================*/
+ .book-shop-ad{
+    width:100%;
+    float:left;
+}
+ .book-shop-full{
+    margin-top: 30px;
+}
+ .book-shop-ad img{
+    max-width:100%;
+}
+ .book-shop-ad-tab.mg-top{
+    margin-top: 22px;
+    display: inline-table;
+}
+
+/*===================================================================================*/
+/* Footer
+/*===================================================================================*/
+ .footer-section{
+    background:url(../../../images/book-footer.jpg) repeat;
+    float: left;
+    width: 100%;
+}
+ .footer-section-menu{
+    width:100%;
+    float:left;
+    text-align:center;
+    padding:25px 0;
+    border-bottom:1px solid #d2d2d2;
+    margin-bottom:50px;
+}
+ .footer-section-menu ul li{
+    display:inline-table;
+    padding:0 20px;
+}
+ .footer-section-menu ul li a{
+    color:#989898;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:normal;
+}
+ .footer-section-menu ul li a:hover{
+    color:#13aec0;
+}
+ .book-address li{
+    width:100%;
+    float:left;
+    margin-bottom:15px;
+}
+ .contact-info img{
+    margin-bottom:35px;
+}
+ .book-footer-left{
+    width:15%;
+    float:left;
+    margin-right:10px;
+}
+ .book-footer-left i{
+    width:34px;
+    height:34px;
+    background:#313131;
+    color:#fff;
+    text-align:center;
+    border-radius:50%;
+    border:2px solid #fff;
+    padding-top:8px;
+}
+ .book-footer-left .fa-envelope{
+    font-size:13px;
+    padding-top:7px;
+}
+ .book-footer-right{
+    width:80%;
+    float:left;
+}
+ .book-footer-right{
+    color:#989898;
+    font-size:14px;
+}
+ .book-footer-right span{
+    padding-top:8px;
+    display: inline-table;
+}
+ .book-footer-right a{
+    color:#989898;
+}
+ .footer-widget h4{
+    text-transform:uppercase;
+    margin:0;
+    font-size:20px;
+    color:#f07c29;
+    padding-bottom:30px;
+    font-weight:bold;
+}
+ .footer-widget.widget_nav_menu ul{
+    margin-left:5px;
+}
+ .footer-widget.widget_nav_menu li{
+    padding-bottom:10px;
+    width: 100%;
+    float: left;
+}
+ .footer-widget.widget_nav_menu a{
+    color:#989898;
+    font-weight:normal;
+    font-size: 15px;
+    line-height: normal;
+}
+.footer-widget.widget_nav_menu a:before{
+    content: "\f105";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #13aec0;
+    padding-right: 5px;
+    font-size: 16px;
+}
+ .footer-widget.widget_nav_menu a:hover{
+    color:#13aec0;
+}
+ .footer-widget.widget_nav_menu span{
+    color:#13aec0;
+    padding-right:5px;
+    font-size:16px;
+}
+ .book-shoping-guide .book-footer-left{
+    width:30%;
+}
+ .book-shoping-guide .book-footer-left img{
+    border:3px solid #dddddd;
+}
+ .book-shoping-guide .book-footer-left img:hover{
+    border-color:#13aec0;
+}
+ .book-shoping-guide .book-footer-right{
+    width:56%;
+}
+ .book-shoping-guide .book-footer-right a{
+    font-size:15px;
+}
+ .book-shoping-guide .book-footer-right p{
+    font-size:12px;
+    color:#13aec0;
+}
+ .book-popular li{
+    margin-bottom:10px;
+}
+ .book-popular li:last-child{
+    margin-bottom:0;
+}
+ .footer-section .footer-widget:nth-child(3){
+    padding-left:50px;
+}
+ .footer-section .footer-widget:nth-child(4){
+    padding-left:50px;
+}
+ .footer-section .footer-widget{
+    border-right:1px solid #c4c4c4;
+}
+ .footer-section .footer-widget:last-child{
+    border-right:0;
+}
+ .copyright-bar{
+    background:#1a1a1a !important;
+    margin-top:40px;
+}
+ .copyright-bar p{
+    color:#989898;
+    margin:0;
+    padding-top:8px;
+}
+ .copyright-bar .social-media{
+    text-align: right;
+ }
+ .copyright-bar .social-media ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+ .book .copyright-bar .social-media ul li a{
+    color:#fff!important;
+    width:35px;
+    height:35px;
+    background:#484848;
+    display:inline-table;
+    text-align:center;
+    padding-top:6px;
+    font-size:18px;
+}
+ .copyright-bar .social-media ul li a:hover{
+    background:#13aec0;
+}
+.post-tab .blog-post,
+.post-tab .nav-tabs > li.active > a,
+.post-tab .nav > li > a:hover{
+    background: transparent;
+}
+.post-tab .post-content{
+    padding: 10px;
+    background: #fff;
+}
+.tagcloud a{
+    background: #fff;
+}
+
+/*--------------Responsive Start--------------------*/
+ @media screen and (max-width:1280px) {
+     .header-style-1 .navbar-nav li{
+        padding:0 12px;
+    }
+     .book-address img{
+        max-width:100%;
+    }
+     .book-shoping-guide .book-footer-left img{
+        max-width:100%;
+    }
+}
+ @media screen and (max-width:1170px) {
+     .top-bar .header-top-inner .cnt-account li{
+        margin-bottom:0 !important;
+    }
+     .header-style-1 .navbar-nav li{
+        padding:0 4px;
+    }
+     .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav li a{
+        font-size:13px !important;
+    }
+}
+ @media screen and (max-width:983px) {
+     .top-section{
+        padding: 50px 0 20px 0;
+    }
+    .middle-section{
+        padding-bottom: 30px;
+    }
+    .book-products .product:last-child{
+        margin-top: 20px !important;
+    }
+    .body-content .sidebar{
+        margin-bottom: 0px;
+    }
+     .footer-section .col-md-3:nth-child(4){
+        padding-left:15px;
+    }
+     .footer-section .col-md-3:nth-child(3){
+        padding-left:15px;
+    }
+     .footer-section .col-md-3{
+        border-right:0;
+        padding-bottom:30px;
+    }
+}
+ @media screen and (max-width:767px) {
+     .top-bar .cnt-block{
+        width:100%;
+        text-align:center;
+        margin-bottom:8px;
+    }
+     .top-bar .cnt-account{
+        width:100%;
+        text-align:center;
+    }
+     .account ul li a {
+        padding: 12px !important;
+    }
+     .header-style-1 .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        background:#f07c29 !important;
+    }
+     .header-style-1 .navbar-toggle:hover, .navbar-default .navbar-toggle{
+        background:#13aec0 !important;
+        float: right;
+        text-align:right;
+        margin-right: 0;
+    }
+     .header-style-1 .navbar-toggle:hover, .navbar-default .navbar-toggle:hover{
+        background:#f07c29 !important;
+    }
+     .header-style-1 .navbar-nav{
+        text-align:center;
+        background:#13aec0;
+    }
+     .header-style-1 .navbar-nav li{
+        width:100%;
+        border-bottom:1px solid rgba(255, 255, 255, 0.4);
+        padding:0;
+    }
+     .header-style-1 .navbar-nav li:last-child{
+        border-bottom:0;
+    }
+     .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav li a{
+        font-size:15px !important;
+        padding:15px !important;
+        color:#fff !important;
+    }
+     .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav li a:hover{
+        border-bottom:none;
+    }
+     .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav li:nth-child(4){
+        display:none;
+    }
+     .book-responsive-logo{
+        display:block;
+    }
+     .book-shop-slider h1{
+        font-size:36px;
+    }
+     .book-shop-slider p{
+        font-size:16px;
+    }
+     .book-shop-slider #owl-main .item {
+        height: 400px !important;
+    }
+     .book-shop-slider #owl-main{
+        height:400px !important;
+    }
+     .book-shop-slider #owl-main .item .caption{
+        padding:0 !important;
+    }
+     .book-shop-ad img{
+        width:100%;
+        margin-bottom:20px;
+    }
+     .book-shop-ad-tab .mg-top{
+        display:inherit;
+    }
+     .book-newsletter{
+        width:100%;
+    }
+     .book-shoping-guide .book-footer-left{
+        width:12%;
+    }
+     .footer-section-menu ul li{
+        padding:0 10px;
+    }
+    .top-section{
+        padding: 40px 0 20px 0;
+    }
+    .middle-section{
+        padding-bottom: 30px;
+    }
+    .book-shop-ad-tab.mg-top{
+        margin-top: 0px;
+    }
+}
+ @media screen and (max-width:550px) {
+     .book-shop-slider h1{
+        font-size:26px;
+    }
+     .book-shop-slider #owl-main .item {
+        height: 300px !important;
+    }
+     .book-shop-slider #owl-main{
+        height:300px !important;
+    }
+     .book-shop-slider a{
+        padding:12px 30px;
+        margin-top: 10px;
+    }
+     .book-shop-slider #owl-main .item .caption{
+        top:17%;
+    }
+     .book-shoping-guide .book-footer-left{
+        width:16%;
+    }
+     .footer-section-menu ul li{
+        width:100%;
+        padding-bottom:15px;
+        text-align: left;
+    }
+     .footer-section-menu ul li:last-child{
+        padding-bottom:0;
+    }
+    .top-section{
+        padding: 30px 0 10px 0;
+    }
+    .middle-section{
+        padding-bottom: 20px;
+    }
+    .book-shop-ad-tab.mg-top{
+        margin-top: 0px;
+    }
+}
+ @media screen and (max-width:450px) {
+     .top-bar .cnt-account ul li a {
+        padding:7px 10px !important;
+    }
+     .book-shop-slider h1{
+        font-size:20px;
+    }
+     .book-best-seller h3{
+        font-size:16px;
+    }
+     .book-products h3{
+        font-size:16px;
+    }
+     .book-shoping-guide .book-footer-left{
+        width:25%;
+    }
+     .footer-section .col-md-3:last-child{
+        padding-bottom:0;
+    }
+    .book-shop-ad-tab.mg-top{
+        margin-top: 0px;
+    }
+    .top-section{
+        padding: 30px 0 10px 0;
+    }
+    .middle-section{
+        padding-bottom: 20px;
+    }
+}
+/*===================================================================================*/
+/*  Colors CSS
+/*===================================================================================*/
+a,
+.top-bar .cnt-block ul li .dropdown-menu li a:hover,
+.top-bar .cnt-block ul li .dropdown-menu li a:focus,
+.main-header .top-search-holder .contact-row .icon,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:focus,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:focus ,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price ,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:hover,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:focus,
+.sidebar .side-menu nav .nav > li a:hover,
+.sidebar .side-menu nav .nav > li a:focus ,
+.sidebar .side-menu nav .nav > li a:hover:after,
+.sidebar .side-menu nav .nav > li a:focus:after,
+.scroll-tabs .nav-tab-line li a:hover,
+.scroll-tabs .nav-tab-line li a:focus,
+.product .product-info .name a:hover,
+.product .product-info .name a:focus,
+.copyright-bar .copyright a,
+.blog-slider-container .blog-slider .blog-post-info .name a:hover,
+.blog-slider-container .blog-slider .blog-post-info .name a:focus,
+.latest-tweet .re-twitter .comment a,
+.latest-tweet .re-twitter .comment .icon .fa-stack-2x ,
+.footer .contact-information .media .icon .fa-stack-2x,
+.footer .contact-information .media .media-body a:hover,
+.footer .contact-information .media .media-body a:focus,
+.footer .footer-bottom .module-body ul li a:hover,
+.footer .footer-bottom .module-body ul li a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:hover,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .x-page .x-text h1,
+.body-content .x-page .x-text a,
+.sign-in-page .register-form .forgot-password,
+.sign-in-page .register-form .forgot-password:hover,
+.sign-in-page .register-form .forgot-password:focus,
+.my-wishlist-page ins span, 
+.my-wishlist-page .woocs_price_code > span,
+.terms-conditions-page .contact-form,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:hover,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:focus,
+.hot-deals .product-info .product-price > span,
+.hot-deals .product-info .name a:hover,
+.hot-deals .product-info .name a:focus,
+.yamm .dropdown-menu .title:hover,
+.yamm .dropdown-menu .title:focus,
+.yamm .dropdown-menu li a:hover,
+.yamm .dropdown-menu li a:focus,
+.filters-container .nav-tabs.nav-tab-box li.active a .icon,
+.filters-container .pagination-container ul .current,
+.filters-container .pagination-container ul li a:hover,
+.filters-container .pagination-container ul li a:focus,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:hover,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:hover,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:after,
+.sidebar .list li a:hover,
+.sidebar .list li a:focus,
+.sidebar .compare-report span,
+.single-product .product-info .rating-reviews .reviews .lnk:hover,
+.single-product .product-info .rating-reviews .reviews .lnk:focus,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:hover,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:focus,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:hover,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:focus,
+.single-product .product-info-block .txt.txt-qty,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:hover,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:focus,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .review-title .date span,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .author span,
+.homepage-container .product .product-info .name a:hover,
+.homepage-container .product .product-info .name a:focus,
+.blog-post h1 a:hover,
+.blog-post h1 a:focus,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:focus,
+.blog-review .review-action a,
+.blog-review .review-action a:hover,
+.blog-review .review-action a:focus,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:hover,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:focus,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:focus{
+  color: #13aec0;
+}
+
+.show-theme-options:hover,
+.show-theme-options:focus,
+.btn-primary:hover,
+.btn-black:hover,
+.btn-primary:focus,
+.btn-black:focus,
+.product .cart .action ul li.add-cart-button .btn-primary:hover,
+.product .cart .action ul li.add-cart-button .btn-primary:focus,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:hover,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:focus,
+.footer .links-social .social-icons a:hover,
+.footer .links-social .social-icons a:focus,
+.footer .links-social .social-icons a.active,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.custom-carousel .owl-controls .owl-prev:hover,
+.custom-carousel .owl-controls .owl-next:hover,
+.custom-carousel .owl-controls .owl-prev:focus,
+.custom-carousel .owl-controls .owl-next:focus,
+.sidebar .price-range-holder .slider .slider-track .slider-handle.max-slider-handle,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page.active span,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page:hover span,
+.single-product .product-info .product-social-link .social-icons ul li a:hover,
+.single-product .product-info .product-social-link .social-icons ul li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a,
+#owl-main .owl-controls .owl-pagination .owl-page:active span,
+#owl-main .owl-controls .owl-pagination .owl-page:hover span,
+.product .tag.hot,
+.products .cart .action ul li.lnk:hover,
+.products .cart .action ul li.lnk:focus{
+  background: #13aec0!important;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li a:hover,
+.single-product .product-tabs .nav-tab-cell-detail li a:focus,
+.single-product .product-tabs .nav-tab-cell-detail li.active a {
+  background: #13aec0;
+  border: 2px solid #13aec0;
+}
+
+.top-bar .cnt-account > ul > li > a:focus,
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket .total-price,
+.info-box .info-box-heading.green,
+.info-boxes .info-box .icon,
+#owl-main:hover .owl-prev:hover .icon,
+#owl-main:hover .owl-next:hover .icon,
+.cart .action ul .lnk .add-to-cart:hover,
+.cart .action ul .lnk .add-to-cart:focus,
+.cart .action ul .lnk .compare:hover,
+.cart .action ul .lnk .compare:focus  {
+  color: #fff !important;
+}
+
+.product .product-info .product-price ins span,
+.product .product-info .product-price .woocs_price_code > span,
+.product .product-info .product-price > span,
+.product .product-info .product-price .price,
+.products .product-info .product-price ins > span, 
+.products .product-info .product-price .woocs_price_code > span, 
+.products .product-info .product-price > span,
+.sidebar .sidebar-module-container .search-area .search-button:after {
+  color: #333!important;
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #13aec0;
+}
+
+.top-bar .cnt-block ul li a .caret {
+  color: rgba(255,255,255,0.8);
+}
+
+.filters-container .pagination-container ul li.prev:hover,
+.filters-container .pagination-container ul li.next:hover,
+.filters-container .pagination-container ul li.prev:focus,
+.filters-container .pagination-container ul li.next:focus,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page.active span,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:hover,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:focus,
+.woocommerce-MyAccount-navigation li:hover {
+  background: #13aec0 !important;
+}
+
+div.tag.sale {
+  background: #fdd922;
+  color:#333
+}
+
+.breadcrumb ul li.active,
+.breadcrumb ul a:hover,
+.breadcrumb ul a:focus {
+  color: #157ed2;
+}
+
+.price_slider_wrapper .ui-slider-handle {
+  border: 5px solid #13aec0;
+}
+
+.single-product .gallery-holder .gallery-thumbs .owl-item .item:hover {
+  border: 1px solid #13aec0;
+}
+
+.single-product .product-info .price-container .price-box ins span,
+.single-product .product-info .price-container .price-box > span {
+  color: #ff7878;
+}
+
+.cart .action .add-cart-button .btn.btn-primary.icon:hover,
+.cart .action .add-cart-button .btn.btn-primary.icon:focus,
+#owl-main:hover .owl-prev:hover,
+#owl-main:hover .owl-next:hover {
+  background: #13aec0;
+  color:#fff!important;
+}
+
+.cart .action .add-to-cart:hover,
+.cart .action .add-to-cart:focus {
+  color: #13aec0 !important;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:focus {
+  color: #f07c29;
+}
+.blog-post .social-media a:hover,
+.blog-post .social-media a:focus,
+.blog-post-author-details .author-social-network button .twitter-icon,
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title > a:not(.collapsed) span,
+.contact-info .contact-i {
+  background-color: #13aec0!important;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info .cart-product-info span span,
+.shopping-cart .cart-shopping-total table thead tr th .cart-grand-total {
+  color: #84b943;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail {
+  border-bottom: none;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.mega-menu .dropdown-menu {
+    width:100%;
+    left:0px 
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    box-shadow:0 4px 6px -1px rgba(0,0,0,0.4);
+}
+
+.single-product div.product div.images .flex-control-thumbs li .flex-active, 
+.woocommerce div.product div.images .flex-control-thumbs li img:hover {
+    border: 1px solid #13aec0;
+}
+.woocommerce .btn-primary, 
+.single-product .favorite-button a, 
+.woocs_converter_shortcode_button{
+    background: #f07c29;
+    border: none;
+}
+.woocommerce .btn-primary:hover, 
+.single-product .favorite-button a:hover, 
+.woocs_converter_shortcode_button:hover{
+    background: #13aec0;
+    border: none;
+}

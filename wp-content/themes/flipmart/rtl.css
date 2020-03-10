@@ -1,0 +1,557 @@
+/*
+Theme Name: Flipmart
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+/* body.rtl-page {direction:rtl} */
+.error_page{
+    direction:rtl;
+}
+
+.logo-holder{
+    float:right; 
+    direction:rtl;
+}
+
+.top-search-holder{
+    float:right; 
+    direction:rtl;
+}
+ 
+.main-header .top-search-holder .search-area .search-button{
+    float:left; 
+    border-radius:3px 0px 0px 3px;
+}
+
+.main-header .top-search-holder .search-area .categories-filter{
+    border-radius:0px 3px 3px 0px;
+}
+
+.header-nav .navbar-nav > li{
+    float:right; 
+    direction:rtl;
+}
+
+.header-nav .navbar-nav > li.navbar-right{
+    float:left !important; 
+    direction:rtl;
+}
+
+.header-nav .navbar-default .dropdown .dropdown-menu.pages .links > li > a{
+    text-align:right; 
+    direction:rtl;
+}
+
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket{
+    float: right;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    border-right:none;
+}
+
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket-item-count {
+    right: 34px;
+    left:auto;
+}
+
+.sidebar .side-menu nav .nav > li > .mega-menu .yamm-content .dropdown-banner-holder{
+    max-width: 273px;
+    margin: 49px 20px;
+}
+
+.sidebar .side-menu nav .nav > li > .mega-menu .yamm-content .dropdown-banner-holder img{
+    max-width:100%;
+}
+
+.yamm .dropdown-menu h2,
+.yamm .dropdown-menu li a{
+    text-align:right; 
+    direction:rtl;
+}
+
+.body-content .x-page .x-text .le-button{
+    border-radius: 3px 0px 0px 3px;
+    margin: 0 -5px 0 0px;
+}
+
+.footer{
+    direction:rtl;
+}
+
+.footer .media>.pull-left{
+    margin-left:10px; 
+    margin-right:0;
+    float: right !important;
+}
+
+.footer .footer-bottom .module-body ul li a{
+    margin-left:0px; 
+    margin-right:23px;
+}
+
+.footer .footer-bottom .module-body ul li a:before{
+    margin-left: -0px;
+    margin-right: -22px;
+}
+
+.footer .copyright-bar .social ul,
+.footer .copyright-bar .social{
+    float:right; 
+    direction:rtl;
+}
+
+.footer .copyright-bar .social ul li {
+    float: right !important;
+}
+
+.footer .copyright-bar .payment-methods{
+    float:left;
+}
+
+.sidebar .side-menu nav .nav > li > a .icon{
+    margin-right:0px; 
+    margin-left:12px;
+}
+
+.sidebar .side-menu nav .nav > li > a:after{
+    float:left;
+    content: "\f104";
+}
+
+.sidebar .side-menu nav .nav > li > .mega-menu{
+    left:auto; 
+    right:100%;
+}
+
+.sidebar .side-menu{
+    direction:rtl;
+}
+
+.custom-carousel .owl-controls .owl-prev{
+    right:auto;
+    left:0px;
+}
+
+.custom-carousel .owl-controls .owl-next{
+    right:auto;
+    left:27px;
+}
+
+.section-title{
+    direction:rtl;
+}
+
+.hot-deals .hot-deal-wrapper .sale-offer-tag{
+    right:auto; 
+    left:10px; 
+    direction:rtl;
+}
+
+.hot-deals .hot-deal-wrapper .timing-wrapper .box-wrapper{
+    direction:rtl; 
+    float:right; 
+    margin-right:0px; 
+    margin-left:4px;
+}
+
+.item .products .product-info{
+    direction: rtl;
+    float: right;
+    text-align: right;
+}
+
+.hot-deals .cart .action{
+    float:right;
+}
+
+.special-product .product .col{
+    float:right
+}
+
+.sidebar .newsletter {
+    direction: rtl;
+}
+
+.scroll-tabs .more-info-tab .new-product-title {
+    direction: rtl;
+    float:right !important;
+}
+
+.scroll-tabs .nav-tab-line{
+    float:left !important;
+    direction: rtl; 
+    margin-right:0px; 
+    margin-left:55px;
+}
+
+div.tag{
+    right:auto; 
+    left:10px;
+}
+
+.product .product-micro{
+    padding:0 10px;
+}
+
+.best-deal .sidebar-widget-body .owl-buttons .owl-prev,
+.section .custom-carousel .owl-buttons .owl-prev {
+    left: 27px;
+}
+
+.best-deal .sidebar-widget-body .owl-buttons .owl-next,
+.section .custom-carousel .owl-buttons .owl-next {
+    left: 50px;
+}
+
+.blog-post-info{
+    direction:rtl; 
+    text-align:right;
+}
+
+.scroll-tabs .product-slider .owl-controls .owl-buttons .owl-prev {
+    left:10px;
+}
+
+.scroll-tabs .product-slider .owl-controls .owl-buttons .owl-next {
+    left:35px;
+}
+
+.x-page .outer-top-vs.outer-bottom-xs{
+    direction:rtl;
+}
+
+ /******************** BLOG PAGE ****************************/
+.breadcrumb ul{
+    text-align:right;
+}
+
+.breadcrumb ul li{
+    float:right;
+}
+
+.breadcrumb ul li a{
+    position:relative;
+}
+
+.breadcrumb ul li:after{
+    display:none;
+}
+
+.breadcrumb ul li:before{
+    color:#666;
+    content:"/";
+    font-family:'Open Sans',sans-serif,sans-serif;
+    font-size:12px;
+    line-height:24px;
+    margin-right:9px;
+    padding:0
+}
+
+.breadcrumb ul li:last-child:before{
+    display:none
+}
+
+.blog-page{
+    direction:rtl;
+}
+
+.blog-page .col-md-9{
+    float:right;
+}
+
+.blog-page .sidebar .sidebar-module-container .search-area .search-button:after{
+    right:auto;
+    left:30px;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:after,
+.sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle:after{
+    float:left;
+}
+
+.filters-container .pagination-container ul li.prev .fa-angle-left{
+    transform:rotate(180deg)
+}
+
+.filters-container .pagination-container ul li.next .fa-angle-right{
+    transform:rotate(-180deg)
+}
+ /********************category css ****************************/ 
+
+.sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed{
+    text-align:right;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .widget-header{
+    direction:rtl;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .list li a{
+    direction:rtl;
+    text-align: right;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .compare-report{
+    direction:rtl;
+    text-align: right;
+}
+
+.sidebar-widget-body .tag-list{
+    direction:rtl;
+    text-align: right;
+}
+
+.product-info{
+    direction: rtl;
+    float: right;
+    text-align: right;
+}
+
+.filters-container .pagination-container ul li.prev .fa-angle-left{
+    transform:rotate(0deg);
+}
+
+.filters-container .pagination-container ul li.next .fa-angle-right{
+    transform:rotate(0deg);
+}
+
+/*.sidebar{float:right}*/
+.accordion-heading{
+    direction:rtl;
+    text-align: right;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-body .accordion-inner{
+    direction:rtl;
+    text-align: right;
+}
+
+.product-list-row > .col-sm-4{
+    float:right
+}
+
+/********************checkout css ****************************/ 
+.checkout-steps{
+    direction:rtl;
+    text-align: right;
+}
+
+.radio label, .checkbox label{
+    padding-left:0px; 
+    padding-right:20px;
+}
+
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title a span{
+    margin-right:0px; 
+    margin-left:10px;
+}
+
+.checkout-progress-sidebar {
+    direction:rtl;
+    text-align: right;
+}
+
+.checkout-box  .row > .col-md-8{
+    float:right;
+}
+
+/********************contact css ****************************/ 
+.contact-page{
+    direction:rtl;
+}
+
+.contact-page .contact-info .contact-i{
+    margin-right:0px; 
+    margin-left:16px; 
+    float:right
+}
+
+.contact-page .contact-form{
+    float:right;
+}
+
+/********************faq css ****************************/ 
+.faq-page{
+    direction:rtl;
+}
+
+.heading-title,
+.body-content .faq-page .title-tag{
+    text-align: right!important;
+}
+
+  /********************shopping-cart css ****************************/ 
+.my-wishlist-page{
+    direction:rtl;
+}
+
+.product-comparison{
+    direction:rtl;
+}
+
+.shopping-cart{
+    direction:rtl;
+}
+
+.shopping-cart .estimate-ship-tax{
+    float:right;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a{
+    direction:rtl;
+    text-align:right;
+}
+
+.bootstrap-select.btn-group .btn .filter-option{
+    text-align:right;
+}
+
+.bootstrap-select.btn-group .btn .caret{
+    right:auto; 
+    left:12px;
+}
+
+.bootstrap-select>.btn{
+    padding-left:25px; 
+    padding-right:12px;
+}
+
+/********************sign-in css ****************************/ 
+.sign-in-page{
+    direction:rtl;
+}
+
+.radio input[type=radio], 
+.radio-inline input[type=radio], 
+.checkbox input[type=checkbox], 
+.checkbox-inline input[type=checkbox]{
+    margin-left:0px; 
+    margin-right:-20px
+}
+
+.sign-in{
+    float:right;
+}
+
+.terms-conditions-page{
+    direction:rtl;
+}
+
+.body-content .terms-conditions-page .terms-conditions ol{
+    padding-right:22px;
+}
+
+.track-order-page{
+    direction:rtl;
+}
+
+.body-content .terms-conditions-page .terms-conditions h2, 
+.body-content .terms-conditions-page .terms-conditions span, 
+.body-content .track-order-page span{
+    text-align:right;
+}
+
+/********************detail css ****************************/ 
+.detail-block .product-info .rating-reviews .col-sm-3{
+    float:right;
+}
+
+.detail-block .product-info .stock-container .col-sm-2{
+    float:right;
+}
+
+.single-product .product-info .quantity-container .cart-quantity .quant-input input{
+    text-align:center;
+}
+
+.detail-block .gallery-holder{
+    float:right;
+}
+
+.single-product .product-tabs{
+    direction:rtl;
+}
+
+.single-product .product-tabs .col-sm-3{
+    float:right;
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell > li.active > a:after{
+    right:auto; 
+    left:-8px; 
+    transform:rotate(-180deg);
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell > li > a:hover:after, 
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell > li > a:focus:after{
+    right:auto; 
+    left:-8px; 
+    transform:rotate(-180deg);
+}
+
+.blog-page .blog-post-author-details .author-social-network{
+    float:left !important;
+}
+
+.blog-page .blog-post-author-details .col-md-2,
+.blog-page .blog-review .col-md-2{
+    float:right;
+}
+
+.blog-page .blog-review h4{
+    display:block;
+}	
+	
+p.stars a:after{  
+    right: inherit; 
+    left: 1em;
+}
+
+.owl-carousel{ 
+    direction: ltr;
+}
+
+.shop-images,
+.outer-top-ss,
+.owl-carousel .owl-wrapper-outer{
+    direction: ltr;
+}
+
+.rtl .sidebar .side-menu nav .nav > li > .mega-menu {
+    left: 100%;
+    right: auto;
+}
+
+.filters-container .nav-tabs.nav-tab-box li a .icon{ 
+    margin-right: 0px; 
+    margin-left: 5px; 
+}
+
+.rtl .gc-zoom{
+    left: auto !important; 
+    right: 100% !important;
+}
+
+.dd-pointer {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -13px!important;
+    top: 50%;
+    margin-top: -3px;
+    border-top: solid 4px #999!important;
+}
+
+.dd-pointer-up {
+    border: solid 5px transparent !important;
+    border-bottom: solid 5px #999 !important;
+    margin-top: -8px;
+}
+
+.main-header .top-search-holder .search-area select{ 
+    border-radius: 0px 3px 3px 0px; 
+}

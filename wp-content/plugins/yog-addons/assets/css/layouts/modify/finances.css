@@ -1,0 +1,1453 @@
+/*
+Theme Name: Finances 
+Author: CKThemes
+Description:  Flipmart is a modern, clean and professional WordPress Woocommerce Theme, It is fully responsive, it looks stunning on all types of screens and devices. It is super for fashion shop, digital shop, games shop, food shop, devices shop, household appliances shop or any other categories
+Version: 2.6
+License: GNU General Public License v2 or later
+Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
+Text Domain:  flipmart
+/*===================================================================================*/
+/* GENERAL 
+/*===================================================================================*/
+ body {
+     font-family: 'Rajdhani', sans-serif !important;
+     background:#fff !important;
+}
+ h1 {
+     font-size:36px;
+}
+ h3 {
+     font-size:22px;
+     font-family: 'Rajdhani', sans-serif !important;
+}
+.form-group{
+     width:100%;
+     float:right;
+}
+ img {
+    max-width:100%;
+}
+
+/*===================================================================================*/
+/* HEADER 
+/*===================================================================================*/
+ .finance-header .finance-topbar {
+     font-size: 14px !important;
+     background-color: #EBEBEB;
+     border-bottom:1px solid #d5d5d5;
+}
+ .finance-topbar .cnt-account{
+    padding:0 !important;
+}
+ .finance-header .finance-topbar .cnt-account ul > li {
+     border-right: 1px solid #e1e1e1;
+     padding: 12px 20px 12px 0px;
+     margin-right: 0px;
+     padding: 6px 0px 6px 20px !important;
+}
+ .finance-header .finance-topbar .cnt-account ul > li:last-child {
+     border: none;
+     padding-right: 0px;
+     padding-left: 20px;
+}
+.finance-topbar .cnt-account ul > li a{
+    color:#000 !important;
+    font-size:16px;
+    font-weight:500 !important;
+}
+.finance-topbar .cnt-account ul li a span,
+.finance-topbar .cnt-account ul li a:hover{
+    color:#00c0ff !important;
+}
+ .finance-header .cnt-block{
+     float:left !important;
+}
+ .finance-topbar .cnt-block .list-inline > li{
+    margin-right:30px !important;
+}
+ .finance-topbar .cnt-block .list-inline li a{
+    color:#000 !important;
+    font-weight:500;
+    font-size:16px;
+    padding:10px 0 !important;
+}
+ .finance-topbar .cnt-block .list-inline li a:hover{
+    color:#00c0ff !important;
+}
+ .finance-topbar .cnt-block .list-inline li a span{
+    color:#00c0ff;
+    padding-right:6px;
+}
+ .finance-header .finance-topbar .dropdown-menu{
+    padding:10px !important;
+}
+ .finance-header .header-nav{
+    border-bottom:0 !important;
+}
+ header .dd-container{
+    border: none;
+}
+ header .dd-pointer-down{
+    border-top: solid 4px #00c0ff!important;
+}
+ header .dd-container .dd-pointer-up{
+    border: solid 5px transparent !important;
+    border-bottom: solid 4px #00c0ff !important;
+}
+ .finance-topbar .finance-topsocial a{
+    width:30px;
+    height:30px;
+    display:inline-table;
+    border:2px solid #000;
+    text-align:center;
+    border-radius:50%;
+    padding-top:5px !important;
+    margin-left:5px;
+}
+ .finance-topbar .finance-topsocial a:hover{
+    border-color:#00c0ff;
+}
+ .main-header{
+    padding:0 !important;
+    padding:18px 0 !important
+}
+ .main-header .header-nav{
+    float:right;
+    margin-top:19px;
+}
+ .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li a{
+    font-size:16px !important;
+    color:#4e4e4e !important;
+    font-weight:500 !important;
+    font-family: 'Rajdhani', sans-serif !important;
+}
+ .main-header .header-nav .navbar-default .navbar-collapse .navbar-nav .free-consult > a{
+    background:#ffb900;
+    color:#fff !important;
+    padding:10px 30px;
+    font-weight:bold !important;
+    font-size:18px !important;
+    margin-top: -6px;
+}
+ .main-header .header-nav .navbar-default .navbar-collapse .navbar-nav .free-consult:hover a{
+    color:#fff !important;
+    background:#00c0ff !important;
+}
+ .main-header .header-nav .navbar-default .navbar-collapse .navbar-nav .free-consult:hover::after{
+    background-image:none;
+}
+ .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li a:hover,
+ .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li.current_page_item a{
+    color:#00c0ff !important;
+    background: transparent;
+}
+.finances .header-style-1 .header-nav .navbar .navbar-nav > li > a:hover, 
+.finances .header-style-1 .header-nav .navbar .navbar-nav > li > a:focus, 
+.finances .header-style-1 .header-nav .navbar .navbar-nav > li.current-menu-item{
+    background: transparent!important;
+}
+ .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav > li.current_page_item > a::after,
+ .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav > li:not( .free-consult ) > a:hover::after{
+    content: '';
+    background: url(../../../images/finance-drop-img.png) no-repeat;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    width: 3px;
+    top: -38px;
+    left: 0;
+    right: 0;
+     margin: 0 auto;
+}
+
+/*===================================================================================*/
+/* SLIDER 
+/*===================================================================================*/
+ .finance-slider #owl-main{
+    height:615px;
+    text-align:right !important;
+}
+ .finance-slider #owl-main .item{
+    height:615px;
+}
+ .finance-slider #owl-main .item .caption{
+    left: 0 !important;
+    top: 0 !important;
+    z-index: 100;
+    padding-right: 8%;
+    width: 50%;
+    background:rgba(0, 192, 255, 0.5);
+    bottom: 0;
+    padding-top: 12%;
+    padding-left: 100px !important;
+}
+ .finance-slider #owl-main .item .caption h1{
+    color:#fff !important;
+    text-transform:uppercase !important;
+    font-weight:bold !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-size:45px;
+}
+ .finance-slider #owl-main .item .caption h2{
+    color:#fff !important;
+    text-transform:uppercase !important;
+    font-weight:bold !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-size:36px;
+}
+ .finance-slider #owl-main .item .caption h2 span{
+    color:#000;
+}
+ .finance-slider #owl-main .item .caption p{
+    color:#fff;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-size:18px;
+    font-weight:600;
+}
+ .finance-slider #owl-main .item .caption a{
+    background:#fff !important;
+    border-radius:0 !important;
+    font-size:18px;
+    font-weight:600;
+    color:#0198ff;
+    font-family: 'Rajdhani', sans-serif !important;
+    padding:10px !important;
+    width:180px;
+    border:none !important;
+}
+ .finance-slider #owl-main .item .caption a:last-child{
+    background:#000 !important;
+    color:#fff !important;
+}
+ .finance-slider #owl-main .item .caption a:last-child i{
+    color:#0198ff;
+}
+ .finance-slider #owl-main .item .caption a i{
+    padding-left:5px;
+}
+ .finance-slider #owl-main:hover .owl-prev:hover, 
+ .finance-slider #owl-main:hover .owl-next:hover{
+    background:#0198ff !important;
+}
+ .finance-slider #owl-main .owl-prev, 
+ .finance-slider #owl-main .owl-next{
+    border-radius:0 !important;
+}
+ .finance-slider #owl-main .owl-controls .owl-buttons .icon{
+    font-size:36px;
+    left: -9px;
+    top:7px !important;
+}
+ .finance-slider .slide-img-right{
+    position:absolute;
+    right:150px;
+    bottom:0;
+}
+
+/*===================================================================================*/
+/* CALL ACTION 
+/*===================================================================================*/
+ .call-action{
+    background-size:cover;
+    padding:20px 0;
+    float:left;
+    width:100%;
+}
+ .call-action p{
+    font-size:25px;
+    font-weight:bold;
+    text-transform:capitalize;
+    color:#fff;
+    margin:0;
+}
+ .call-action-btn{
+    float:right;
+    text-align:right;
+}
+ .call-action-btn a{
+    background:#fff;
+    color:#0198ff;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:8px 28px;
+    font-weight:600;
+    display:inline-table;
+}
+ .finances .call-action-btn a:hover{
+    background:#0198ff;
+    color:#fff!important;
+}
+
+/*===================================================================================*/
+/* ABOUT CONTENT 
+/*===================================================================================*/
+ .about-us{
+    margin-top:75px;
+    margin-bottom:85px;
+    background:#fff;
+}
+ .about-us p{
+    color:#797979;
+    font-size:16px;
+    margin-bottom:0;
+    font-weight:500;
+}
+ .about-us h2{
+    font-size:44px;
+    color:#000;
+    font-weight:bold;
+    margin: 0;
+}
+ .about-us h3{
+    font-size:17px;
+    color:#000;
+    font-weight:600;
+    margin-top:40px;
+}
+
+
+/*===================================================================================*/
+/* PROGRESS BAR 
+/*===================================================================================*/
+ .progress-content{
+    margin-top:75px;
+    margin-bottom:85px;
+    background:#fff;
+}
+ .progress{
+    height:12px;
+    border-radius: 0;
+    margin-bottom: 25px;
+    overflow: visible;
+    position: relative;
+}
+ .progress:before, 
+ .progress:after{
+    content: "";
+    width: 5px;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    bottom: 0;
+}
+ .progress:after{
+    left: auto;
+    right: -5px;
+}
+ .progress .progress-bar{
+    border: none;
+    box-shadow: none;
+    -webkit-animation: 5s 0s normal none infinite running progress-bar-stripes,animate-positive 4s;
+    animation: 5s 0s normal none infinite running progress-bar-stripes,animate-positive 4s;
+     background:#ffb900;
+}
+.progress-title{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #747474 !important;
+    margin: 0 0 5px;
+    margin-top:0 !important;
+}
+ .progress-title span{
+    float:right;
+}
+ @-webkit-keyframes animate-positive{
+     0%{
+         width: 0;
+    }
+}
+ @keyframes animate-positive{
+     0%{
+         width: 0;
+    }
+}
+
+
+/*===================================================================================*/
+/* HEADING SECTION
+/*===================================================================================*/
+ .heading-content{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+ .heading-content p{
+    margin:0;
+    font-size:16px;
+    color:#797979;
+}
+ .heading-content h2{
+    font-size:44px;
+    color:#000;
+    font-weight:bold;
+    margin-top:0;
+}
+ .heading-content p{
+    padding-top:20px;
+}
+ .border-bottom{
+    height:3px;
+    width:40px;
+    background:#ffb900;
+}
+ .border-bottom-middle{
+    margin:0 auto;
+}
+
+/*===================================================================================*/
+/* PRODUCTS SECTION
+/*===================================================================================*/
+ .price-table{
+    background-size:cover;
+    padding:75px 0;
+    padding-bottom:120px;
+}
+ .price-table .custom-carousel .owl-controls .owl-prev{
+    left:0;
+    height:44px;
+    width:44px;
+    background:#e2e2e2 !important;
+    border-radius:0 !important;
+    top:100px;
+}
+ .price-table .custom-carousel .owl-controls .owl-next{
+    right:-25px;
+    height:44px;
+    width:44px;
+    background:#e2e2e2 !important;
+    border-radius:0 !important;
+    top:100px;
+}
+ .price-table .custom-carousel .owl-controls .owl-next:hover,
+ .price-table .custom-carousel .owl-controls .owl-prev:hover{
+    background:#00c0ff !important;
+}
+ .price-table .custom-carousel .owl-controls .owl-prev::before,
+ .price-table .custom-carousel .owl-controls .owl-next::before{
+    font-size:36px;
+    left:16px;
+    top:-4px;
+}
+ .price-table #product-tabs-slider .custom-carousel .owl-controls{
+    top:50%;
+}
+ .price-table .products{
+    padding-bottom: 0px;
+ }
+ .price-rate{
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+    position:relative;
+    bottom: -56px;
+    z-index:2;
+}
+ .price-rate h2{
+    width:112px;
+    height:112px;
+    background:#fff;
+    display:inline-table;
+    border-radius:50%;
+    border:10px solid #ffb900;
+    color:#0198ff;
+    font-size:30px;
+    font-weight:bold;
+    padding-top:35px;
+    margin:0;
+}
+ .price-rate .woocommerce-Price-currencySymbol{
+    font-size:20px;
+    vertical-align: top;
+}
+.price-content{
+    background:#fff;
+    border:1px solid #e1e1e1;
+    padding:40px;
+    text-align:center;
+    box-shadow: 1px 1px 6px #d0d0d0;
+    padding-top:60px;
+}
+ .price-content h3{
+    text-transform:uppercase;
+    color:#0198ff;
+    font-size:20px;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-weight:bold;
+    margin-bottom:0;
+}
+ .price-content p{
+    font-size:16px;
+    color:#747474;
+}
+ .price-btn{
+    position:absolute;
+    left:0;
+    right:0;
+    text-align:center;
+    bottom:-10px;
+}
+ .finances .price-btn a{
+    background:#000;
+    padding:10px 40px;
+    color:#fff!important;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:18px;
+}
+ .price-btn a:hover{
+    background:#00c0ff;
+}
+
+/*===================================================================================*/
+/* SERVICES SECTION
+/*===================================================================================*/
+ .services{
+    padding-bottom: 100px;
+    background-size:cover;
+}
+ .service-content{
+    position:relative;
+    float: left;
+    width: 100%;
+    margin-top: -35px;
+}
+ .services-des{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(1, 152, 255, 0.8);
+    padding:10px;
+    text-align: center;
+}
+.service-img:hover .services-des{
+    top:0;
+    padding-top:36%;
+}
+ .service-img{
+    width:16%;
+    display:inline-table;
+}
+ .services-text{
+    display:inline-table;
+    width:80%;
+    text-align:left;
+}
+ .services-text h3{
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:0;
+    color:#fff;
+}
+ .services-text p{
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    margin:0;
+    padding-top:12px;
+    display:none;
+}
+ .service-content:hover .services-text p{
+    display:block;
+}
+
+/*===================================================================================*/
+/* VIDEOS SECTION
+/*===================================================================================*/
+ .video-section{
+    margin:75px 0px;
+}
+ .video-section .heading-content h2{
+    line-height:42px;
+}
+ .video-content{
+    text-align:center;
+    position:relative;
+    width:100%;
+    display:inline-table;
+    margin-top:50px;
+}
+
+/*===================================================================================*/
+/* TESTIMONIALS SECTION
+/*===================================================================================*/
+ .testimonials-content{
+    width:100%;
+    display:inline-table;
+    background-size:cover;
+    padding:75px 0;
+    text-align:center;
+}
+ .testimonials-content .heading-content h2{
+    color:#fff;
+}
+ .testimonials-content .heading-content p{
+    color:#fff;
+}
+ .testimonials-content .carousel-control.left{
+    background:none;
+}
+ .testimonials-content .carousel-control.right{
+    background:none;
+}
+ .testimonials-content .carousel{
+    margin-top:50px;
+}
+ .testimonials-content .carousel .testimonial-content{
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    margin:0;
+    font-style: italic;
+}
+ .testimonials-content .carousel h4{
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:24px;
+    padding-top:15px;
+    margin-bottom:0;
+}
+ .testimonials-content .carousel small{
+    color:#ffc600;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:capitalize;
+}
+ .testimonials-content .text-center{
+    margin-bottom:30px;
+}
+ .testimonials-content .carousel-control{
+    box-shadow:none;
+    width:auto;
+    top:39%;
+    background:none;
+}
+ .testimonials-content .carousel-control i{
+    background:#c7c9d2;
+    color:#5e5f64;
+    padding: 10px;
+}
+ .testimonials-content .carousel-control i:hover{
+    background:#00c0ff;
+    color:#fff;
+}
+
+/*===================================================================================*/
+/* BLOG SECTION
+/*===================================================================================*/
+ .blog-posts{
+    margin:75px 0px;
+}
+ .blog-posts .heading-content{
+    margin-bottom:50px;
+}
+ .blog-row{
+    float:left;
+    width:97%;
+    border:3px solid #e6e6e6;
+    height:430px;
+}
+.blog-row:hover{
+    border-color:#0198ff;
+}
+ .blog-img{
+    position:absolute;
+    left:30px;
+    top:15px;
+}
+ .blog-posts *.col-{
+    position:relative;
+}
+ .blog-description{
+    width:100%;
+    display:inline-table;
+    margin-top:30px;
+}
+ .blog-description .date{
+    color:#000;
+    font-size:16px;
+    font-weight:500;
+}
+ .blog-description .date span{
+    color:#0198ff;
+}
+ .blog-description a{
+    font-size:20px;
+    color:#000;
+    font-weight:600;
+}
+ .blog-description a:hover{
+    color:#0198ff;
+}
+ .blog-description p{
+    font-size:16px;
+    font-weight:500;
+    color:#797979;
+}
+
+/*===================================================================================*/
+/* NEWS LETTER SECTION
+/*===================================================================================*/
+ .newsletter{
+    background:#00c0ff;
+    padding:30px 0;
+}
+ .newsletter h1{
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:0;
+    padding-top:5px;
+}
+ .newsletter-email{
+    float:right;
+    text-align:right;
+    position:relative;
+}
+ .newsletter-email input[type="email"]{
+    width:100%;
+    padding:14px;
+    font-size:16px;
+    font-weight:600;
+    border:none;
+}
+ .newsletter-email button[type="submit"]{
+    background:none;
+    border:none;
+    border-radius:0;
+    font-size:24px;
+    position:absolute;
+    right:20px;
+    border-left:1px solid #02bfff;
+    min-height:51px;
+    padding-left:15px;
+    top: 0px;
+}
+ .newsletter-email:hover button[type="submit"]{
+    color:#02bfff;
+}
+
+/*===================================================================================*/
+/* NEWS LETTER SECTION
+/*===================================================================================*/
+ .footer{
+    width:100%;
+    float:left;
+    background:#212832;
+    padding:90px 0;
+}
+ .footer p{
+    font-size:16px;
+    font-weight:500;
+    color:#acb0b1;
+}
+ .footer h3{
+    color:#fff;
+    font-weight:600;
+    text-transform:capitalize;
+    margin-top:0;
+}
+ .footer-logo{
+    width:100%;
+    float:left;
+    padding-top:10px;
+}
+ .footer-contact{
+    width:100%;
+    float:left;
+    margin:30px 0;
+}
+ .footer-contact a{
+    display:inline-table;
+    color:#acb0b1;
+    font-size:18px;
+    width: 100%;
+    font-weight:500;
+}
+ .footer-contact a:hover{
+    color:#02bfff;
+}
+ .finance-social{
+    width:100%;
+    float:left;
+}
+ .finance-social a{
+    width:32px;
+    height:32px;
+    border:2px solid #acb0b1;
+    border-radius:50%;
+    display:inline-table;
+    text-align:center;
+    padding-top:5px;
+    color:#acb0b1;
+    margin-right:5px;
+}
+ .finance-social a:hover{
+    color:#02bfff;
+    border-color:#acb0b1;
+}
+ .widget_nav_menu li,
+ .tweets_txt{
+    padding-bottom:14px;
+}
+ .widget_nav_menu li:last-child{
+    padding-bottom:0;
+}
+ .widget_nav_menu li a,
+ .tweets_txt{
+    font-size:15px;
+    color:#acb0b1;
+    font-weight:500;
+}
+ .widget_nav_menu li a:hover{
+    color:#02bfff;
+}
+ .widget_nav_menu li:before{
+    content: "\f105";
+    color: #acb0b1;
+    padding-right: 5px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ }
+ .widget_archive a, 
+ .widget_recent_comments a, 
+ .widget_recent_entries a, 
+ .widget_categories a, 
+ .widget_meta a, 
+ .widget_pages a, 
+ .widget_nav_menu a{
+    line-height: inherit;
+    font-family: 'Rajdhani', sans-serif !important;
+ }
+ .footer-border{
+    width:50px;
+    height:2px;
+    background:#0198ff;
+    margin-bottom: 30px;
+}
+ .twitter-links li a:first-child{
+    color:#02bfff;
+}
+ .footer-flickr{
+    float:right;
+    text-align:right;
+}
+ .footer-flickr h3{
+    text-align:left;
+    padding-left:63px;
+}
+ .footer-flickr .footer-border{
+    margin-left:63px;
+}
+ .instagram-lite ul{
+    margin-top:30px;
+}
+ .instagram-lite li{
+    display:inline-table;
+    margin-bottom:4px;
+    margin-right:4px;
+    vertical-align:top;
+}
+ .instagram-lite li{
+    width: 63px;    
+}
+ .copyright{
+    width:100%;
+    float:left;
+    background:#1a1b1f;
+    padding:40px 0;
+}
+ .copyright p{
+    color:#fff;
+    text-align:center;
+    margin:0;
+}
+/*--------------Responsive Start--------------------*/
+ @media screen and (max-width:1199px) {
+     .finance-topbar .cnt-block .list-inline li{
+        margin-right:20px !important;
+    }
+     .finance-header .finance-topbar .cnt-account ul li{
+        padding: 6px 0px 6px 12px !important;
+    }
+     .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li a{
+        padding: 5px 8px !important;
+    }
+     .main-header .header-nav .navbar-default .navbar-collapse .navbar-nav .free-consult{
+        padding: 8px 15px !important;
+    }
+     .blog-row{
+        height:385px;
+    }
+     .footer-flickr{
+        float:left;
+        text-align:left;
+    }
+     .footer-flickr h3{
+        padding-left:0;
+    }
+     .footer-flickr .footer-border{
+        margin-left:0;
+    }
+}
+ @media screen and (max-width:991px) {
+     .finance-header .finance-topbar .cnt-block{
+        width:100%;
+        text-align:center;
+    }
+    .finance-header .finance-topbar .cnt-account{
+        width:100%;
+        text-align:center;
+    }
+     .finance-header .finance-topbar .cnt-account ul li:first-child{
+        padding-left:0 !important;
+    }
+     .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li a{
+        font-size:14px !important;
+        padding: 5px !important;
+    }
+     .main-header .header-nav .navbar-default .navbar-collapse .navbar-nav .free-consult{
+        font-size:15px !important;
+        margin-top:-5px;
+        padding: 8px 5px !important;
+    }
+     .slide-img-right{
+        right:100px;
+    }
+     .finance-slider #owl-main .item .caption h1{
+        font-size:36px;
+    }
+     .finance-slider #owl-main .item .caption h2{
+        font-size:30px;
+    }
+     .call-action p{
+        font-size:20px;
+        padding-top:6px;
+    }
+     .blog-row{
+        height:295px;
+    }
+}
+ @media screen and (max-width:767px) {
+     .finance-header .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        background:#00c0ff;
+    }
+     .finance-header .navbar-toggle{
+        background:#00c0ff;
+    }
+     .finance-header .f-logo{
+        z-index: 3;
+    }
+    .finance-header .main-header{
+        padding:10px 0 !important;
+    }
+    .finance-header .main-header,
+    .finance-header .header-nav .navbar-default{
+        background:none !important;
+    }
+     .finance-header .main-header .header-nav{
+        margin-top: 0;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        width: 100%;
+        background: none !important;
+        top: -45px;
+    }
+     .finance-header .main-header .navbar-toggle{
+        float:right;
+    }
+    .finance-header .navbar-nav {
+        background: #00c0ff;
+        margin: 0;
+        text-align: right;
+    }
+    .yamm .dropdown-menu .yamm-content,
+    .yamm .dropdown:hover .dropdown-menu.pages{
+        background: #00c0ff!important;
+    }
+    .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav > li.current_page_item > a::after, 
+    .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav > li:not( .free-consult ) > a:hover::after{
+        display: none;
+    }
+     .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li.active a{
+        color:#fff !important;
+    }
+     .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li a{
+        color:#fff !important;
+        font-size:16px !important;
+         padding:12px 15px !important;
+    }
+     .finance-header .header-nav .navbar-default .navbar-collapse .navbar-nav li a:hover{
+        color:#fff !important;
+    }
+     .finance-header .nav li{
+        border-bottom:1px solid rgba(255, 255, 255, 0.5);
+    }
+     .finance-header .nav li:last-child{
+        border-bottom:0;
+    }
+     .finance-header .main-header .header-nav .navbar-default .navbar-collapse .navbar-nav .free-consult{
+        background:none;
+        padding:12px 15px !important;
+        margin-top:0;
+    }
+     .finance-slider #owl-main .item .caption{
+        padding:0px 20px !important;
+        width:auto;
+        background:none;
+        text-align:center;
+        top: 26% !important;
+    }
+     .slide-img-right{
+        display:none;
+    }
+     .call-action p{
+        font-size:18px;
+        padding-top:0px;
+        text-align:center;
+    }
+     .call-action-btn{
+        float:none;
+        text-align:center;
+        display:inline-table;
+        width:100%;
+    }
+     .progress-title:first-child{
+        margin-top:40px !important;
+    }
+     .price-table .custom-carousel .owl-controls .owl-prev,
+     .price-table .custom-carousel .owl-controls .owl-next{
+        top:120px;
+    }
+     .services{
+        padding:75px 0;
+        padding-bottom:35px;
+    }
+     .services .service-content{
+        margin-bottom:40px;
+        margin-top:0;
+    }
+     .services .service-content img{
+        width:auto !important;
+    }
+     .video-section .heading-content h2 {
+        font-size:36px;
+        line-height:40px;
+    }
+     .video-content iframe{
+        width:100%;
+    }
+    .testimonial .carousel{
+        float:left;
+        width:100%;
+    }
+     .testimonial .carousel .testimonial-content{
+        font-size:15px;
+    }
+     .blog-row{
+        width:100%;
+        height:auto;
+    }
+     .blog-img{
+        position:relative;
+        left:0px;
+        top:0;
+    }
+     .blog-img img{
+        width:100%;
+    }
+     .newsletter h1{
+        text-align:center;
+    }
+     .newsletter-email{
+        float:left;
+        text-align:left;
+        width:100%;
+        margin-top:15px;
+    }
+}
+ @media screen and (max-width: 479px) {
+     .main-header .header-nav{
+        top: -45px;
+    }
+    header [class*="col-"], 
+    header  .navbar { 
+        position: relative; 
+    }
+     .f-logo{
+        width:40%;
+        z-index: 3;
+    }
+     .finance-slider #owl-main{
+        height:450px;
+    }
+     .finance-slider #owl-main .item{
+        height:450px;
+    }
+     .finance-slider #owl-main .item .caption{
+        top:20% !important;
+    }
+     .finance-slider #owl-main .item .caption h1{
+        font-size:24px;
+    }
+     .finance-slider #owl-main .item .caption h2{
+        font-size:18px;
+    }
+     .finance-slider #owl-main .item .caption a{
+        display:block;
+        margin:0 auto;
+    }
+     .call-action p{
+        font-size:16px;
+    }
+     .about-us h2{
+        font-size:30px;
+    }
+     .about-us,
+     .video-section{
+        margin:40px 0px;
+    }
+     .price-table,
+     .services,
+     .testimonials-content{
+        padding:40px 0;
+    }
+     .video-section .heading-content h2 {
+        font-size:20px;
+        line-height:26px;
+    }
+     .video-content iframe{
+        height:300px !important;
+    }
+     .testimonials-content .carousel-control{
+        display:none;
+    }
+     .heading-content h2{
+        font-size:26px;
+    }
+     .blog-posts{
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+     .newsletter h1{
+        font-size:20px;
+        display:inline-table;
+    }
+     .footer{
+        padding:40px 0;
+    }
+}
+ @media screen and (max-width:320px) {
+     .finance-topbar .cnt-block .list-inline li{
+        margin-right:0 !important;
+    }
+     .finance-topbar .finance-topsocial a:first-child{
+        margin-left:0;
+    }
+     .finance-header .finance-topbar .cnt-account ul li {
+        padding: 6px 0px 6px 8px !important;
+    }
+     .finance-topbar .cnt-block .list-inline li a{
+        padding:5px 0 !important;
+    }
+     .main-header .header-nav{
+        top: -38px;
+    }
+     .service-content:hover .services-des{
+        padding-top:20%;
+    }
+}
+
+/*===================================================================================*/
+/*  Colors CSS
+/*===================================================================================*/
+a,
+.top-bar .cnt-block ul li .dropdown-menu li a:hover,
+.top-bar .cnt-block ul li .dropdown-menu li a:focus,
+.main-header .top-search-holder .contact-row .icon,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:focus,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:focus ,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price ,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:hover,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:focus,
+.sidebar .side-menu nav .nav > li a:hover,
+.sidebar .side-menu nav .nav > li a:focus ,
+.sidebar .side-menu nav .nav > li a:hover:after,
+.sidebar .side-menu nav .nav > li a:focus:after,
+.scroll-tabs .nav-tab-line li a:hover,
+.scroll-tabs .nav-tab-line li a:focus,
+.product .product-info .name a:hover,
+.product .product-info .name a:focus,
+.copyright-bar .copyright a,
+.blog-slider-container .blog-slider .blog-post-info .name a:hover,
+.blog-slider-container .blog-slider .blog-post-info .name a:focus,
+.latest-tweet .re-twitter .comment a,
+.latest-tweet .re-twitter .comment .icon .fa-stack-2x ,
+.footer .contact-information .media .icon .fa-stack-2x,
+.footer .contact-information .media .media-body a:hover,
+.footer .contact-information .media .media-body a:focus,
+.footer .footer-bottom .module-body ul li a:hover,
+.footer .footer-bottom .module-body ul li a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:hover,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .x-page .x-text h1,
+.body-content .x-page .x-text a,
+.sign-in-page .register-form .forgot-password,
+.sign-in-page .register-form .forgot-password:hover,
+.sign-in-page .register-form .forgot-password:focus,
+.my-wishlist-page ins span, 
+.my-wishlist-page .woocs_price_code > span,
+.terms-conditions-page .contact-form,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:hover,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:focus,
+.hot-deals .product-info .product-price > span,
+.hot-deals .product-info .name a:hover,
+.hot-deals .product-info .name a:focus,
+.yamm .dropdown-menu .title:hover,
+.yamm .dropdown-menu .title:focus,
+.yamm .dropdown-menu li a:hover,
+.yamm .dropdown-menu li a:focus,
+.filters-container .nav-tabs.nav-tab-box li.active a .icon,
+.filters-container .pagination-container ul .current,
+.filters-container .pagination-container ul li a:hover,
+.filters-container .pagination-container ul li a:focus,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:hover,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:hover,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:after,
+.sidebar .list li a:hover,
+.sidebar .list li a:focus,
+.sidebar .compare-report span,
+.single-product .product-info .rating-reviews .reviews .lnk:hover,
+.single-product .product-info .rating-reviews .reviews .lnk:focus,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:hover,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:focus,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:hover,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:focus,
+.single-product .product-info-block .txt.txt-qty,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:hover,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:focus,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .review-title .date span,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .author span,
+.homepage-container .product .product-info .name a:hover,
+.homepage-container .product .product-info .name a:focus,
+.blog-post h1 a:hover,
+.blog-post h1 a:focus,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:focus,
+.blog-review .review-action a,
+.blog-review .review-action a:hover,
+.blog-review .review-action a:focus,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:hover,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:focus,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:focus{
+  color: #00c0ff;
+}
+
+.show-theme-options:hover,
+.show-theme-options:focus,
+.btn-primary:hover,
+.btn-black:hover,
+.btn-primary:focus,
+.btn-black:focus,
+.product .cart .action ul li.add-cart-button .btn-primary:hover,
+.product .cart .action ul li.add-cart-button .btn-primary:focus,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:hover,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:focus,
+.footer .links-social .social-icons a:hover,
+.footer .links-social .social-icons a:focus,
+.footer .links-social .social-icons a.active,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.custom-carousel .owl-controls .owl-prev:hover,
+.custom-carousel .owl-controls .owl-next:hover,
+.custom-carousel .owl-controls .owl-prev:focus,
+.custom-carousel .owl-controls .owl-next:focus,
+.sidebar .price-range-holder .slider .slider-track .slider-handle.max-slider-handle,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page.active span,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page:hover span,
+.single-product .product-info .product-social-link .social-icons ul li a:hover,
+.single-product .product-info .product-social-link .social-icons ul li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a,
+#owl-main .owl-controls .owl-pagination .owl-page:active span,
+#owl-main .owl-controls .owl-pagination .owl-page:hover span,
+.product .tag.hot,
+.products .cart .action ul li.lnk:hover,
+.products .cart .action ul li.lnk:focus{
+  background: #00c0ff!important;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li a:hover,
+.single-product .product-tabs .nav-tab-cell-detail li a:focus,
+.single-product .product-tabs .nav-tab-cell-detail li.active a {
+  background: #00c0ff;
+  border: 2px solid #00c0ff;
+}
+
+
+.top-bar .cnt-account > ul > li > a:hover,
+.top-bar .cnt-account > ul > li > a:focus,
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket .total-price,
+.info-box .info-box-heading.green,
+.info-boxes .info-box .icon,
+#owl-main:hover .owl-prev:hover .icon,
+#owl-main:hover .owl-next:hover .icon,
+.cart .action ul .lnk .add-to-cart:hover,
+.cart .action ul .lnk .add-to-cart:focus,
+.cart .action ul .lnk .compare:hover,
+.cart .action ul .lnk .compare:focus  {
+  color: #fff !important;
+}
+
+.product .product-info .product-price ins span,
+.product .product-info .product-price .woocs_price_code > span,
+.product .product-info .product-price > span,
+.product .product-info .product-price .price,
+.products .product-info .product-price ins > span, 
+.products .product-info .product-price .woocs_price_code > span, 
+.products .product-info .product-price > span,
+.sidebar .sidebar-module-container .search-area .search-button:after {
+  color: #333!important;
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #00c0ff;
+}
+
+.top-bar .cnt-block ul li a .caret {
+  color: rgba(255,255,255,0.8);
+}
+
+.filters-container .pagination-container ul li.prev:hover,
+.filters-container .pagination-container ul li.next:hover,
+.filters-container .pagination-container ul li.prev:focus,
+.filters-container .pagination-container ul li.next:focus,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page.active span,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:hover,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:focus {
+  background: #00c0ff !important;
+}
+
+div.tag.sale {
+  background: #fdd922;
+  color:#333
+}
+
+.breadcrumb ul li.active,
+.breadcrumb ul a:hover,
+.breadcrumb ul a:focus {
+  color: #157ed2;
+}
+
+.price_slider_wrapper .ui-slider-handle {
+  border: 5px solid #00c0ff;
+}
+
+.single-product .gallery-holder .gallery-thumbs .owl-item .item:hover {
+  border: 1px solid #00c0ff;
+}
+
+.single-product .product-info .price-container .price-box ins span,
+.single-product .product-info .price-container .price-box > span {
+  color: #ff7878;
+}
+
+.cart .action .add-cart-button .btn.btn-primary.icon:hover,
+.cart .action .add-cart-button .btn.btn-primary.icon:focus,
+#owl-main:hover .owl-prev:hover,
+#owl-main:hover .owl-next:hover {
+  background: #00c0ff;
+  color:#fff!important;
+}
+
+.cart .action .add-to-cart:hover,
+.cart .action .add-to-cart:focus {
+  color: #00c0ff !important;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:focus {
+  color: #00c0ff;
+}
+.blog-post .social-media a:hover,
+.blog-post .social-media a:focus,
+.blog-post-author-details .author-social-network button .twitter-icon,
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title > a:not(.collapsed) span,
+.contact-info .contact-i {
+  background-color: #00c0ff!important;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info .cart-product-info span span,
+.shopping-cart .cart-shopping-total table thead tr th .cart-grand-total {
+  color: #84b943;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail {
+  border-bottom: none;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.mega-menu .dropdown-menu {
+    width:100%;
+    left:0px 
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    box-shadow:0 4px 6px -1px rgba(0,0,0,0.4);
+}
+
+.single-product div.product div.images .flex-control-thumbs li .flex-active, 
+.woocommerce div.product div.images .flex-control-thumbs li img:hover {
+    border: 1px solid #00c0ff;
+}
+.book-best-deal .cart .action ul li.lnk.wishlist, 
+.book-best-deal .cart .action ul li.lnk, 
+.products .cart .action ul li.lnk.wishlist, 
+.book-best-deal .cart .action ul li.lnk, 
+.products .cart .action ul li.lnk,
+.product-list.product .product-info .cart-btn {
+    background: #00c0ff;
+}
+.woocommerce .btn-primary, 
+.single-product .favorite-button a, 
+.woocs_converter_shortcode_button{
+    background: #00c0ff;
+    border: none;
+}
+.woocommerce .btn-primary:hover, 
+.single-product .favorite-button a:hover, 
+.woocs_converter_shortcode_button:hover{
+    background: #00a6dd!important;
+}

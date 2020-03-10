@@ -1,0 +1,1413 @@
+/*
+Theme Name: Drink 
+Author: CKThemes
+Description:  Flipmart is a modern, clean and professional WordPress Woocommerce Theme, It is fully responsive, it looks stunning on all types of screens and devices. It is super for fashion shop, digital shop, games shop, food shop, devices shop, household appliances shop or any other categories
+Version: 2.6
+License: GNU General Public License v2 or later
+Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
+Text Domain:  flipmart
+/*===================================================================================*/
+/* GENERAL 
+/*===================================================================================*/
+ body {
+     font-family: 'Rajdhani', sans-serif !important;
+     background:#000 !important;
+}
+ h1 {
+     font-size:36px;
+}
+ h3 {
+     font-size:22px;
+}
+ img{
+    max-width:100%;
+}
+ .m-t-20{
+    color:#585957 !important;
+}
+ .m-t-20:hover{
+    color:#fff !important;
+}
+.breadcrumb ul li, .breadcrumb ul li a, 
+.breadcrumb ul li span,
+.breadcrumb ul li:after,
+.body-content .x-page .x-text p{
+    color: #f5f5f5;
+}
+/*===================================================================================*/
+/* HEADER 
+/*===================================================================================*/
+ .top-bar {
+     font-size: 14px !important;
+     padding:0;
+     background:rgba(0, 0, 0, 0.6);
+}
+ .top-bar .cnt-account ul > li {
+     border-right: 1px solid #e1e1e1;
+     padding: 12px 20px 12px 0px;
+     margin-right: 0px;
+}
+ .top-bar .cnt-account ul > li:last-child {
+     border: none;
+     padding-right: 0px;
+     padding-left: 20px;
+}
+ .top-bar .cnt-block{
+     float:left !important;
+     padding-top: 0px;
+}
+ .top-bar .cnt-block p{
+    color:#fff;
+    margin:0;
+    font-size:16px;
+}
+ .top-bar .cnt-block .list-inline li a{
+    color:#fff !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+ .top-bar .cnt-block .list-inline .woocommerce-currency-switcher-form a.dd-option{
+    color: #333!important;
+}
+ .top-cart-row .dropdown-cart{
+    float:none !important;
+    line-height: 0;
+}
+ .top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket {
+     padding: 0px;
+     border-right:0px;
+}
+ .drink .top-cart-row .dropdown-cart .lnk-cart {
+     border:none!important;
+     background:none !important;
+}
+ .top-cart-row .dropdown-cart li{
+    display: block!important;
+}
+ .header-style-1 .top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price,
+ .top-cart-row .dropdown-cart .dropdown-menu .cart-total .price,
+ .top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:hover {
+    color: #fa5127;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .btn{
+    color: #fff!important;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .btn:hover{
+    border: none;
+}
+ .header-style-1 .top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket {
+    color: #fa5127;
+    font-size: 18px;
+}
+ .header-style-1 .top-bar .cnt-block .list-inline > li {
+    padding: 4px 0px 4px 0px;
+}
+ .header-style-1 .btn-primary:hover, 
+ .header-style-1 .btn-black:hover, 
+ .header-style-1 .btn-primary:focus, 
+ .header-style-1 .btn-black:focus {
+    background: #fa5127;
+    border-color: #fa5127;
+}
+ .header-style-1 .btn-primary {
+    padding: 9px 14px 6px!important;
+}
+ .top-bar .logo-holder{
+    text-align:center;
+    padding-left: 80px;
+}
+ .dirk-logo{
+    position:absolute;
+    left:0;
+    right:0;
+    text-align:center;
+    top:10px;
+    z-index:-1;
+}
+ .nav-outer {
+    float: left;
+    width: 100%;
+    padding-top: 44px;
+}
+ .yamm.navbar.navbar-default {
+     background:none;
+     border-radius: 0;
+}
+ .drink .header-style-1{
+    background:none!important;
+}
+ body.home .header-style-1{
+    position:absolute;
+    left:0;
+    right:0;
+    z-index:2;
+    top:0;
+    float: left;
+    background:none;
+}
+ .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a {
+     color:#fff !important;
+     font-size:16px;
+     font-family: 'Rajdhani', sans-serif;
+     padding: 16px 0px;
+     margin: 0 18px;
+     border:none;
+     font-weight:500;
+}
+ .drink .header-style-1 .header-nav{
+    position:relative;
+    z-index:999;
+    background:none !important;
+}
+ .header-nav .nav-bg-class{
+    text-align:center;
+}
+ .header-nav .navbar-nav > li{
+    float:none;
+    display:inline-table;
+}
+ .header-nav .navbar-nav > li:nth-child(3){
+    padding-right:280px
+}
+ .top-bar  .top-cart-row{
+    float:right;
+    text-align:right;
+    padding-right:0;
+}
+ .top-cart-row li{
+    display:inline-table;
+    color:#fff;
+    padding-left:20px;
+}
+ .top-cart-row a{
+    color:#fff;
+    font-size:18px!important;
+}
+ .top-cart-row a:hover{
+    color:#fa5127;
+}
+ .top-cart-row .dropdown-menu li{
+    padding-left:0 !important;
+}
+
+.header-style-1 .header-nav .navbar .navbar-nav > li > a:hover, 
+.header-style-1 .header-nav .navbar .navbar-nav > li > a:focus, 
+.header-style-1 .header-nav .navbar .navbar-nav > li.current-menu-item{
+    color: #fa5127!important;
+}
+
+/*===================================================================================*/
+/* SLIDER 
+/*===================================================================================*/ 
+ .firsttab .custom-carousel .owl-controls .owl-prev {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     top: -25px;
+     right: 27px;
+     border-radius: 3px;
+     background: #fff;
+}
+ .firsttab .custom-carousel .owl-controls .owl-prev:before {
+     color: #fa5127;
+     content: "\f104";
+     font-family: fontawesome;
+     font-size: 35px;
+     font-weight: 900;
+     left:5px;
+     position: absolute;
+     top:-14px;
+}
+ .firsttab .custom-carousel .owl-controls .owl-next:before {
+     content: "\f105";
+     font-family: fontawesome;
+     color: #fa5127;
+     font-size: 35px;
+     font-weight: 900;
+     left:9px;
+     position: absolute;
+     top:-14px;
+}
+ .firsttab .custom-carousel .owl-controls .owl-next {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     top: -25px;
+     right: 0px;
+     border-radius: 3px;
+     background: #fff;
+}
+ .drink .firsttab .custom-carousel .owl-controls .owl-prev:hover:before, 
+ .drink .firsttab .custom-carousel .owl-controls .owl-next:hover:before {
+     color:#fff!important;
+}
+ .firsttab .custom-carousel .owl-controls .owl-prev:hover{
+     background:#fa5127;
+}
+ .firsttab .custom-carousel .owl-controls .owl-next:hover{
+     background:#fa5127;
+}
+ #e-slider #owl-main .item .caption {
+     left:100px;
+}
+ #e-slider #owl-main .item {
+     height: 800px;
+}
+ #e-slider #owl-main {
+     height: 800px;
+}
+ #e-slider .caption .slider-header a {
+     background: #fa5127;
+     color: #fff;
+     padding: 10px 20px 7px;
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: 900 !important;
+     display: table;
+}
+ #e-slider #owl-main .item .caption .big-text {
+     font-size: 61px;
+     width: 550px;
+     line-height: 60px;
+     text-transform: none;
+     padding-top: 12px;
+     font-family: 'Rajdhani', sans-serif;
+     color:#fff !important;
+    font-weight:400 !important;
+}
+ #e-slider #owl-main .item .caption .big-subtext {
+     font-size: 25px;
+     width: 550px;
+     line-height: normal;
+     text-transform: none;
+     font-style: italic;
+     padding-top: 12px;
+     font-family: "lato";
+     color: #292828;
+}
+ .drink #e-slider .btn-primary {
+     background: #fff!important;
+     font-size: 18px;
+     color: #fa5127;
+     border: none;
+     font-weight: bold;
+     padding: 11px 50px;
+     font-family: 'Rajdhani', sans-serif;
+     border-radius:30px;
+     display:inline-table;
+     margin-top: 20px;
+}
+ #e-slider .btn-primary:hover{
+    color:#fff;
+    background:#fa5127;
+}
+ #e-slider #owl-main .owl-prev, #e-slider #owl-main .owl-next {
+     background-color:#191818;
+     width:45px;
+     height:46px;
+     border-radius:0px;
+}
+ #e-slider #owl-main .owl-controls .owl-buttons .icon {
+     font-size: 54px;
+     top: -6px;
+     color: #fff !important;
+}
+.tp-color h1{
+    font-size:60px;
+    font-weight:bold;
+    font-family: 'Rajdhani', sans-serif;
+    font-style:normal;
+    color:#fa5127;
+    line-height: 0px;
+}
+ .tp-color h3{
+    font-size:27px;
+    text-transform:uppercase;
+    font-weight:500;
+    font-family: 'Rajdhani', sans-serif;
+    color:#fff;
+    font-style:normal;
+    line-height:normal;
+}
+ .tp-color h3 span{
+    color:#fa5127;
+}
+ .tp-color{
+    top:31% !important;
+}
+ .slider-img{
+    position:absolute;
+    top:27%;
+    right:250px;
+}
+
+/*===================================================================================*/
+/* HEADING SECTION 
+/*===================================================================================*/ 
+ .heading-content{
+    width:100%;
+    display:inline-table;
+    margin-top:78px;
+    position:relative;
+    z-index:2;
+    text-align:center;
+    margin-bottom:100px;
+}
+ .heading-content-sec{
+    margin:60px 0;
+}
+ .heading-content h2{
+    font-size:35px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-top:37px;
+    display:inline-table;
+    background:#000;
+    margin-bottom:0;
+    color:#fff;
+}
+ .heading-content-sec h2{
+    background:#e2e2e2;
+}
+ .heading-divider{
+    position:absolute;
+    width:146px;
+    height:108px;
+    margin:0 auto;
+    border:5px solid #fd3804;
+    left:0;
+    right:0;
+    z-index:-1;
+}
+
+/*===================================================================================*/
+/* DETAILS LIST SECTION 
+/*===================================================================================*/ 
+ .details-list{
+    width:100%;
+    display:inline-table;
+    margin-bottom:30px;
+    border-bottom:1px dashed #a1a1a1;
+    padding-bottom:25px;
+    margin-top:94px;
+}
+ .details-list:last-child{
+    border-bottom:0;
+    margin-bottom:0;
+    padding-bottom:0;
+    margin-top:0;
+}
+ .details-list-img{
+    width:14%;
+    display:inline-table;
+    margin-right:40px;
+}
+ .details-list-content{
+    width:78%;
+    display:inline-table;
+}
+ .details-list-content h1{
+    font-size:50px;
+    font-weight:bold;
+    color:#fff;
+    margin:0;
+}
+ .details-list-content p{
+    font-size:20px;
+    text-transform:capitalize;
+    font-weight:bold;
+    color:#fff;
+    margin:0;
+}
+
+/*===================================================================================*/
+/* ICONS LIST SECTION 
+/*===================================================================================*/
+ .icon-list li{
+    list-style:none;
+    width:100%;
+    float:left;
+    margin-bottom:20px;
+    border:1px solid #fff;
+    padding:15px 20px;
+}
+ .icon-list li:hover{
+    border-color:#fd3804;
+}
+ .icon-list-img{
+    display:inline-table;
+    width:17%;
+    border-right:1px solid #fff;
+}
+ .icon-list-img-content{
+    display:inline-table;
+    width:82%;
+    vertical-align:top;
+    padding-left:22px;
+}
+ .icon-list-img-content h3{
+    color:#fff;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-size:20px;
+    margin:0;
+    padding-bottom:5px;
+}
+ .icon-list-img-content p{
+    margin:0;
+    color:#fff;
+    font-weight:500;
+    font-size:16px;
+}
+ 
+/*===================================================================================*/
+/* BLOG POSTS SECTION 
+/*===================================================================================*/
+ .blog-posts{
+    width:100%;
+    float:left;
+    background:url(../../../images/drink-blog-posts.jpg) no-repeat top center;
+    background-size:cover;
+    margin-top:78px;
+    padding:70px 0;
+}
+ #slider {
+    position: relative;
+    overflow: hidden;
+    border: 4px solid #fff;
+}
+ #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+     height: 200px;
+    list-style: none;
+}
+ #slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width:555px;
+    height:477px;
+     text-align: center;
+}
+ #slider a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 0% 2.5%;
+    width: auto;
+     height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+ #slider a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+     -webkit-transition: all 0.2s ease;
+    background:#fd3804
+}
+ #slider a.control_next {
+    right: 0;
+}
+ .blog-posts-content{
+    width:100%;
+    display:inline-table;
+    text-align:center;
+}
+ .blog-posts-content h3{
+    text-transform:capitalize;
+    font-weight:500;
+    font-size:20px;
+    color:#b3b3b3;
+}
+ .blog-posts-content p{
+    font-size:16px;
+    font-size:16px;
+    font-weight:500;
+}
+ .blog-posts-btn{
+    width:100%;
+    display:inline-table;
+    text-align:center;
+    margin-top:30px;
+}
+ .blog-posts-btn a{
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:500;
+    display:inline-table;
+    padding:12px 30px;
+    background:#fd3804;
+}
+
+/*===================================================================================*/
+/* PRODUCT SLIDER
+/*===================================================================================*/
+ .drinks-slider .product-image{
+    background:url(../../../images/drink-item-back.png) no-repeat top center;
+    background-size: cover;
+    text-align:center;
+}
+ .drinks-slider .product-image .image{
+     text-align: -webkit-center;
+}
+ .drinks-slider .product .product-image img{
+    width:auto !important;
+    border:none;
+}
+ .drinks-slider .product-info{
+    width:100%;
+    display:inline-table;
+    text-align:center;
+    margin-top:15px;
+}
+ .drinks-slider .product-info .name a{
+    font-size:28px;
+    font-weight:bold;
+    text-transform:capitalize;
+    color:#fff !important;
+    font-family: 'Rajdhani', sans-serif !important;
+}
+ .drinks-slider .product-price p a{
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin:0;
+}
+ .products .product-info .product-price ins > span, 
+ .products .product-info .product-price .woocs_price_code > span, 
+ .products .product-info .product-price > span{
+    color:#fd3804 !important;
+    font-weight:500 !important;
+    font-size: 20px;
+    line-height:normal;
+}
+ .drinks-slider #product-tabs-slider .custom-carousel .owl-controls{
+    top:50% !important;
+}
+ .drinks-slider .custom-carousel .owl-controls .owl-prev{
+    left:0;
+    border-radius:0 !important;
+    height:32px !important;
+    width:32px !important;
+}
+ .drinks-slider .custom-carousel .owl-controls .owl-next{
+    border-radius:0 !important;
+    height:32px !important;
+    width:32px !important;
+}
+ .drinks-slider .custom-carousel .owl-controls .owl-prev::before{
+    left:7px !important;
+    top:-11px !important;
+}
+ .drinks-slider .custom-carousel .owl-controls .owl-next::before{
+    top:-11px !important;
+}
+
+/*===================================================================================*/
+/* CALL ACTION
+/*===================================================================================*/
+ .call-action{
+    width:100%;
+    display:inline-table;
+    margin-top:78px;
+    background:url(../../../images/drink-call-action.jpg) no-repeat top center;
+    background-size:cover;
+    padding:228px 0;
+    position:relative;
+    z-index:2;
+}
+ .call-action h1{
+    color:#fd3804;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:127px;
+    margin:0;
+    line-height:115px;
+}
+ .call-action span{
+    color:#fff;
+    font-weight:500;
+}
+ .call-action h3{
+    color:#fff;
+    font-size:35px;
+    font-weight:bold;
+    text-transform:capitalize;
+    margin:0;
+    padding-bottom:20px;
+}
+ .call-action p{
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    margin:0;
+    width: 65%;
+}
+ .call-action a{
+    color:#fd3804;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:2px solid #fff;
+    display:inline-table;
+    text-transform:uppercase;
+    margin-top:40px;
+}
+ .call-action-img{
+    position:absolute;
+    right:100px;
+    bottom:0;
+    z-index: -1;
+}
+ .call-action-img img{
+    max-width:100%;
+}
+
+/*===================================================================================*/
+/* DELIVERY CONTENT
+/*===================================================================================*/
+ .delivery{
+    width:100%;
+    float:left;
+    background:#eeeeee;
+    padding:20px 15px;
+    text-align:center;
+}
+ .delivery-img h3{
+    font-size:20px;
+    font-weight:bold;
+    color:#000;
+    text-transform:uppercase;
+}
+ .delivery-content{
+    width:100%;
+    float:left;
+    border-top:1px dashed #a1a1a1;
+    padding-top:15px;
+}
+ .delivery-content h3{
+    margin-top:0;
+    font-size:20px;
+    font-weight:bold;
+    color:#fd3804;
+    text-transform:uppercase;
+}
+ .delivery-content p{
+    color:#000;
+    font-weight:500;
+    font-size:16px;
+    margin:0;
+}
+
+/*===================================================================================*/
+/* NEWSLETTER CONTENT
+/*===================================================================================*/
+ .news-letter{
+    width:100%;
+    display:inline-table;
+    background:url(../../../images/drink-news-letter.jpg) no-repeat top center;
+    background-size:cover;
+    padding:114px 0;
+    margin-top:88px;
+    position:relative;
+}
+.news-letter-img{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+ .news-letter-content{
+    position:relative;
+    float:right;
+    text-align:left;
+}
+ .news-letter-content .heading-content{
+    text-align:left;
+    margin:0;
+}
+ .news-letter-content .heading-divider{
+    left:55px;
+    right:inherit;
+}
+ .news-letter-content h2{
+    background:#f9f9f9;
+    color:#232121;
+}
+ .news-letter-form{
+    width:100%;
+    display:inline-table;
+    margin-top:65px;
+}
+ .news-letter-form p{
+    font-size:16px;
+    font-weight:500;
+    color:#7f7f7f;
+    margin-bottom:40px;
+}
+ .news-letter-input{
+    width:81%;
+    display:inline-table;
+}
+ .news-letter-input input{
+    width:100%;
+    padding:15px;
+    border:1px solid #d5d5d5;
+}
+ .news-letter-btn{
+    width:18%;
+    display:inline-table;
+}
+ .news-letter-btn button{
+    width:100%;
+    padding:13px;
+    border:none;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    background:#fd3804;
+    color:#fff;
+}
+
+/*===================================================================================*/
+/* FOOTER
+/*===================================================================================*/
+ .drink-footer{
+    width:100%;
+    display:inline-table;
+    background:#0d0d0d;
+    padding:56px 0
+}
+ .drink-footer-links li{
+    display:inline-table;
+    margin-right:30px;
+}
+ .drink-footer-links li:last-child{
+    margin-right:0;
+}
+ .drink-footer-links a{
+    color:#fff;
+    text-transform:capitalize;
+    font-weight:500;
+    font-size:16px;
+    text-transform:uppercase;
+}
+ .drink-footer-links a:hover{
+    color:#fd3804;
+}
+ .drink-social-links{
+    float:right;
+    text-align:right;
+}
+ .drink-social-links li{
+    margin-right:0;
+    margin-left:20px;
+}
+ .drink-social-links li a{
+    font-size:18px;
+}
+ .drink-copyright{
+    width:100%;
+    display:inline-table;
+    margin-top:50px;
+    border-top:1px solid #404040;
+    padding-top:50px;
+}
+ .drink-copyright p{
+    color:#fff;
+    font-size:16px;
+    margin:0;
+    font-weight:500;
+}
+ .drink-copyright span{
+    color:#fd3804;
+    font-weight:normal;
+}
+ .drink-copyright .drink-social-links li{
+    margin-left:0px;
+}
+
+/*===================================================================================*/
+/* RESPONSIVE CSS
+/*===================================================================================*/
+ @media screen and (max-width:1199px) {
+     .top-cart-row li{
+        padding-left:8px;
+    }
+     .top-cart-row a{
+        font-size:16px;
+    }
+     .slider-img{
+        right:150px;
+    }
+     .icon-list-img{
+        width:22%;
+    }
+     .icon-list-img-content{
+        width:75%;
+    }
+     .heading-content-sec h2{
+        font-size:20px;
+    }
+     .blog-posts #slider{
+        width:auto !important;
+    }
+}
+ @media screen and (max-width:991px) {
+     .header-nav .navbar-nav li:nth-child(3){
+        padding-right:220px;
+    }
+     .slider-img{
+        right:0px;
+    }
+     .call-action{
+        padding:120px 0;
+    }
+     .call-action h1{
+        font-size:90px;
+    }
+     .call-action-img{
+        right:0px;
+    }
+     .call-action-img img{
+        max-width:80%;
+    }
+     .drinks-slider .product-info a{
+        font-size:20px;
+    }
+     .drinks-slider .product-price p{
+        font-size:18px;
+    }
+     .news-letter-input{
+        width:73%;
+    }
+}
+ @media screen and (max-width:767px) {
+     .cnt-block{
+        width:100%;
+        text-align:center;
+    }
+     .top-bar .top-cart-row{
+        float:left;
+        text-align:center;
+        width:100%;
+        padding-top:0;
+        padding-bottom:8px;
+    }
+     .header-nav .navbar-toggle{
+        float:right !important;
+        background:#fd3804;
+    }
+     .header-nav .navbar-toggle:hover{
+        background:#fd3804;
+    }
+     .dirk-logo{
+        left:0px;
+        right:inherit;
+    }
+     .dirk-logo img{
+        max-width:75%;
+    }
+     .nav-outer{
+        padding-top:0px;
+        background:#fd3804;
+    }
+     .header-nav .navbar-nav li{
+        float:left;
+        width:100%;
+        text-align:right;
+        border-bottom:1px solid rgba(255, 255, 255, 0.5);
+    }
+     .header-nav .navbar-nav li:last-child{
+        border-bottom:0;
+    }
+     .header-nav .navbar-nav li:nth-child(3){
+        padding-right:0;
+    }
+     .header-nav .navbar-nav{
+        margin:0;
+    }
+     .slider-img{
+        display:none;
+    }
+     #e-slider #owl-main .item .caption{
+        left:0;
+        right:0;
+        text-align:center;
+        padding-right:0 !important;
+    }
+     #e-slider #owl-main .item .caption .big-text{
+        width:100%;
+    }
+     #e-slider #owl-main .item .caption .big-subtext{
+        width:100%;
+    }
+     #e-slider #owl-main .item .caption .big-text{
+        font-size:30px;
+        line-height:30px;
+    }
+     .tp-color h1{
+        font-size:40px;
+    }
+     .tp-color h3{
+        font-size:18px;
+    }
+     .heading-content{
+        margin-bottom:0;
+    }
+     .heading-content h2{
+        font-size:26px;
+        margin-top:45px;
+    }
+     .details-list{
+        margin-top:60px;
+    }
+     .details-list:last-child{
+        margin-bottom:40px;
+    }
+     .details-list-img{
+        margin-right:0px;
+        width:100%;
+        margin-bottom:20px;
+        text-align:center;
+    }
+     .details-list-content{
+        width:100%;
+        text-align:center;
+    }
+     .icon-list-img{
+        width:100%;
+        text-align:center;
+        border:none;
+        margin-bottom:15px;
+    }
+     .icon-list-img-content{
+        width:100%;
+        text-align:center;
+        padding-left:0;
+    }
+     #e-slider #owl-main .item{
+        height:500px;
+    }
+     #e-slider #owl-main {
+        height: 500px;
+    }
+     .blog-posts #slider{
+        width:555px !important;
+        margin: 0 auto
+    }
+     .call-action{
+        text-align:center;
+        padding:60px 0;
+    }
+     .call-action p{
+        width:100%;
+    }
+     .call-action-img{
+        display:none;
+    }
+     .drinks-slider .product .product-image .image img{
+        display:inherit;
+    }
+     .delivery{
+        margin-bottom:30px;
+    }
+     .news-letter{
+        margin-top:45px;
+    }
+     .news-letter-img img{
+        max-width:90%;
+    }
+     .news-letter-content{
+        text-align:center;
+    }
+     .news-letter-content .heading-back{
+        left:0;
+        right:0;
+    }
+     .news-letter-content .heading-content{
+        text-align:center;
+    }
+     .drink-footer-links{
+        text-align:center;
+    }
+     .drink-social-links{
+        float:left;
+        text-align:center;
+        margin-top:15px;
+        width:100%;
+    }
+     .drink-copyright p{
+        text-align:center;
+    }
+    body:not(.home) .header-style-1{
+        margin-bottom: 60px;    
+    }
+}
+ @media screen and (max-width:540px) {
+     .top-bar .header-top-inner .cnt-block .list-inline li{
+        padding-bottom:0;
+    }
+     .top-bar .header-top-inner .cnt-block .list-inline li:last-child{
+        width:100%;
+    }
+     .top-cart-row li:first-child{
+        width:100%;
+        padding-left:0;
+    }
+     .top-cart-row li:nth-child(2){
+        padding-left:0;
+    }
+     #e-slider #owl-main .item .caption{
+        top:45%!important;
+    }
+     .heading-content h2{
+        font-size:18px;
+    }
+     .heading-divider{
+        width:100px;
+        height:70px;
+    }
+     .heading-content h2{
+        margin-top:25px;
+    }
+     .blog-posts #slider{
+        width:auto !important;
+    }
+     .blog-posts-content h3{
+        margin-top:50px;
+        font-size:18px;
+    }
+     #product-tabs-slider .outer-top-xs{
+        margin-top:70px;
+    }
+     .drink-footer-links li{
+        margin-right:20px;
+    }
+    body:not(.home) .header-style-1{
+        margin-bottom: 60px;    
+    }
+}
+ @media screen and (max-width:450px) {
+     .news-letter-input{
+        width:100%;
+        padding-bottom:15px;
+    }
+     .news-letter-btn{
+        width:100%;
+    }
+     .news-letter{
+        padding:70px 0;
+    }
+     .drink-footer{
+        padding:30px 0;
+    }
+     .drink-copyright{
+        padding-top:30px;
+    }
+     .drink-copyright{
+        margin-top:30px;
+    }
+     .heading-content{
+        margin-top:40px;
+    }
+     .call-action{
+        padding:40px 0;
+    }
+     .drink-footer-links li{
+        width:100%;
+        margin-right:0;
+        margin-bottom:10px;
+    }
+     .drink-footer-links li:last-child{
+        margin-bottom:0;
+    }
+     .drink-footer{
+        padding:40px 0;
+    }
+     .drink-social-links li{
+        width:auto;
+    }
+    body:not(.home) .header-style-1{
+        margin-bottom: 60px;    
+    }
+}
+/*===================================================================================*/
+/*  Colors CSS
+/*===================================================================================*/
+a,
+.top-bar .cnt-block ul li .dropdown-menu li a:hover,
+.top-bar .cnt-block ul li .dropdown-menu li a:focus,
+.main-header .top-search-holder .contact-row .icon,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:focus,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:focus ,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price ,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:hover,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:focus,
+.sidebar .side-menu nav .nav > li a:hover,
+.sidebar .side-menu nav .nav > li a:focus ,
+.sidebar .side-menu nav .nav > li a:hover:after,
+.sidebar .side-menu nav .nav > li a:focus:after,
+.scroll-tabs .nav-tab-line li a:hover,
+.scroll-tabs .nav-tab-line li a:focus,
+.product .product-info .name a:hover,
+.product .product-info .name a:focus,
+.copyright-bar .copyright a,
+.blog-slider-container .blog-slider .blog-post-info .name a:hover,
+.blog-slider-container .blog-slider .blog-post-info .name a:focus,
+.latest-tweet .re-twitter .comment a,
+.latest-tweet .re-twitter .comment .icon .fa-stack-2x ,
+.footer .contact-information .media .icon .fa-stack-2x,
+.footer .contact-information .media .media-body a:hover,
+.footer .contact-information .media .media-body a:focus,
+.footer .footer-bottom .module-body ul li a:hover,
+.footer .footer-bottom .module-body ul li a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:hover,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .x-page .x-text h1,
+.body-content .x-page .x-text a,
+.sign-in-page .register-form .forgot-password,
+.sign-in-page .register-form .forgot-password:hover,
+.sign-in-page .register-form .forgot-password:focus,
+.my-wishlist-page ins span, 
+.my-wishlist-page .woocs_price_code > span,
+.terms-conditions-page .contact-form,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:hover,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:focus,
+.hot-deals .product-info .product-price > span,
+.hot-deals .product-info .name a:hover,
+.hot-deals .product-info .name a:focus,
+.yamm .dropdown-menu .title:hover,
+.yamm .dropdown-menu .title:focus,
+.yamm .dropdown-menu li a:hover,
+.yamm .dropdown-menu li a:focus,
+.filters-container .nav-tabs.nav-tab-box li.active a .icon,
+.filters-container .pagination-container ul .current,
+.filters-container .pagination-container ul li a:hover,
+.filters-container .pagination-container ul li a:focus,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:hover,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:hover,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:after,
+.sidebar .list li a:hover,
+.sidebar .list li a:focus,
+.sidebar .compare-report span,
+.single-product .product-info .rating-reviews .reviews .lnk:hover,
+.single-product .product-info .rating-reviews .reviews .lnk:focus,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:hover,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:focus,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:hover,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:focus,
+.single-product .product-info-block .txt.txt-qty,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:hover,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:focus,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .review-title .date span,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .author span,
+.homepage-container .product .product-info .name a:hover,
+.homepage-container .product .product-info .name a:focus,
+.blog-post h1 a:hover,
+.blog-post h1 a:focus,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:focus,
+.blog-review .review-action a,
+.blog-review .review-action a:hover,
+.blog-review .review-action a:focus,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:hover,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:focus,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:focus{
+  color: #fd3804;
+}
+
+.show-theme-options:hover,
+.show-theme-options:focus,
+.btn-primary:hover,
+.btn-black:hover,
+.btn-primary:focus,
+.btn-black:focus,
+.product .cart .action ul li.add-cart-button .btn-primary:hover,
+.product .cart .action ul li.add-cart-button .btn-primary:focus,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:hover,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:focus,
+.footer .links-social .social-icons a:hover,
+.footer .links-social .social-icons a:focus,
+.footer .links-social .social-icons a.active,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.custom-carousel .owl-controls .owl-prev:hover,
+.custom-carousel .owl-controls .owl-next:hover,
+.custom-carousel .owl-controls .owl-prev:focus,
+.custom-carousel .owl-controls .owl-next:focus,
+.sidebar .price-range-holder .slider .slider-track .slider-handle.max-slider-handle,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page.active span,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page:hover span,
+.single-product .product-info .product-social-link .social-icons ul li a:hover,
+.single-product .product-info .product-social-link .social-icons ul li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a,
+#owl-main .owl-controls .owl-pagination .owl-page:active span,
+#owl-main .owl-controls .owl-pagination .owl-page:hover span,
+.product .tag.hot,
+.products .cart .action ul li.lnk:hover,
+.products .cart .action ul li.lnk:focus{
+  background: #fd3804!important;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li a:hover,
+.single-product .product-tabs .nav-tab-cell-detail li a:focus,
+.single-product .product-tabs .nav-tab-cell-detail li.active a {
+  background: #fd3804;
+  border: 2px solid #fd3804;
+}
+
+
+.top-bar .cnt-account > ul > li > a:hover,
+.top-bar .cnt-account > ul > li > a:focus,
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket .total-price,
+.info-box .info-box-heading.green,
+.info-boxes .info-box .icon,
+#owl-main:hover .owl-prev:hover .icon,
+#owl-main:hover .owl-next:hover .icon,
+.cart .action ul .lnk .add-to-cart:hover,
+.cart .action ul .lnk .add-to-cart:focus,
+.cart .action ul .lnk .compare:hover,
+.cart .action ul .lnk .compare:focus  {
+  color: #fff !important;
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fd3804;
+}
+
+.top-bar .cnt-block ul li a .caret {
+  color: rgba(255,255,255,0.8);
+}
+
+.filters-container .pagination-container ul li.prev:hover,
+.filters-container .pagination-container ul li.next:hover,
+.filters-container .pagination-container ul li.prev:focus,
+.filters-container .pagination-container ul li.next:focus,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page.active span,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:hover,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:focus {
+  background: #fd3804 !important;
+}
+
+div.tag.sale {
+  background: #fdd922;
+  color:#333
+}
+
+.breadcrumb ul li.active,
+.breadcrumb ul a:hover,
+.breadcrumb ul a:focus {
+  color: #157ed2;
+}
+
+.price_slider_wrapper .ui-slider-handle {
+  border: 5px solid #fd3804;
+}
+
+.single-product .gallery-holder .gallery-thumbs .owl-item .item:hover {
+  border: 1px solid #fd3804;
+}
+
+.single-product .product-info .price-container .price-box ins span,
+.single-product .product-info .price-container .price-box > span {
+  color: #ff7878;
+}
+
+.cart .action .add-cart-button .btn.btn-primary.icon:hover,
+.cart .action .add-cart-button .btn.btn-primary.icon:focus,
+#owl-main:hover .owl-prev:hover,
+#owl-main:hover .owl-next:hover {
+  background: #fd3804;
+  color:#fff!important;
+}
+
+.cart .action .add-to-cart:hover,
+.cart .action .add-to-cart:focus {
+  color: #fd3804 !important;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:focus {
+  color: #f07c29;
+}
+.blog-post .social-media a:hover,
+.blog-post .social-media a:focus,
+.blog-post-author-details .author-social-network button .twitter-icon,
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title > a:not(.collapsed) span,
+.contact-info .contact-i {
+  background-color: #fd3804!important;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info .cart-product-info span span,
+.shopping-cart .cart-shopping-total table thead tr th .cart-grand-total {
+  color: #84b943;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail {
+  border-bottom: none;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.mega-menu .dropdown-menu {
+    width:100%;
+    left:0px 
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    box-shadow:0 4px 6px -1px rgba(0,0,0,0.4);
+}
+
+.single-product div.product div.images .flex-control-thumbs li .flex-active, 
+.woocommerce div.product div.images .flex-control-thumbs li img:hover {
+    border: 1px solid #fd3804;
+}
+
+.product-list.product .product-info .cart-btn a{
+    color: #fff;
+}
+.woocommerce .btn-primary, 
+.single-product .favorite-button a, 
+.woocs_converter_shortcode_button{
+    background: #fd3804;
+    border: none;
+}
+.woocommerce .btn-primary:hover, 
+.single-product .favorite-button a:hover, 
+.woocs_converter_shortcode_button:hover{
+    background: #dd3002!important;
+}

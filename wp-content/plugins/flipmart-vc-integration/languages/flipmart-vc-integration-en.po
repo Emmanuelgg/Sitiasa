@@ -1,0 +1,461 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flipmart Easy Digital Downloads Visual Composer "
+"Integration Plugin\n"
+"POT-Creation-Date: 2019-07-08 00:53+0530\n"
+"PO-Revision-Date: 2019-07-08 00:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: CKThemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;__esc_html;_e;__esc_attr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: flipmart-vc-integration.php:128
+msgid "Downloads"
+msgstr ""
+
+#: flipmart-vc-integration.php:130
+msgid "Output a list or grid of downloadable products."
+msgstr ""
+
+#: flipmart-vc-integration.php:156
+msgid "Taxonomy"
+msgstr ""
+
+#: flipmart-vc-integration.php:159
+msgid "Category"
+msgstr ""
+
+#: flipmart-vc-integration.php:159
+msgid "Tag"
+msgstr ""
+
+#: flipmart-vc-integration.php:181
+msgid "Purchase Collection"
+msgstr ""
+
+#: flipmart-vc-integration.php:183
+msgid ""
+"Make a unique category-based collection of products to be sold as a package."
+msgstr ""
+
+#: flipmart-vc-integration.php:190
+msgid "Discounts"
+msgstr ""
+
+#: flipmart-vc-integration.php:192
+msgid ""
+"Display a list of all active discounts in an unordered list of discount code "
+"and amount."
+msgstr ""
+
+#: flipmart-vc-integration.php:198
+msgid "History"
+msgstr ""
+
+#: flipmart-vc-integration.php:200
+msgid ""
+"The user’s download history with product names and all associated download "
+"links."
+msgstr ""
+
+#: flipmart-vc-integration.php:206
+msgid "Purchase History"
+msgstr ""
+
+#: flipmart-vc-integration.php:208
+msgid ""
+"The user’s purchase history with date, amount of each purchase, email and "
+"download links."
+msgstr ""
+
+#: flipmart-vc-integration.php:214
+msgid "Checkout"
+msgstr ""
+
+#: flipmart-vc-integration.php:216
+msgid "Display the checkout form."
+msgstr ""
+
+#: flipmart-vc-integration.php:235
+msgid "Purchase Link"
+msgstr ""
+
+#: flipmart-vc-integration.php:237
+msgid "Display a purchase button for any download."
+msgstr ""
+
+#: flipmart-vc-integration.php:244
+msgid "Cart"
+msgstr ""
+
+#: flipmart-vc-integration.php:246
+msgid "Display the cart."
+msgstr ""
+
+#: flipmart-vc-integration.php:252
+msgid "Profile Editor"
+msgstr ""
+
+#: flipmart-vc-integration.php:254
+msgid "Profile editor for logged-in customer."
+msgstr ""
+
+#: flipmart-vc-integration.php:260
+msgid "Login"
+msgstr ""
+
+#: flipmart-vc-integration.php:262
+msgid "Login Form."
+msgstr ""
+
+#: flipmart-vc-integration.php:271
+msgid "Register"
+msgstr ""
+
+#: flipmart-vc-integration.php:273
+msgid "Account Registration Form."
+msgstr ""
+
+#: flipmart-vc-integration.php:282
+msgid "Price"
+msgstr ""
+
+#: flipmart-vc-integration.php:284
+msgid "Show price of a download."
+msgstr ""
+
+#: flipmart-vc-integration.php:294
+msgid "Receipt"
+msgstr ""
+
+#: flipmart-vc-integration.php:296
+msgid "Detailed breakdown of the purchased items."
+msgstr ""
+
+#: flipmart-vc-integration.php:301
+msgid "Error message"
+msgstr ""
+
+#: flipmart-vc-integration.php:302
+msgid "Change the default error message, if an error occurs."
+msgstr ""
+
+#: flipmart-vc-integration.php:310
+msgid "Discount"
+msgstr ""
+
+#: flipmart-vc-integration.php:311
+msgid "Display the discount codes used."
+msgstr ""
+
+#: flipmart-vc-integration.php:313 flipmart-vc-integration.php:323
+#: flipmart-vc-integration.php:333 flipmart-vc-integration.php:343
+#: flipmart-vc-integration.php:353 flipmart-vc-integration.php:363
+#: flipmart-vc-integration.php:528 flipmart-vc-integration.php:548
+#: flipmart-vc-integration.php:568 flipmart-vc-integration.php:587
+#: flipmart-vc-integration.php:627 flipmart-vc-integration.php:863
+msgid "Yes"
+msgstr ""
+
+#: flipmart-vc-integration.php:320
+msgid "Products"
+msgstr ""
+
+#: flipmart-vc-integration.php:321
+msgid "Display the products purchased."
+msgstr ""
+
+#: flipmart-vc-integration.php:330
+msgid "Date"
+msgstr ""
+
+#: flipmart-vc-integration.php:331
+msgid "Display the date of the purchase."
+msgstr ""
+
+#: flipmart-vc-integration.php:340
+msgid "Purchase Identifier"
+msgstr ""
+
+#: flipmart-vc-integration.php:341
+msgid "Display the unique identifier for the order."
+msgstr ""
+
+#: flipmart-vc-integration.php:350
+msgid "Payment method"
+msgstr ""
+
+#: flipmart-vc-integration.php:351
+msgid "Display the method of payment for the order."
+msgstr ""
+
+#: flipmart-vc-integration.php:360
+msgid "Payment Number"
+msgstr ""
+
+#: flipmart-vc-integration.php:361
+msgid "Display the payment number of the order."
+msgstr ""
+
+#: flipmart-vc-integration.php:382
+msgid "Redirect"
+msgstr ""
+
+#: flipmart-vc-integration.php:383
+msgid "Redirect user after successful login."
+msgstr ""
+
+#: flipmart-vc-integration.php:400
+msgid "Categories"
+msgstr ""
+
+#: flipmart-vc-integration.php:401
+msgid "Show downloads of particular download categories."
+msgstr ""
+
+#: flipmart-vc-integration.php:427
+msgid "Tags"
+msgstr ""
+
+#: flipmart-vc-integration.php:428
+msgid "Show downloads of particular download tags."
+msgstr ""
+
+#: flipmart-vc-integration.php:455
+msgid "Exclude Categories"
+msgstr ""
+
+#: flipmart-vc-integration.php:456
+msgid "Exclude downloads of particular download categories."
+msgstr ""
+
+#: flipmart-vc-integration.php:472
+msgid "Exclude Tags"
+msgstr ""
+
+#: flipmart-vc-integration.php:473
+msgid "Exclude downloads of particular download tags."
+msgstr ""
+
+#: flipmart-vc-integration.php:488
+msgid "Category and Tag relation"
+msgstr ""
+
+#: flipmart-vc-integration.php:489
+msgid ""
+"Specify whether the downloads displayed have to be in ALL the categories/"
+"tags provided (\"AND\"), or just in at least one (\"OR\")."
+msgstr ""
+
+#: flipmart-vc-integration.php:490
+msgid "OR"
+msgstr ""
+
+#: flipmart-vc-integration.php:490
+msgid "AND"
+msgstr ""
+
+#: flipmart-vc-integration.php:507
+msgid "Number of downloads"
+msgstr ""
+
+#: flipmart-vc-integration.php:508
+msgid "Specify the maximum number of downloads you want to output."
+msgstr ""
+
+#: flipmart-vc-integration.php:525
+msgid "Show price"
+msgstr ""
+
+#: flipmart-vc-integration.php:526
+msgid "Display the price of the downloads."
+msgstr ""
+
+#: flipmart-vc-integration.php:545
+msgid "Full content"
+msgstr ""
+
+#: flipmart-vc-integration.php:546
+msgid "Display the full content of the download or just the excerpt."
+msgstr ""
+
+#: flipmart-vc-integration.php:565
+msgid "Excerpt"
+msgstr ""
+
+#: flipmart-vc-integration.php:566
+msgid "Display just the excerpt."
+msgstr ""
+
+#: flipmart-vc-integration.php:585
+msgid "Buy button"
+msgstr ""
+
+#: flipmart-vc-integration.php:586
+msgid "Display the buy button for each download."
+msgstr ""
+
+#: flipmart-vc-integration.php:587
+msgid "No"
+msgstr ""
+
+#: flipmart-vc-integration.php:605
+msgid "Columns"
+msgstr ""
+
+#: flipmart-vc-integration.php:606
+msgid "Display the downloads in that many columns."
+msgstr ""
+
+#: flipmart-vc-integration.php:624
+msgid "Show Thumbnails"
+msgstr ""
+
+#: flipmart-vc-integration.php:625
+msgid "Display thumbnails of the downloads."
+msgstr ""
+
+#: flipmart-vc-integration.php:644
+msgid "Order by download attribute"
+msgstr ""
+
+#: flipmart-vc-integration.php:645
+msgid "Order the downloads by the selected attribute."
+msgstr ""
+
+#: flipmart-vc-integration.php:663
+msgid "Order direction"
+msgstr ""
+
+#: flipmart-vc-integration.php:664
+msgid "Order the downloads by the selected attribute in that direction."
+msgstr ""
+
+#: flipmart-vc-integration.php:665
+msgid "ascending"
+msgstr ""
+
+#: flipmart-vc-integration.php:665
+msgid "descending"
+msgstr ""
+
+#: flipmart-vc-integration.php:682
+msgid "Specific Downloads"
+msgstr ""
+
+#: flipmart-vc-integration.php:683
+msgid "You can specify multiple downloads."
+msgstr ""
+
+#: flipmart-vc-integration.php:713
+msgid "Download"
+msgstr ""
+
+#: flipmart-vc-integration.php:714
+msgid "Select a download."
+msgstr ""
+
+#: flipmart-vc-integration.php:737
+msgid "Download by SKU"
+msgstr ""
+
+#: flipmart-vc-integration.php:738
+msgid "SKU of the download - use this instead of selecting a download."
+msgstr ""
+
+#: flipmart-vc-integration.php:755
+msgid "Text on Button"
+msgstr ""
+
+#: flipmart-vc-integration.php:756
+msgid "Specify the text that is diplayed on the button."
+msgstr ""
+
+#: flipmart-vc-integration.php:773
+msgid "Style"
+msgstr ""
+
+#: flipmart-vc-integration.php:774
+msgid "Select the style of the purchase link."
+msgstr ""
+
+#: flipmart-vc-integration.php:793
+msgid "Color"
+msgstr ""
+
+#: flipmart-vc-integration.php:794
+msgid "Select the color of the button."
+msgstr ""
+
+#: flipmart-vc-integration.php:798
+msgid "Inherit"
+msgstr ""
+
+#: flipmart-vc-integration.php:799
+msgid "Gray"
+msgstr ""
+
+#: flipmart-vc-integration.php:800
+msgid "Blue"
+msgstr ""
+
+#: flipmart-vc-integration.php:801
+msgid "Green"
+msgstr ""
+
+#: flipmart-vc-integration.php:802
+msgid "Dark gray"
+msgstr ""
+
+#: flipmart-vc-integration.php:803
+msgid "Yellow"
+msgstr ""
+
+#: flipmart-vc-integration.php:824
+msgid "Class"
+msgstr ""
+
+#: flipmart-vc-integration.php:825
+msgid "Add an html classes to the link."
+msgstr ""
+
+#: flipmart-vc-integration.php:842
+msgid "Variable Price Id"
+msgstr ""
+
+#: flipmart-vc-integration.php:843
+msgid "The variable price id to use - first one is default."
+msgstr ""
+
+#: flipmart-vc-integration.php:860
+msgid "Direct checkout"
+msgstr ""
+
+#: flipmart-vc-integration.php:861
+msgid "Send the user directly to the checkout."
+msgstr ""
+
+#: includes/class.extension-activation.php:47
+msgid "Flipmart Easy Digital Downloads Visual Composer Integration plugin"
+msgstr ""
+
+#: includes/class.extension-activation.php:84
+msgid "activate it"
+msgstr ""
+
+#: includes/class.extension-activation.php:87
+msgid "install it"
+msgstr ""
+
+#: includes/class.extension-activation.php:90
+#, php-format
+msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgstr ""

@@ -1,0 +1,1348 @@
+/*
+Theme Name: Cosmetic 
+Author: CKThemes
+Description:  Flipmart is a modern, clean and professional WordPress Woocommerce Theme, It is fully responsive, it looks stunning on all types of screens and devices. It is super for fashion shop, digital shop, games shop, food shop, devices shop, household appliances shop or any other categories
+Version: 2.6
+License: GNU General Public License v2 or later
+Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
+Text Domain:  flipmart
+/*===================================================================================*/
+/* GENERAL 
+/*===================================================================================*/
+ body {
+     font-family: 'Lato', sans-serif !important;
+     background:#fff !important;
+}
+ h1 {
+     font-size:36px;
+}
+ h3 {
+     font-size:22px;
+     font-family:"lato";
+}
+ img{
+    max-width:100%;
+}
+
+/*===================================================================================*/
+/* HEADER 
+/*===================================================================================*/
+ .header-style-1{
+    position:relative;
+}
+.cosmetic .header-style-1 .header-nav{
+    left:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.6) !important;
+    z-index:1;
+    border-bottom:0 !important;
+    padding:15px 0;
+}
+ body.home .header-nav{
+    position:absolute;
+}
+ .cosmetic-contact{
+    padding-top:18px;
+}
+ .cosmetic-contact .dropdown.my-account-log ul > li{
+    margin-right:15px;
+}
+ .cosmetic-top-header li{
+    display:inline-table;
+}
+ .cosmetic-top-header li a{
+    color:#fff;
+    text-transform:capitalize;
+    font-size:15px;
+    font-family: 'Lato', sans-serif !important;
+}
+ .cosmetic-top-header li a:hover{
+    color:#fff;
+    border-color: #ff21a4 !important;
+}
+ .cosmetic-logo a{
+    text-align:center;
+}
+ .cosmetic-content {
+    text-align: right;
+    float:right;
+    padding-top: 10px;
+}
+ .cosmetic-content > ul{
+     display: inline-block;
+}
+ .cosmetic-content li {
+    display: inline-table;
+    padding-right: 8px;
+    font-size: 16px;
+}
+ .cosmetic-content .social-icons a {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 2px solid #fff !important;
+    display: inline-table;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding-top: 4.5px;
+    vertical-align: middle;
+}
+ .cosmetic-content .cosmetic-cart {
+    border: none !important;
+    width: auto !important;
+    font-size: 26px !important;
+    position: relative;
+}
+ .cosmetic-content .cosmetic-cart span {
+    font-size: 11px;
+    color: #fff;
+    background: #b1266e;
+    display: inline-table;
+    padding: 1px 5px;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    border-radius: 50%;
+}
+ .cosmetic-content li:last-child{
+    padding-right:0;
+}
+ .cosmetic-content .dropdown-menu{
+    left:-165px;
+    padding: 10px;
+    border-radius: 0;
+    min-width: 200px;
+}
+ .cosmetic-content .dropdown-menu .name {
+     margin: 0;
+}
+ .cosmetic-content .dropdown-menu li{
+    width:100%;
+}
+ .header-style-1 .dropdown-menu .price {
+    color: #ff21a4;
+}
+ .header-style-1 .dropdown-menu .trash {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+ .header-style-1 .dropdown-menu .price {
+    color: #ff21a4;
+}
+ .header-style-1 .dropdown-menu a {
+    color: #121211;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    border: none;
+    font-weight: normal;
+    padding: 0;
+    text-align: left;
+}
+ .header-style-1 .btn-block {
+    background:#ff21a4 !important;
+    color:#fff !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding: 5px !important;
+}
+ .header-style-1 .pull-right{
+    width:100%;
+    display:inline-table;
+    text-align:center;
+}
+ .cos-res-menu{
+    padding:0 !important;
+}
+ .cos-res-menu a{
+    font-size:15px !important;
+    padding:12px !important;
+}
+ .cos-res-menu li{
+    padding-right:0 !important;
+}
+ .cosmetic-drop-menu{
+    border:none;
+    border-radius:0;
+}
+ .cosmetic-drop-menu{
+    border:none !important;
+    background:#b1266e;
+    display: inline;
+    padding: 7px 10px;
+    margin-left:5px;
+}
+ .cosmetic-drop-menu:hover{
+    color:#fff;
+}
+ .cosmetic-drop-menu i{
+    padding-right:5px;
+}
+ .my-account-log .dropdown-menu{
+    left:0;
+    padding: 0;
+}
+ .my-account-log .dropdown-menu li{
+    width:100%;
+    display:inline-table;
+    margin-right:0;
+}
+ .my-account-log .dropdown-menu li a{
+    padding:10px;
+    text-transform:capitalize;
+    font-size:14px;
+}
+ .dropdown-menu li a:hover{
+    background: #ff21a4;
+    color:#fff;
+}
+
+/*===================================================================================*/
+/* SLIDER 
+/*===================================================================================*/
+ .cosmetic-slider #owl-main .item{
+    height:670px !important;
+}
+ .cosmetic-slider #owl-main{
+    height:670px;
+}
+ .cosmetic-slider #owl-main .item .caption.bg-color{
+    padding-right:0;
+    background:rgba(117, 38 ,110, 0.4);
+    top: 93px;
+    left: 116px;
+    padding: 50px 20px;
+    text-align:center;
+}
+ .cosmetic-slider h2{
+    color:#fff;
+    font-weight:bold;
+    font-family: 'Lato', sans-serif !important;
+    text-transform:capitalize;
+    margin:0;
+    font-size:40px;
+}
+ .cosmetic-slider h1{
+    color:#901c54;
+    font-weight:bold;
+    font-family: 'Lato', sans-serif !important;
+    text-transform:uppercase;
+    margin:0;
+    font-size:60px;
+    padding:2px;
+}
+ .cosmetic-slider h3{
+    color:#fff;
+    font-weight:bold;
+    font-family: 'Lato', sans-serif !important;
+    text-transform:capitalize;
+    margin:0;
+    font-size:30px;
+}
+ .cosmetic-slider h3 span{
+    color:#000;
+}
+ .cosmetic .cosmetic-slider-a a{
+    color:#fff!important;
+    text-transform:uppercase;
+    background:#000;
+    padding:10px 20px;
+    font-weight:600;
+    font-family: 'Lato', sans-serif !important;
+    display:inline-table;
+    margin-top:6px;
+    font-size:14px;
+}
+ .cosmetic-slider .cos-img{
+    width:100%;
+    float:left;
+    margin-top:50px;
+}
+ .cosmetic-slider #owl-main .owl-prev, 
+ .cosmetic-slider #owl-main .owl-next {
+    border-radius:0 !important;
+    font-size:26px !important;
+}
+ .cosmetic-slider #owl-main:hover .owl-prev:hover, 
+ .cosmetic-slider #owl-main:hover .owl-next:hover {
+    background:#ff21a4 !important;
+}
+
+/*===================================================================================*/
+/* PRDUCT SLIDER 
+/*===================================================================================*/
+ .firsttab .nav-tab-line li a:hover,
+ .firsttab .scroll-tabs .nav-tab-line li a:focus {
+     background:#00aeef;
+     color:#fff;
+}
+ .firsttab .scroll-tabs .nav-tab-line li a {
+     font-weight: bold !important;
+     color: #666666;
+     font-size: 15px !important;
+     border: medium none;
+     -moz-box-shadow: none;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     padding: 8px 18px !important;
+     position: relative;
+     border-radius:0px;
+     font-family:'Open Sans', sans-serif 
+}
+ .firsttab .custom-carousel .owl-controls .owl-prev {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     top: -25px;
+     right: 27px;
+     border-radius: 3px;
+     background: #fff;
+}
+ .firsttab .custom-carousel .owl-controls .owl-prev:before {
+     color: #00aeef;
+     content: "\f104";
+     font-family: fontawesome;
+     font-size: 35px;
+     font-weight: 900;
+     left:5px;
+     position: absolute;
+     top:-14px;
+}
+ .firsttab .custom-carousel .owl-controls .owl-next:before {
+     content: "\f105";
+     font-family: fontawesome;
+     color: #00aeef;
+     font-size: 35px;
+     font-weight: 900;
+     left:9px;
+     position: absolute;
+     top:-14px;
+}
+ .firsttab .custom-carousel .owl-controls .owl-next {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     top: -25px;
+     right: 0px;
+     border-radius: 3px;
+     background: #fff;
+}
+ .firsttab .custom-carousel .owl-controls .owl-prev:hover:before, 
+ .firsttab .custom-carousel .owl-controls .owl-next:hover:before {
+     color:#fff;
+}
+ .firsttab .custom-carousel .owl-controls .owl-prev:hover{
+     background:#00aeef;
+}
+ .firsttab .custom-carousel .owl-controls .owl-next:hover{
+     background:#00aeef;
+}
+ .firsttab .scroll-tabs .more-info-tab {
+     padding-bottom: 0;
+     padding: 20px 20px 10px;
+     border-bottom: none;
+}
+ #product-tabs-slider .custom-carousel .owl-controls {
+     position: absolute;
+     right: 20px;
+     top: -16px;
+     width: 100%;
+     display: block;
+}
+#product-tabs-slider .outer-top-xs {
+     margin-top: 0;
+}
+
+/*===================================================================================*/
+/* CALL ACTION
+/*===================================================================================*/
+ .cosmetic-cta{
+    background:#f6f6f6;
+    padding:80px 0;
+}
+ .cosmetic-cta h3{
+    font-size:30px;
+    text-transform:capitalize;
+    font-weight:bold;
+    color:#901c54;
+}
+ .cosmetic-cta h1{
+    font-size:44px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#000;
+}
+ .cosmetic-cta p{
+    color:#787777;
+    font-weight:400;
+}
+ .cosmetic .cosmetic-cta a{
+    color:#fff!important;
+    text-transform:capitalize;
+    background:#b1266e;
+    font-size:15px;
+    display:inline-table;
+    padding:10px 25px;
+    margin-top:25px;
+}
+ .cosmetic-cta-top {
+    padding-top: 40px;
+}
+
+/*===================================================================================*/
+/* PRODUCT SLIDER
+/*===================================================================================*/
+ .cosmetic-products{
+    margin-top:70px;
+}
+ .cosmetic-products .product,
+ #grid-container .products .product{
+    border:1px solid #d8d8d8;
+    padding:15px;
+}
+ .cosmetic-products .custom-carousel .owl-controls {
+    right:94% !important;
+    top:25px !important;
+}
+ .cosmetice-top-vs .owl-carousel .owl-item{
+    margin-top:40px;
+}
+ .cosmetic-products .custom-carousel .owl-controls .owl-prev{
+    background:#b1266e !important;
+    border-radius:0 !important;
+    width:34px;
+    height:34px;
+    right:15px;
+}
+ .cosmetic-products .custom-carousel .owl-controls .owl-next{
+    background:#b1266e !important;
+    border-radius:0 !important;
+    width:34px;
+    height:34px;
+    right: -23px;
+}
+ .cosmetic-products .custom-carousel .owl-controls .owl-prev::before{
+    color:#fff !important;
+    left: 10px;
+    top: -9px
+}
+ .cosmetic-products .custom-carousel .owl-controls .owl-next::before{
+    color:#fff !important;
+    left: 12px;
+    top: -9px
+}
+ .cosmetic-products .product .product-image img,
+ #grid-container .product .product-image img{
+    min-height: 336px;
+}
+ .cosmetic-products .product .product-info .name a,
+ #grid-container .product .product-info .name a{
+    font-size: 18px;
+    color:#131212 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+.product .product-info .product-price ins span,
+.product .product-info .product-price .woocs_price_code > span,
+.product .product-info .product-price > span,
+.product .product-info .product-price .price,
+.products .product-info .product-price ins > span, 
+.products .product-info .product-price .woocs_price_code > span, 
+.products .product-info .product-price > span{
+    color:#b1266e !important;
+    font-size:18px !important;
+    font-weight:bold;
+    width:70%;
+}
+ .products .product-info .product-price del > span{
+    font-size:18px !important;
+    font-weight:bold;
+}
+ .cosmetic-products .cos-price,
+ #grid-container .cos-price{
+    width:70%;
+    display:inline-table;
+    margin:0;
+}
+ .price-cart{
+    float:right;
+    width:20%;
+    text-align:right;
+    padding-top:8px;
+    font-size:20px;
+    color:#000;
+}
+ .price-cart a{
+    font-size:20px;
+    color:#000;
+}
+ .price-cart a:hover{
+    font-size:20px;
+    color:#e675c1;
+}
+.tag-cosmetic{
+    background:url(../../../images/cosmetic-tags.png) no-repeat;
+    width:71px;
+    height:28px;
+     position: absolute;
+    z-index: 1;
+    top: 12px;
+    right: 0;
+    text-align: center;
+}
+ .tag-cosmetic span{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:13px;
+    left: 8px;
+    position: relative;
+    top: 3px
+}
+
+/*===================================================================================*/
+/* BANNER 
+/*===================================================================================*/
+ .sale-off {
+    padding-top: 30px;
+    position:relative;
+}
+ .sale-off img {
+    transition: 0.3s;
+}
+ .sale-product {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+ .sale-product h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+ .sale-product p {
+    color: #fff;
+    font-size: 16px;
+}
+ .sale-product a {
+    background: #00aeef;
+    font-size: 14px;
+    padding: 8px 14px 9px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+     display: table;
+}
+ .cos-sale-products h1{
+    color:#fff;
+    font-weight:bold;
+    font-size:42px;
+    margin:0;
+    padding:10px 0;
+    line-height: 26px;
+    font-family: 'Lato', sans-serif !important;
+}
+ .cos-sale-products h2{
+    font-size:30px;
+    font-weight:300;
+    font-family: 'Lato', sans-serif !important;
+}
+ .cos-sale-products p{
+    color:#000;
+    font-size:18px;
+    text-transform:capitalize;
+    font-weight:600;
+    font-family: 'Lato', sans-serif !important;
+}
+ .cos-sale-products {
+    left:19px;
+}
+ .cosmetic-item{
+    background-position: top center;
+    background-size:cover;
+    float:left;
+    width:100%;
+    margin-top:70px;
+}
+ .cosmetic-item-price{
+    padding-top:186px;
+    padding-bottom:80px;
+}
+ .cosmetic-item-price h5{
+    font-weight:bold;
+    color:#000;
+    font-size:18px;
+}
+ .cosmetic-item-price h4{
+    font-weight:bold;
+    color:#fff;
+    font-size:24px;
+    text-transform:uppercase;
+}
+ .cosmetic-item-price h1{
+    font-weight:bold;
+    color:#000;
+    font-size:55px;
+    text-transform:uppercase;
+    margin: 0;
+}
+ .cosmetic-item-price h3{
+    font-weight:500;
+    color:#ff21a4;
+    font-size:38px;
+    text-transform:uppercase;
+    margin: 0;
+}
+ .cosmetic-item-price p{
+    font-size:16px;
+    color:#000;
+}
+ .cosmetic-item-price a{
+    color:#fff!important;
+    text-transform:capitalize;
+    font-size:15px;
+    font-weight:500;
+    background:#b1266e;
+    display:inline-table;
+    padding:12px 40px;
+}
+
+/*===================================================================================*/
+/* TAB 
+/*===================================================================================*/
+ .cosmetic-all-products{
+    margin-top:70px;
+    background:#f6f6f6;
+    padding:70px 0;
+}
+ .cosmetic-all-products .nav-tabs {
+    border: none;
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+}
+ .cosmetic-all-products .nav-tabs li {
+    margin-bottom: 0;
+    display: inline-table;
+    float: none;
+}
+ .cosmetic-all-products .nav-tabs li.active a {
+    background: #b1266e;
+    color: #fff;
+    border-color: #b1266e;
+}
+ .cosmetic-all-products .nav-tabs li a {
+    line-height: normal;
+    padding: 8px 20px;
+    border: 1px solid #b1266e;
+    border-radius: 0;
+    color: #1b1a1a;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 2px;
+}
+ .cosmetic-all-products .nav-tabs li a:hover{
+    background: #b1266e;
+    color:#fff;
+}
+ .cosmetic-all-products .tab-content {
+    margin-top: 40px;
+    display:inline-table;
+    width: 100%;
+    padding-left: 0;
+}
+ .cosmetic-services li{
+    float:left;
+    width: 25%;
+}
+
+/*===================================================================================*/
+/* HEADING 
+/*===================================================================================*/
+ .cosmetic-heading h2,
+ .cosmetic-blog h2,
+ .cosmetic-all-products h2{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #b1266e;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-align:center;
+}
+ .cosmetic-heading h1,
+ .cosmetic-blog h1,
+ .cosmetic-all-products h1{
+    font-size:45px;
+    margin:0;
+    text-transform:uppercase;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+    padding-bottom:40px;
+}
+
+/*===================================================================================*/
+/* BLOG 
+/*===================================================================================*/
+ .cosmetic-blog{
+    margin:70px 0px;
+}
+ .cosmetic-blog-content{
+    width:100%;
+    display:inline-table;
+    border:1px solid #cfcfcf;
+}
+ .cos-blog-des{
+    width:100%;
+    display:inline-table;
+    padding:30px;
+}
+ .cos-blog-des .cos-date{
+    color:#e675c1;
+    font-size:15px;
+    font-weight:400;
+}
+ .cos-blog-des h4{
+    color:#131212;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+ .cos-blog-des p{
+    color:#787777;
+    font-weight:400;
+}
+ .cos-blog-des a{
+    color:#fff!important;
+    text-transform:capitalize;
+    font-weight:600;
+    font-size:15px;
+    display:inline-table;
+    background:#b1266e;
+    padding:10px 30px;
+    margin-top:10px;
+}
+
+/*===================================================================================*/
+/* FOOTER 
+/*===================================================================================*/
+ .footer-container{
+    width:100%;
+    float:left;
+    background:url(../../../images/cosmetic-footer.jpg) no-repeat top center;
+    background-size:cover;
+}
+ .cosmetic-newsletter{
+    width:100%;
+    float:left;
+    padding:40px 0;
+}
+ .cosmetic-social h3{
+    font-size:20px;
+    color:#fff;
+    text-transform:capitalize;
+    font-weight:600;
+    margin:0;
+    padding-bottom:30px;
+}
+ .cosmetic-social a{
+    color:#fff;
+    height:34px;
+    width:34px;
+    border:2px solid #fff;
+    display:inline-table;
+    border-radius:50%;
+    text-align:center;
+    font-size:18px;
+    margin-right:5px;
+    padding-top:3px;
+}
+ .cosmetic-social a:hover{
+    color:#b1266e;
+    border-color:#b1266e;
+}
+ .social-newsletter h3{
+    font-size:20px;
+    color:#fff;
+    text-transform:capitalize;
+    font-weight:600;
+    margin:0;
+}
+ .social-newsletter p{
+    margin:0;
+    color:#fff;
+    font-size: 14px;
+    padding-bottom:5px;
+}
+ .newsletter-text{
+    width:100%;
+    display:inline-table;
+    position:relative;
+}
+ .newsletter-text input[type="email"]{
+    width:100%;
+    padding: 9px 120px 9px 9px;
+    font-size:15px;
+    border: none;
+}
+ .newsletter-text button[type="submit"]{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:600;
+    border:none;
+    background:#b1266e;
+    padding:9px 20px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+ .cos-footer-links{
+    width:100%;
+    float:left;
+    border-bottom:1px solid rgba(255, 255, 255, 0.3);
+    border-top:1px solid rgba(255, 255, 255, 0.3);
+    padding:40px 0;
+}
+ .cos-footer-links h3{
+    color:#eaeaea;
+    font-size:18px;
+    text-transform:uppercase;
+    margin:0;
+    padding-bottom:35px;
+    font-weight:600;
+}
+ .widget_nav_menu a,
+ .cos-footer-links a{
+    color:#d1d1d1;
+    font-size:15px;
+    font-family: 'Lato', sans-serif !important;
+}
+ .widget_nav_menu a:hover{
+    color:#ff21a4;
+}
+.contact-info p{
+    font-size:15px;
+}
+ .widget_nav_menu a:before{
+    content: "\f105";
+    padding-right:6px;
+    color:#ff21a4;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ .cosmetic-address li{
+    padding-bottom:10px;
+}
+ .widget_nav_menu li:last-child{
+    padding-bottom:0;
+}
+ .cosmetic-address h5{
+    margin:0;
+    color:#fff;
+    font-weight:bold;
+    font-size:15px;
+}
+ .cosmetic-address p{
+    margin:0;
+    color:#d1d1d1;
+}
+ .copyright{
+    width:100%;
+    float:left;
+    padding:30px 0;
+}
+ .copyright p{
+    color:#d1d1d1;
+}
+ .copyright ul{
+    float:right;
+}
+ .copyright li{
+    display:inline-table;
+}
+.btn-group .btn+.btn{
+    background: #b1266e;
+}
+/*---------------Responsive css---------------*/
+ @media screen and (max-width:1280px) {
+     .top-info .dropdown.my-account-log ul > li {
+        margin-right: 10px;
+    }
+     .cosmetic-cta h1{
+        font-size:36px;
+    }
+}
+ @media screen and (max-width:1170px) {
+     .top-info .dropdown.my-account-log ul > li {
+        margin-right: 5px;
+    }
+     .top-info li a{
+        font-size:14px;
+    }
+     .cosmetic-slider #owl-main .item .caption.bg-color{
+        top:87px;
+    }
+     .cosmetic-all-products .nav-tabs li a{
+        font-size:14px;
+        padding:8px 15px;
+    }
+}
+ @media screen and (max-width:983px) {
+     .cosmetic-slider #owl-main .item .caption.bg-color{
+        left:145px;
+        padding:26px;
+        top:inherit;
+        bottom:0;
+    }
+     .cos-sale-products h2{
+        font-size:18px;
+    }
+     .cos-sale-products h1{
+        font-size:20px;
+    }
+     .cosmetic-top-header .col-sm-4{
+        width:100%;
+        text-align:center;
+    }
+     .top-info{
+        padding-top:0;
+        padding-bottom:15px;
+    }
+     .cosmetic-slider h2{
+        font-size:26px;
+    }
+     .cosmetic-slider h1{
+        font-size:40px;
+    }
+     .cosmetic-slider h3{
+        font-size:20px;
+    }
+     .cosmetic-cta h1{
+        font-size:26px;
+    }
+     .cosmetic-cta h3{
+        font-size:20px;
+    }
+     .cos-sale-products{
+        top:50px;
+    }
+     .cos-sale-products h1{
+        font-size:26px;
+        padding:0;
+    }
+     .cos-sale-products p{
+        font-size:15px;
+    }
+     .cosmetic-heading h1,
+     .cosmetic-blog h1,
+     .cosmetic-all-products h1 {
+        font-size: 36px;
+    }
+    .cosmetic-heading h2,
+    .cosmetic-blog h2,
+    .cosmetic-all-products h2{
+        font-size:20px;
+    }
+     .cosmetic-all-products .nav-tabs li{
+        width:48%;
+        margin-bottom:5px;
+    }
+}
+ @media screen and (max-width:767px) {
+     .cosmetic-slider #owl-main .item .caption.bg-color{
+        left:0;
+        right:0;
+        background:none;
+        bottom: 50px;
+    }
+     .cosmetic-cta{
+        padding:40px 0;
+    }
+     .cosmetic-item-price h1{
+        font-size:40px;
+    }
+     .cosmetic-item-price h3{
+        font-size:30px;
+    }
+     .cosmetic-all-products{
+        padding:40px 0;
+    }
+     .cosmetic-services li{
+        width:48%;
+    }
+     .cosmetic-heading h2,
+     .cosmetic-blog h2,
+     .cosmetic-all-products h2{
+        font-size:20px;
+    }
+     .cosmetic-heading h1,
+     .cosmetic-blog h1,
+     .cosmetic-all-products h1{
+        font-size:30px;
+    }
+     .cosmetic-blog .cosmetic-blog-content{
+        margin-bottom:30px;
+    }
+     .footer-container{
+        margin-top:20px;
+    }
+     .cosmetic-social{
+        margin-bottom:30px;
+    }
+     .cos-footer-links{
+        padding-bottom:0;
+    }
+     .cos-footer-links h3{
+        padding-bottom:20px;
+    }
+     .cos-footer-links .col-sm-3{
+        margin-bottom:30px;
+    }
+     .copyright ul {
+        float: left;
+    }
+}
+ @media screen and (max-width:450px) {
+     .cosmetic-cta h1{
+        font-size:20px;
+    }
+     .cosmetic-cta h3{
+        font-size:16px;
+    }
+     .cosmetic-item-price h4{
+        font-size:18px;
+    }
+     .cosmetic-item-price h1{
+        font-size:30px;
+    }
+     .cosmetic-item-price h3{
+        font-size:22px;
+    }
+     .cosmetic-item-price {
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+     .cosmetic-services li{
+        width:100%;
+    }
+     .cosmetic-all-products .nav-tabs li{
+        width:100%;
+    }
+     .cosmetic-social h3{
+        margin-bottom:20px;
+    }
+     .r-social .cos-res-menu{
+        left:-112px;
+    }
+     .menu-tp{
+        margin-top:15px;
+    }
+    .cosmetic-products{
+        margin-top:30px;
+    }
+}
+
+.product-slider .products {
+     margin-left: 0px;
+     margin-right: 18px;
+     padding-bottom: 15px;
+}
+.products .product-info .product-price .price{
+     display: block;
+}
+
+/*===================================================================================*/
+/*  Colors CSS
+/*===================================================================================*/
+a,
+.top-bar .cnt-block ul li .dropdown-menu li a:hover,
+.top-bar .cnt-block ul li .dropdown-menu li a:focus,
+.main-header .top-search-holder .contact-row .icon,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:focus,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:focus ,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price ,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:hover,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:focus,
+.sidebar .side-menu nav .nav > li a:hover,
+.sidebar .side-menu nav .nav > li a:focus ,
+.sidebar .side-menu nav .nav > li a:hover:after,
+.sidebar .side-menu nav .nav > li a:focus:after,
+.scroll-tabs .nav-tab-line li a:hover,
+.scroll-tabs .nav-tab-line li a:focus,
+.product .product-info .name a:hover,
+.product .product-info .name a:focus,
+.copyright-bar .copyright a,
+.blog-slider-container .blog-slider .blog-post-info .name a:hover,
+.blog-slider-container .blog-slider .blog-post-info .name a:focus,
+.latest-tweet .re-twitter .comment a,
+.latest-tweet .re-twitter .comment .icon .fa-stack-2x ,
+.footer .contact-information .media .icon .fa-stack-2x,
+.footer .contact-information .media .media-body a:hover,
+.footer .contact-information .media .media-body a:focus,
+.footer .footer-bottom .module-body ul li a:hover,
+.footer .footer-bottom .module-body ul li a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:hover,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .x-page .x-text h1,
+.body-content .x-page .x-text a,
+.sign-in-page .register-form .forgot-password,
+.sign-in-page .register-form .forgot-password:hover,
+.sign-in-page .register-form .forgot-password:focus,
+.my-wishlist-page ins span, 
+.my-wishlist-page .woocs_price_code > span,
+.terms-conditions-page .contact-form,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:hover,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:focus,
+.hot-deals .product-info .product-price > span,
+.hot-deals .product-info .name a:hover,
+.hot-deals .product-info .name a:focus,
+.yamm .dropdown-menu .title:hover,
+.yamm .dropdown-menu .title:focus,
+.yamm .dropdown-menu li a:hover,
+.yamm .dropdown-menu li a:focus,
+.filters-container .nav-tabs.nav-tab-box li.active a .icon,
+.filters-container .pagination-container ul .current,
+.filters-container .pagination-container ul li a:hover,
+.filters-container .pagination-container ul li a:focus,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:hover,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:hover,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:after,
+.sidebar .list li a:hover,
+.sidebar .list li a:focus,
+.sidebar .compare-report span,
+.single-product .product-info .rating-reviews .reviews .lnk:hover,
+.single-product .product-info .rating-reviews .reviews .lnk:focus,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:hover,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:focus,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:hover,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:focus,
+.single-product .product-info-block .txt.txt-qty,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:hover,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:focus,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .review-title .date span,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .author span,
+.homepage-container .product .product-info .name a:hover,
+.homepage-container .product .product-info .name a:focus,
+.blog-post h1 a:hover,
+.blog-post h1 a:focus,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:focus,
+.blog-review .review-action a,
+.blog-review .review-action a:hover,
+.blog-review .review-action a:focus,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:hover,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:focus,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:focus{
+  color: #b1266e;
+}
+
+.show-theme-options:hover,
+.show-theme-options:focus,
+.btn-primary:hover,
+.btn-black:hover,
+.btn-primary:focus,
+.btn-black:focus,
+.product .cart .action ul li.add-cart-button .btn-primary:hover,
+.product .cart .action ul li.add-cart-button .btn-primary:focus,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:hover,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:focus,
+.footer .links-social .social-icons a:hover,
+.footer .links-social .social-icons a:focus,
+.footer .links-social .social-icons a.active,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.custom-carousel .owl-controls .owl-prev:hover,
+.custom-carousel .owl-controls .owl-next:hover,
+.custom-carousel .owl-controls .owl-prev:focus,
+.custom-carousel .owl-controls .owl-next:focus,
+.sidebar .price-range-holder .slider .slider-track .slider-handle.max-slider-handle,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page.active span,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page:hover span,
+.single-product .product-info .product-social-link .social-icons ul li a:hover,
+.single-product .product-info .product-social-link .social-icons ul li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a,
+#owl-main .owl-controls .owl-pagination .owl-page:active span,
+#owl-main .owl-controls .owl-pagination .owl-page:hover span,
+.product .tag.hot,
+.products .cart .action ul li.lnk:hover,
+.products .cart .action ul li.lnk:focus{
+  background: #b1266e!important;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li a:hover,
+.single-product .product-tabs .nav-tab-cell-detail li a:focus,
+.single-product .product-tabs .nav-tab-cell-detail li.active a {
+  background: #b1266e;
+  border: 2px solid #b1266e;
+}
+
+
+.top-bar .cnt-account > ul > li > a:hover,
+.top-bar .cnt-account > ul > li > a:focus,
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket .total-price,
+.info-box .info-box-heading.green,
+.info-boxes .info-box .icon,
+#owl-main:hover .owl-prev:hover .icon,
+#owl-main:hover .owl-next:hover .icon,
+.cart .action ul .lnk .add-to-cart:hover,
+.cart .action ul .lnk .add-to-cart:focus,
+.cart .action ul .lnk .compare:hover,
+.cart .action ul .lnk .compare:focus  {
+  color: #fff !important;
+}
+
+.sidebar .sidebar-module-container .search-area .search-button:after {
+  color: #333!important;
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #b1266e;
+}
+
+.top-bar .cnt-block ul li a .caret {
+  color: rgba(255,255,255,0.8);
+}
+
+.filters-container .pagination-container ul li.prev:hover,
+.filters-container .pagination-container ul li.next:hover,
+.filters-container .pagination-container ul li.prev:focus,
+.filters-container .pagination-container ul li.next:focus,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page.active span,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:hover,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:focus {
+  background: #b1266e !important;
+}
+
+div.tag.sale {
+  background: #fdd922;
+  color:#333
+}
+
+.breadcrumb ul li.active,
+.breadcrumb ul a:hover,
+.breadcrumb ul a:focus {
+  color: #157ed2;
+}
+
+.price_slider_wrapper .ui-slider-handle {
+  border: 5px solid #b1266e;
+}
+
+.single-product .gallery-holder .gallery-thumbs .owl-item .item:hover {
+  border: 1px solid #b1266e;
+}
+
+.single-product .product-info .price-container .price-box ins span,
+.single-product .product-info .price-container .price-box > span {
+  color: #ff7878;
+}
+
+.cart .action .add-cart-button .btn.btn-primary.icon:hover,
+.cart .action .add-cart-button .btn.btn-primary.icon:focus,
+#owl-main:hover .owl-prev:hover,
+#owl-main:hover .owl-next:hover {
+  background: #b1266e;
+  color:#fff!important;
+}
+
+.cart .action .add-to-cart:hover,
+.cart .action .add-to-cart:focus {
+  color: #b1266e !important;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:focus {
+  color: #b1266e;
+}
+.blog-post .social-media a:hover,
+.blog-post .social-media a:focus,
+.blog-post-author-details .author-social-network button .twitter-icon,
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title > a:not(.collapsed) span,
+.contact-info .contact-i {
+  background-color: #b1266e!important;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info .cart-product-info span span,
+.shopping-cart .cart-shopping-total table thead tr th .cart-grand-total {
+  color: #84b943;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail {
+  border-bottom: none;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.mega-menu .dropdown-menu {
+    width:100%;
+    left:0px 
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    box-shadow:0 4px 6px -1px rgba(0,0,0,0.4);
+}
+
+.single-product div.product div.images .flex-control-thumbs li .flex-active, 
+.woocommerce div.product div.images .flex-control-thumbs li img:hover {
+    border: 1px solid #b1266e;
+}
+.book-best-deal .cart .action ul li.lnk.wishlist, 
+.book-best-deal .cart .action ul li.lnk, 
+.products .cart .action ul li.lnk.wishlist, 
+.book-best-deal .cart .action ul li.lnk, 
+.products .cart .action ul li.lnk,
+.product-list.product .product-info .cart-btn {
+    background: #b1266e;
+}
+
+.products .product-image .tag.out-stock,
+.single-product div.tag.out-stock{
+    background: #b1266e!important;
+}
+.woocommerce .btn-primary, 
+.single-product .favorite-button a, 
+.woocs_converter_shortcode_button{
+    background: #b1266e;
+    border: none;
+}
+.woocommerce .btn-primary:hover, 
+.single-product .favorite-button a:hover, 
+.woocs_converter_shortcode_button:hover{
+    background: #871d54!important;
+}

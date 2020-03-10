@@ -1,0 +1,1586 @@
+/*
+Theme Name: Glasses 
+Author: CKThemes
+Description:  Flipmart is a modern, clean and professional WordPress Woocommerce Theme, It is fully responsive, it looks stunning on all types of screens and devices. It is super for fashion shop, digital shop, games shop, food shop, devices shop, household appliances shop or any other categories
+Version: 2.6
+License: GNU General Public License v2 or later
+Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
+Text Domain:  flipmart
+/*===================================================================================*/
+/* GENERAL 
+/*===================================================================================*/
+ body {
+     font-family: 'Rajdhani', sans-serif !important;
+     background:#fff !important;
+}
+body:not( .home ) .glasses-navbar{
+     position: relative;
+}
+ h1 {
+     font-size:36px;
+}
+ h3 {
+     font-size:22px;
+     font-family:"lato";
+}
+
+/*===================================================================================*/
+/* HEADER SECTION 
+/*===================================================================================*/
+ .glasses header,
+ .glasses .header-style-1 .header-nav{
+    background: transparent!important;
+}
+ .glasses-header .top-bar {
+     font-size: 14px !important;
+     background:#d6d6d6;
+}
+ .glasses-header .top-bar .cnt-block{
+     float:left;
+}
+ .glasses-header .top-bar .cnt-block .list-inline{
+    padding-top:4px;
+} 
+ .glasses-header .top-bar .cnt-block > ul > li{
+    margin-right:10px;
+    color:#424242;
+    font-size:16px;
+    padding: 7px 0px;
+}
+ .glasses-header .top-bar .cnt-block li:last-child{
+    margin-right:0;
+}
+ .glasses-header .cnt-block .list-inline > li span {
+    color:#ff6300;
+    padding-right:10px;
+}
+ .dd-pointer.dd-pointer-down{
+    padding: 0px!important;
+    border-top: solid 4px #424242!important;
+}
+ header .dd-container .dd-pointer-up{
+    border-bottom: solid 4px #424242!important;
+}
+ header .dd-container{
+    border-right: none;
+}
+ .glasses-header .top-bar .cnt-account{
+    padding:0;
+}
+ .glasses-header .top-bar .cnt-account ul > li {
+     padding:0;
+     border:none;
+}
+ .glasses-header .top-bar .cnt-account ul > li:last-child{
+    padding-left:0;
+}
+ .glasses-header .top-bar .cnt-account li a{
+    color:#424242 !important;
+     font-size:16px;
+    padding:15px 12px !important;
+    display: inline-table;
+    text-transform:capitalize;
+}
+ .glasses-header .top-bar .cnt-account li a:hover{
+     color:#ff6300 !important;
+}
+ .glasses-header .top-bar .cnt-account ul li:last-child a{
+     color:#ff6300 !important;
+}
+ .glasses-header .top-bar .cnt-account .list-unstyled i{
+     font-size:16px;
+}
+ .glasses-header .top-bar .cnt-block .list-inline > li > a .value,
+ header .woocommerce-currency-switcher-form .dd-selected {
+    color:#424242!important;
+}
+ .glasses-navbar{
+    background:none !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    border-bottom:none !important;
+    padding-bottom:15px;
+}
+ .glasses-logo{
+    width:20%;
+     float:left;
+    padding: 15px;
+}
+ .glasses-navbar .navbar-default{
+    background:none !important;
+    border:none !important;
+    border-radius:0 !important;
+}
+ .glasses-navbar .navbar-default .navbar-collapse .navbar-nav li{
+    padding:15px 16px;
+}
+ .glasses-navbar .navbar-default .navbar-collapse .navbar-nav li a{
+    padding:0 !important;
+    color:#000000 !important;
+    font-size:16px !important;
+    border:none !important;
+     font-weight:bold !important;
+     font-family: 'Rajdhani', sans-serif !important;
+} 
+ .glasses-navbar .navbar-default .navbar-collapse .navbar-nav li a:hover{
+    color:#ff6300 !important;
+}
+ .glasses-navbar .navbar-default .navbar-collapse .navbar-nav .current-menu-item a{
+    color:#ff6300 !important;
+}
+ .glasses-header-nav{
+    background:none;
+    float:right;
+    width:78%;
+     display: inline-table;
+     padding-top: 30px;
+}
+ .glasses-header-nav-left{
+    padding-left:0;
+     width: 65%;
+    float: left;
+}
+ .glasses-header-nav-right{
+    padding-right:0;
+     width: 35%;
+    float: left;
+}
+ .glasses-header-nav-right i{
+     color:#999999;
+}
+ .glasses-nav-search{
+     width: 100%;
+     float: right;
+     position: relative;
+     border-radius: 30px;
+}
+ .glasses-nav-search input[type="text"]{
+    text-transform:capitalize;
+    padding:10px;
+    color:#9b9b9b !important;
+    width:100%;
+    background:#fff;
+     border: solid 2px #c3c3c3;
+     border-radius: 30px;
+     height: 40px;
+}
+.glasses-nav-search button[type="submit"]{
+    background:none;
+    padding:0;
+    color:#fff;
+    font-size:20px;
+    position:absolute;
+    right:10px;
+    top:6px;
+    border-radius:0;
+    border:none;
+}
+.glasses .header-style-1 .header-nav .navbar .navbar-nav > li > a:hover, 
+.glasses .header-style-1 .header-nav .navbar .navbar-nav > li > a:focus, 
+.glasses .header-style-1 .header-nav .navbar .navbar-nav > li.current-menu-item{
+    background: transparent!important;
+}
+/*===================================================================================*/
+/* SLIDER SECTION 
+/*===================================================================================*/
+ .glasses-slider #owl-main{
+    height:775px;
+}
+ .glasses-slider #owl-main .item{
+    height:775px;
+}
+ .glasses-slider #owl-main .item .caption.bg-color{
+    padding-right:0 !important;
+}
+ .glasses-slider #owl-main .item .caption{
+    left:100px;
+     top:50%;
+}
+ .glasses-slider #owl-main .owl-prev, 
+ .glasses-slider #owl-main .owl-next{
+    background:#000 !important;
+    border-radius:0 !important;
+    font-size:25px !important;
+}
+ .glasses-slider #owl-main .owl-prev, 
+ .glasses-slider #owl-main .owl-next:hover{
+    background:#ff6300 !important;
+}
+ .glasses-slider #owl-main .owl-controls .owl-buttons .icon{
+    height: 16px;
+ }
+ .glasses-slider #owl-main .item .caption .slider-header{
+    font-size:45px;
+    text-transform:capitalize;
+}
+ .glasses-slider #owl-main .item .caption .slider-header{
+     color: #404042;
+     font-size: 35px;
+     font-family: 'Rajdhani', sans-serif !important;
+     font-weight: normal;
+}
+ .glasses-slider #owl-main .item .caption .slider-header span{
+     color:#ff6300;
+}
+ .glasses-slider #owl-main .item .caption.bg-color .big-text{
+     font-size: 70px;
+     color: #404042 !important;
+     font-family: 'Rajdhani', sans-serif !important;
+     text-transform: capitalize;
+     padding: 10px 0;
+     font-weight: bold;
+}
+ .glasses-slider .big-subtext{
+    font-size:35px;
+    color:#404042 !important;
+    font-weight:bold;
+    font-family: 'Rajdhani', sans-serif !important;
+     text-transform: uppercase;
+    padding-bottom: 35px;
+}
+ .glasses-slider .big-subtext span{
+     color:#ff6300;
+}
+ .glasses-slider .slider-button a{
+     background: #404042;
+     color: #ff6300!important;
+     padding: 10px 30px 10px 30px;
+     font-size: 18px;
+     font-weight: bold;
+     border-radius: 30px;
+}
+ .glasses .glasses-slider .slider-button a:hover {
+     background:#ff6300;
+     color:#404042!important;
+}
+ .glasses-slider .glasses-slider-img img{
+     position: absolute;
+     top: 240px;
+     left: 100px;
+     right: 0;
+}
+
+
+/*===================================================================================*/
+/* HEADING SECTION 
+/*===================================================================================*/
+ .glasses-heading {
+     float: none;
+     text-align: center;
+     margin-bottom: 85px;
+     position: relative;
+     z-index: 2;
+}
+ .glasses-heading h2{
+     font-size: 43px;
+     color: #404042;
+     font-weight: bold;
+     margin-bottom: 35px;
+     background: #fff;
+     padding: 10px 20px;
+     display: inline-table;
+     margin-top: 0;
+}
+ .glasses-heading p{
+     font-size:16px;
+     color:#404042;
+     margin:0;
+}
+ .glasses-heading span{
+     color:#ff6300;
+}
+ .glasses-heading .divider{
+     width: 545px;
+     height: 1px;
+     background: #ccc;
+     position: absolute;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     top: 31px;
+     z-index: -1;
+}
+
+/*===================================================================================*/
+/* BANNER SECTION 
+/*===================================================================================*/
+ .ad-content-section{
+    padding-top: 90px;
+    padding-bottom: 67px;
+    float: right;
+    text-align: right;
+}
+ .ad-content-section h1{
+    color:#b4b4b4;
+    font-size:35px;
+    font-weight:bold;
+}
+ .ad-content-section h2{
+    color:#404042;
+    font-size:52px;
+    font-weight:bold;
+    margin:0;
+}
+ .ad-content-section h3{
+    color:#fd3804;
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Rajdhani', sans-serif !important;
+}
+ .ad-content-section p{
+     color:#424242;
+     font-size:16px;
+}
+ .ad-content-section .banner-btn{
+     background: #404042;
+     color: #fff;
+     border: none;
+     font-size: 18px;
+     font-weight: bold;
+     padding: 10px 45px 10px 45px;
+     border-radius: 30px;
+     text-transform: uppercase;
+     margin-top: 15px;
+}
+ .ad-content-section .banner-btn:hover{
+     background: #ff6300;
+     color: #fff;
+}
+
+/*===================================================================================*/
+/* PRODUCTS SLIDER SECTION 
+/*===================================================================================*/
+ .glasses-product-slider{
+     padding-top: 85px;  
+ }
+ .glasses-product-slider .custom-carousel .owl-controls .owl-prev {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     top: -25px;
+     right: 27px;
+     border-radius: 3px;
+     left: 50%;
+     color:#909090!important;
+     background:#efefef;
+}
+.glasses-product-slider .custom-carousel .owl-controls .owl-next {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     top: -25px;
+     right: 0px;
+     border-radius: 3px;
+     left: 53%;
+     color:#909090!important;
+     background:#efefef 
+}
+ .glasses-product-slider .custom-carousel .owl-controls .owl-prev:before {
+     color: #909090;
+     content: "\f104";
+     font-family: fontawesome;
+     font-size: 35px;
+     font-weight: 900;
+     left:5px;
+     position: absolute;
+     top:-14px;
+}
+ .glasses-product-slider .custom-carousel .owl-controls .owl-next:before {
+     content: "\f105";
+     font-family: fontawesome;
+     color: #909090;
+     font-size: 35px;
+     font-weight: 900;
+     left:9px;
+     position: absolute;
+     top:-14px;
+}
+ .glasses-product-slider .custom-carousel .owl-controls .owl-prev:hover:before, 
+ .glasses-product-slider .custom-carousel .owl-controls .owl-next:hover:before {
+     color:#fff;
+}
+ .glasses-product-slider .custom-carousel .owl-controls .owl-prev:hover,
+ .glasses-product-slider .custom-carousel .owl-controls .owl-next:hover{
+     background: #ff6300;
+}
+ .glasses-product-slider .custom-carousel .scroll-tabs{
+     box-shadow:none;
+}
+ .glasses-product-slider .products .product,
+ .tab-content .products .product{
+     margin-bottom: 0px;
+}
+ .glasses-product-slider .product-image,
+ .tab-content .product-image {
+     box-shadow: 3px 3px 3px #e0e0e0;
+     background: #fafafa;
+     padding: 26px;
+}
+
+.product-list .product-image{
+    box-shadow: none!important;
+    background: transparent!important;
+    padding: 0px!important;
+}
+
+.product-list .product-list{
+    text-align: left!important;
+}
+
+ .glasses-product-slider .product-image .image,
+ .tab-content .product-image .image{
+    position:relative;
+}
+ .glasses-product-slider .product .product-image img ,
+ .tab-content .product .product-image img {
+     width: 100%;
+}
+ .glasses-product-slider .glasses-tag,
+ .tab-content .glasses-tag  {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     background: #96d205;
+     height: 70px;
+     text-align: center;
+     display: inline-table;
+     width: 70px;
+     -webkit-border-radius: 50px;
+}
+ .glasses-product-slider .glasses-tag span,
+ .tab-content .glasses-tag span {
+     color: #fff;
+     font-size: 15px;
+     display: inline-table;
+     padding-top: 24px;
+     padding-left: 0px;
+     font-weight: bold;
+}
+ .glasses-product-slider .glasses-cart,
+ .tab-content .glasses-cart{
+     position: absolute;
+     top: 35%;
+     margin: auto;
+     display: table;
+     width: 100%;
+     text-align: center;
+}
+ .glasses-product-slider .glasses-cart ul,
+ .tab-content .glasses-cart ul{
+    list-style: none;
+}
+ .glasses-product-slider .glasses-cart li,
+ .tab-content .glasses-cart li {
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 20px;
+     background: #000;
+     padding: 10px;
+     text-align: center;
+     display: none;
+}
+ .glasses-product-slider .glasses-cart li a,
+ .tab-content .glasses-cart li a{
+    color: #fff;    
+}
+ .glasses-product-slider .product-image:hover .glasses-cart li,
+ .tab-content .product-image:hover .glasses-cart li {
+     display: inline-block; 
+}
+ .glasses-product-slider .glasses-cart a:last-child,
+ .tab-content .glasses-cart a:last-child {
+     background: #000;
+}
+ .glasses-product-slider .product-info,
+ .tab-content .product-info{
+    text-align:center;
+    float:none;
+}
+ .glasses-product-slider .product-info .star-rating,
+ .tab-content .product-info .star-rating{
+     margin-top:15px;
+     margin-bottom:0px;
+}
+ .glasses-product-slider .product-info .name,
+ .tab-content .product-info .name{
+    margin:0;
+    color:#232121;
+    font-size: 18px;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-family: 'Rajdhani', sans-serif !important;
+    margin-top: 10px;
+}
+ .glasses-product-slider .product .product-info .name a:hover,
+ .tab-content .product .product-info .name a:hover{
+    color:#555;
+}
+ .products .product-info .product-price ins > span, 
+ .products .product-info .product-price .woocs_price_code > span, 
+ .products .product-info .product-price > span,
+ .product .product-price > span > span:nth-child(2),
+ .products .product-info .product-price del > span{
+    color:#fd3804!important;
+    font-size:20px!important;
+    font-weight: normal;
+    line-height: normal;
+}
+ .glasses-product-slider .add-cart a,
+ .tab-content .add-cart a {
+     font-size:16px;
+     color:#232121;
+     text-transform:uppercase;
+     font-weight:bold;
+} 
+
+/*===================================================================================*/
+/* PRODUCTS LISTS SECTION 
+/*===================================================================================*/
+ .product-lists{
+    padding-top: 85px;
+    padding-bottom: 60px;
+ }
+ .product-lists .glasses-heading {
+     float: none;
+     text-align: center;
+     margin-bottom: 20px;
+     position: relative;
+     z-index: 2;
+}
+ .product-lists .glasses-heading h2{
+     font-size: 43px;
+     color: #404042;
+     font-weight: bold;
+     margin-bottom: 35px;
+     background: #fff;
+     padding: 10px 20px;
+     display: inline-table;
+     margin-top: 0;
+}
+ .product-lists .glasses-heading span{
+     color:#ff6300;
+}
+ .main-list {
+     width: 100%;
+     float: left;
+}
+ .special-image-left img{
+     max-width: 100%;
+}
+ .special-right-content{
+     margin-top:25px;
+     padding-left: 25px;
+}
+ 
+ .left-list-img .special-image-left, 
+ .right-list-img .special-right-content {
+     float:left;
+     width:50%;
+}
+ .left-list-img .special-right-content, 
+ .right-list-img .special-image-left {
+     float:right;
+     width:50%;
+}
+ .right-list-img .special-right-content {
+     text-align:right;
+     padding-right:30px;
+}
+ .special-right-content h1 a{
+     color:#ff6300;
+     font-size:20px;
+     font-weight:bold;
+     text-transform:uppercase;
+}
+ .special-right-content h2 a{
+     color:#404042;
+     font-size:30px;
+     font-weight:bold;
+     text-transform:uppercase;
+}
+ .special-right-content p{
+     color:#424242;
+     font-size:16px;
+}
+ .special-image-right{
+     float:right;
+}
+ .special-list {
+    width:100%;
+    float: none;
+    text-align: center;
+    border-top: solid 1px #e7e5e8;
+    border-bottom: solid 1px #e7e5e8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+}
+ .special-list li{
+     width:32%;
+     display:inline-table;
+}
+ .special-list .product-name a{
+     color:#232121;
+     font-size:19px
+}
+ .special-list .product-prices{
+     color:#fd3804;
+     font-size:19px
+}
+ .special-list .add-cart a{
+     color:#232121;
+     font-size:19px
+}
+ .special-list .add-cart .fa{
+     color:#ff6300;
+    margin-right: 10px;
+}
+ .special-list .name{
+     color:#ff6300;
+     font-size:15px
+}
+ .special-list .quality{
+     color:#ff6300;
+     font-size:15px
+}
+ .special-list .add-cart-lower a{
+     color:#232121;
+     font-size:15px
+}
+
+/*===================================================================================*/
+/* PRODUCTS MINI SECTION 
+/*===================================================================================*/
+ .product-list-mini{
+    padding-top: 85px;
+    padding-bottom: 60px;
+ }
+ .product-list-mini li{
+     width:48%;
+    display: inline-table;
+    border-bottom: solid 1px #ccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ .product-list-mini .product-content{
+    width: 70%;
+    display: inline-table;
+    vertical-align: top;
+    padding-left: 10px;
+}
+ .product-list-mini .product-image{
+     background-color:#ccc;
+     width:70px;
+     height:70px;
+     display: inline-table;
+}
+ .product-list-mini .product-image img{
+     width:70px;
+     height:70px;
+}
+ .product-list-mini h1{
+    font-size:30px;
+    color: #404042;
+    font-weight: bold;
+    margin:0;
+}
+ .product-list-mini .product-title h1 a{
+     font-size:16px;
+     color: #444;
+     margin: 0;
+     font-weight: bold;
+}
+ .product-list-mini .product-price .product-price{
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+}
+ .product-list-mini .product-price > span > span:nth-child(2),
+ .product-price ins {
+    color:#ff6300!important;
+    text-decoration: none!important;
+    font-size: 18px!important;
+    font-weight: bold!important;
+}
+ .text-underline{
+    text-decoration:line-through;
+}
+
+/*===================================================================================*/
+/* SERVICE SECTION 
+/*===================================================================================*/
+ .service-section {
+     padding: 85px 0px;
+}
+ .service-section .icon {
+     float: left;
+     width: 20%;
+     padding-top: 4px;
+}
+ .service-section .icon .fa {
+     color: #ff6300;
+     font-size: 50px;
+}
+ .service-section .service-content {
+     float: right;
+     width: 80%;
+}
+ .service-section .service-content h4 {
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 20px;
+     font-weight:bold;
+}
+ .service-section .service-content p{
+     color: #fff;
+}
+ .service-section .service-content span{
+     color: #ff6300;
+}
+ .service-section .service-content p {
+     padding-right: 20px;
+}
+
+/*===================================================================================*/
+/* CALL ACTION SECTION 
+/*===================================================================================*/
+ .call-action{
+    background-color:#ff6300;
+    padding: 40px 0;
+}
+ .call-action-content{
+     text-align:center;
+}
+ .call-action .call-action-text h1{
+    color:#fff;
+     font-size:28px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+}
+ .call-action span{
+    font-weight: bold;
+}
+ .call-action .call-action-button .btn-cta{
+     line-height: 20px;
+     border: 1px solid #fff;
+     background-color: transparent;
+     color: #fff;
+     font-weight: bold;
+     margin-left: 30px;
+     border-radius: 30px;
+     position: relative;
+     vertical-align: middle;
+     display:inline-table;
+     padding: 12px 30px;
+     font-size: 16px;
+}
+ .call-action-text,
+ .call-action-button{
+     display:inline-table;
+}
+
+/*===================================================================================*/
+/* FOOTER SECTION 
+/*===================================================================================*/
+ .glasses-footer{
+     background-color:#1a1a1a;
+    float: left;
+    width: 100%;
+}
+ .glasses-footer h4{
+     color: #fff;
+     border: 0px;
+     margin: 0 0 12px 0;
+     font-size: 16px;
+     font-weight: 600;
+     font-weight:bold;
+     text-align: left;
+     letter-spacing: 0.1em;
+     padding: 0;
+}
+ .glasses-footer .footer-top{
+     padding-top: 60px;
+}
+ .glasses-footer ul {
+     list-style: outside none none;
+     margin: 0;
+}
+ .glasses-footer .widget_nav_menu li {
+     padding: 0 10px;
+     list-style: outside;
+}
+ .glasses-footer a {
+     color: #a1a1a1;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 40px;
+}
+ .glasses-footer a:hover{
+     color:#fff;
+}
+ .glasses-footer p{
+     color: #c1c1c1;
+     font-size: 16px;
+     text-align: left;
+     margin-bottom:20px;
+}
+ .copyright-bar .no-padding p{
+     text-align:center;
+     margin:0;
+}
+ .glasses-footer .btn-submit {
+     background-color: #ff6300;
+     border: medium none;
+     border-radius: 50px;
+     vertical-align: middle;
+     width: 30px;
+     height: 30px;
+}
+ .glasses-footer .btn-submit .fa{
+     color:#fff;
+}
+ .glasses-footer .text-left {
+     text-align: left;
+}
+ .glasses-footer .social-link {
+     padding: 4px;
+}
+ .glasses-footer .footer-bottom {
+     width: 100%;
+     float: left;
+     border-top: 1px solid #2a2a2a;
+     border-bottom: 1px solid #2a2a2a;
+     padding: 20px 0;
+     margin-top:50px;
+     background: transparent;
+}
+ .glasses-footer .social-link li {
+     display: inline-block;
+     margin: 0 40px 0 0;
+}
+ .glasses-footer .social-link li a {
+     color: #9c9c9c;
+     display: inline-block;
+     text-align: center;
+     line-height: 20px;
+     font-size: 18px;
+}
+ .glasses-footer .social-link li a:hover {
+     color: #ff6300;
+}
+ .glasses-footer .input-group-addon {
+     display: block;
+     vertical-align: top;
+     padding: 0;
+     border: 0;
+     background-color: transparent;
+     position: absolute;
+     display: block;
+     vertical-align: top;
+     position: absolute;
+     top: 6px;
+     right: 36px;
+     font-size: 13px;
+     font-weight: normal;
+     line-height: 1;
+     color: #555555;
+     text-align: center;
+     border-radius: 4px;
+     width: 1%;
+     white-space: nowrap;
+}
+ .glasses-footer .text-right {
+     text-align: right;
+}
+ .glasses-footer .form-input {
+     width: 100%;
+     display: inline-table;
+     position: relative;
+}
+ .glasses-footer .form-control {
+     background: #fff;
+     border: medium none;
+     border-radius: 25px;
+     height: 40px;
+     position: relative;
+     position: relative;
+     display: block;
+     width: 100%;
+     padding: 6px 12px;
+     font-size: 13px;
+     line-height: 1.42857;
+     color: #555555;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+     -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+ .glasses-copyright {
+     background: #1a1a1a !important;
+}
+
+/*--------------Responsive section-----------------*/
+ @media screen and (max-width:1199px) {
+     .glasses-header-nav-left {
+         padding-left: 20px;
+         width: 73%;
+    }
+     .glasses-navbar .navbar-nav li {
+         padding: 10px 13px;
+    }
+     .glasses-header-nav-right {
+         width: 27%;
+    }
+     .glasses-tag {
+         height: 45px;
+         width: 45px;
+    }
+     .glasses-tag span {
+         font-size: 14px;
+         padding-top: 12px;
+    }
+     .ad-content-section h2 {
+         font-size: 36px;
+    }
+     .special-list {
+         padding-top: 22px;
+         padding-bottom: 22px;
+         margin-top: 20px;
+    }
+     .special-list .product-name a {
+         font-size: 15px;
+    }
+     .special-list .add-cart a{
+         font-size: 15px;
+    }
+     .special-list .product-prices {
+         font-size: 15px;
+    }
+     .product-list-mini li {
+         width: 100%;
+    }
+}
+ @media screen and (max-width:991px) {
+     .glasses-header .cnt-block li {
+         margin-right: 15px !important;
+    }
+     .glasses-header .cnt-account li a {
+         padding: 12px 6px !important;
+    }
+     .glasses-logo {
+         width: 22%;
+    }
+     .glasses-logo img {
+         max-width: 100%;
+    }
+     .glasses-navbar .navbar-default .navbar-collapse .navbar-nav li a {
+         font-size:13px !important;
+    }
+     .glasses-navbar .navbar-nav li {
+         padding: 0px 8px;
+    }
+     .glasses-nav-search button[type="submit"] {
+         top:4px;
+    }
+     .glasses-nav-search input[type="text"] {
+         height:33px;
+    }
+     .glasses-header-nav-right {
+         margin-top: -8px;
+    }
+     .glasses-product-slider .custom-carousel .owl-controls .owl-next {
+         left: 52%;
+    }
+     .glasses-product-slider .custom-carousel .owl-controls .owl-prev {
+         left: 47%;
+    }
+     .special-list {
+         padding-top: 12px;
+         padding-bottom: 12px;
+         margin-top: 0;
+    }
+     .special-list .product-name a {
+         font-size: 11px;
+    }
+     .special-list .add-cart a{
+         font-size: 11px;
+    }
+     .special-list .product-prices {
+         font-size: 11px;
+    }
+     .left-list-img .special-right-content, 
+     .right-list-img .special-image-left {
+         margin-top:0;
+    }
+     .special-right-content {
+         margin-top: 0px;
+    }
+     .special-right-content h1 {
+         margin-top:0;
+    }
+     .special-right-content p {
+         font-size: 14px;
+    }
+     .service-section .service-content h4 {
+         font-size: 19px;
+    }
+     .service-section .icon .fa {
+         font-size: 40px;
+    }
+}
+ @media screen and (max-width:767px) {
+     .top-bar .cnt-block {
+         float: none !important;
+    }
+     .glasses-header-nav-right {
+         margin-top: 45px;
+    }
+     .glasses-header-nav-left {
+         width: 100%;
+    }
+     .glasses-navbar .navbar-toggle {
+         float:right;
+         margin-top:0;
+    }
+     .glasses-header-nav-right {
+         display:none;
+    }
+     .glasses-header-nav{
+         background:none;
+         float: left;
+         width: 100%;
+         right: 0;
+         padding-left: 25px;
+         position: absolute;
+         padding-top:18px;
+    }
+     .glasses-navbar .nav-bg-class{
+         background:#ff6300;
+         margin-right: 15px;
+    }
+     .navbar-default .navbar-toggle {
+         background: #ff6300;
+    }
+     .glasses-header .navbar-default .navbar-toggle:hover, 
+     .navbar-default .navbar-toggle:focus {
+         background: #ff6300;
+    }
+     .glasses-navbar .navbar-default .navbar-collapse .navbar-nav .active a {
+         color: #fff !important;
+    }
+     .glasses-navbar .navbar-default .navbar-collapse .navbar-nav li a:hover {
+         color: #fff !important;
+    }
+     .glasses-header-nav-left {
+         padding-left:0;
+    }
+     .glasses-navbar .navbar-nav li {
+         border-bottom: 1px solid #fb9555;
+    }
+     .glasses-navbar .navbar-nav li:last-child {
+         border-bottom: none;
+         padding-bottom:5px;
+    }
+     .glasses-navbar.header-nav .navbar-default .navbar-collapse {
+         padding-right:15px;
+    }
+     .glasses-navbar .navbar-nav li {
+         padding: 12px 7px;
+    }
+     .glasses-logo {
+         width: 33%;
+    }
+     #owl-main .item .caption {
+         left: 35px;
+    }
+     .glasses-slider-img img {
+         display:none;
+    }
+     .glasses-slider #owl-main,
+     .glasses-slider #owl-main .item{
+        height:550px;
+    }
+     .glasses-slider #owl-main .item .caption {
+         left: 49px;
+         top: 25%;
+    }
+     .glasses-slider #owl-main .item .caption.bg-color .big-text {
+         font-size: 60px;
+    }
+     .glasses-product-slider .custom-carousel .owl-controls .owl-next {
+         left: 53%;
+    }
+     .glasses-product-slider .custom-carousel .owl-controls .owl-prev {
+         left: 46%;
+    }
+     .glasses-heading {
+         margin-bottom: 60px;
+    }
+     .ad-content-section {
+         float: none;
+         text-align: center;
+    }
+     .special-right-content {
+         margin-top: 25px;
+         padding-left: 15px;
+    }
+     .left-list-img .special-image-left, 
+     .right-list-img .special-right-content {
+         width: 100%;
+         margin-top: 15px;
+    }
+     .left-list-img .special-right-content, 
+     .right-list-img .special-image-left {
+         width: 100%;
+         margin-top:10px;
+    }
+     .special-image-left img {
+         width: 100%;
+    }
+     .service-section {
+         margin: 20px 0 0;
+         padding-bottom: 50px;
+         padding-top: 50px;
+    }
+     .service-section .service-content {
+         width:100%;
+         text-align:center;
+    }
+     .service-section .icon {
+         width: 100%;
+         text-align: center;
+    }
+     .call-action {
+         padding: 30px 0;
+    }
+     .call-action .call-action-content h1 {
+         font-size: 26px;
+    }
+     .text-right {
+         text-align: center;
+    }
+     .glasses-heading h2 {
+         font-size: 30px;
+         margin-top:5px;
+    }
+     .glasses-heading .divider {
+         width: 350px;
+    }
+     .product-lists .glasses-heading h2 {
+         font-size: 30px;
+    }
+     .special-list .product-name a {
+         font-size: 15px;
+    }
+     .special-list .product-prices {
+         font-size: 15px;
+    }
+     .special-list .add-cart a {
+         font-size: 15px;
+    }
+     .product-list-mini {
+         margin-top: 25px;
+    }
+     .social p{
+         text-align:center;
+    }
+     .glasses-footer .footer-bottom {
+         padding: 10px 0;
+         margin-top: 30px;
+    }
+     .glasses-footer .social-link {
+         text-align:center;
+    }
+     .glasses-footer ul {
+         padding-left:15px;
+    }
+     .glasses-copyright {
+         padding:14px 0 !important;
+    }
+     .glasses-footer p {
+         font-size: 14px;
+         padding-bottom:14px; 
+    }
+}
+ @media (max-width:479px) {
+     .glasses-header .cnt-account li:first-child {
+         width:100%;
+         margin-bottom: 0 !important;
+    }
+     .glasses-header .cnt-account li a:first-child{
+         padding-bottom:0 !important;
+    }
+     .glasses-logo {
+         width: 45%;
+    }
+     .glasses-slider #owl-main{
+        height:400px;
+    }
+     .glasses-slider #owl-main .item{
+        height:400px;
+    }
+     .glasses-slider #owl-main .item .caption {
+         left: 0px;
+         top: 14%;
+         text-align: center;
+         top: 25%;
+    }
+     .glasses-slider #owl-main .item .caption .slider-header {
+         font-size: 28px;
+         float: none;
+         text-align: center;
+    }
+     .glasses-slider #owl-main .item .caption.bg-color .big-text {
+         font-size: 27px;
+         float: none;
+         padding:0;
+    }
+     .glasses-slider .big-subtext {
+         font-size: 22px;
+    }
+     .glasses-product-slider {
+         padding-top: 30px;
+    }
+     .glasses-product-slider .custom-carousel .owl-controls .owl-prev {
+         left: 43%;
+    }
+     .glasses-product-slider .custom-carousel .owl-controls .owl-next {
+         left: 54%;
+    }
+     .glasses-heading h2 {
+         font-size: 20px;
+         margin-bottom: 0px;
+         margin-top:10px;
+    }
+     .glasses-heading .divider {
+         width: 268px;
+    }
+     .ad-content-section h1 {
+         font-size: 30px;
+    }
+     .ad-content-section h2 {
+         font-size: 22px;
+    }
+     .special-right-content h2 {
+         font-size: 20px;
+    }
+     .service-section {
+         padding-top:30px;
+         padding-bottom:30px;
+    }
+     .product-lists {
+         padding: 30px 0px;
+    }
+     .product-lists .glasses-heading h2 {
+         font-size: 20px;
+         margin-bottom: 0px;
+         margin-top: 10px;
+    }
+     .product-list-mini{
+         text-align:center;
+         padding: 20px 0px;
+    }
+     .product-list-mini .product-content {
+         padding-left: 0px;
+         margin-top: 10px;
+    }
+     .product-list-mini li {
+         padding-top: 15px;
+         padding-bottom: 15px;
+    }
+     .product-list-mini h1 {
+         font-size: 20px;
+    }
+     .call-action {
+         margin-top: 30px;
+    }
+     .special-list .product-name a {
+         font-size: 12px;
+    }
+     .special-list .quality {
+         font-size: 12px;
+    }
+     .special-list .add-cart-lower a{
+         font-size: 12px;
+    }
+     .glasses-footer .footer-top {
+         padding-top: 40px;
+    }
+}
+
+/*===================================================================================*/
+/*  Colors CSS
+/*===================================================================================*/
+a,
+.top-bar .cnt-block ul li .dropdown-menu li a:hover,
+.top-bar .cnt-block ul li .dropdown-menu li a:focus,
+.main-header .top-search-holder .contact-row .icon,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:focus,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:focus ,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price ,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:hover,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:focus,
+.sidebar .side-menu nav .nav > li a:hover,
+.sidebar .side-menu nav .nav > li a:focus ,
+.sidebar .side-menu nav .nav > li a:hover:after,
+.sidebar .side-menu nav .nav > li a:focus:after,
+.scroll-tabs .nav-tab-line li a:hover,
+.scroll-tabs .nav-tab-line li a:focus,
+.product .product-info .name a:hover,
+.product .product-info .name a:focus,
+.copyright-bar .copyright a,
+.blog-slider-container .blog-slider .blog-post-info .name a:hover,
+.blog-slider-container .blog-slider .blog-post-info .name a:focus,
+.latest-tweet .re-twitter .comment a,
+.latest-tweet .re-twitter .comment .icon .fa-stack-2x ,
+.footer .contact-information .media .icon .fa-stack-2x,
+.footer .contact-information .media .media-body a:hover,
+.footer .contact-information .media .media-body a:focus,
+.footer .footer-bottom .module-body ul li a:hover,
+.footer .footer-bottom .module-body ul li a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:hover,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .x-page .x-text h1,
+.body-content .x-page .x-text a,
+.sign-in-page .register-form .forgot-password,
+.sign-in-page .register-form .forgot-password:hover,
+.sign-in-page .register-form .forgot-password:focus,
+.my-wishlist-page ins span, 
+.my-wishlist-page .woocs_price_code > span,
+.terms-conditions-page .contact-form,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:hover,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:focus,
+.hot-deals .product-info .product-price > span,
+.hot-deals .product-info .name a:hover,
+.hot-deals .product-info .name a:focus,
+.yamm .dropdown-menu .title:hover,
+.yamm .dropdown-menu .title:focus,
+.yamm .dropdown-menu li a:hover,
+.yamm .dropdown-menu li a:focus,
+.filters-container .nav-tabs.nav-tab-box li.active a .icon,
+.filters-container .pagination-container ul .current,
+.filters-container .pagination-container ul li a:hover,
+.filters-container .pagination-container ul li a:focus,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:hover,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:hover,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:after,
+.sidebar .list li a:hover,
+.sidebar .list li a:focus,
+.sidebar .compare-report span,
+.single-product .product-info .rating-reviews .reviews .lnk:hover,
+.single-product .product-info .rating-reviews .reviews .lnk:focus,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:hover,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:focus,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:hover,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:focus,
+.single-product .product-info-block .txt.txt-qty,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:hover,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:focus,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .review-title .date span,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .author span,
+.homepage-container .product .product-info .name a:hover,
+.homepage-container .product .product-info .name a:focus,
+.blog-post h1 a:hover,
+.blog-post h1 a:focus,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:focus,
+.blog-review .review-action a,
+.blog-review .review-action a:hover,
+.blog-review .review-action a:focus,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:hover,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:focus,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:focus{
+  color: #ff6300;
+}
+
+.show-theme-options:hover,
+.show-theme-options:focus,
+.btn-primary:hover,
+.btn-black:hover,
+.btn-primary:focus,
+.btn-black:focus,
+.product .cart .action ul li.add-cart-button .btn-primary:hover,
+.product .cart .action ul li.add-cart-button .btn-primary:focus,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:hover,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:focus,
+.footer .links-social .social-icons a:hover,
+.footer .links-social .social-icons a:focus,
+.footer .links-social .social-icons a.active,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.custom-carousel .owl-controls .owl-prev:hover,
+.custom-carousel .owl-controls .owl-next:hover,
+.custom-carousel .owl-controls .owl-prev:focus,
+.custom-carousel .owl-controls .owl-next:focus,
+.sidebar .price-range-holder .slider .slider-track .slider-handle.max-slider-handle,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page.active span,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page:hover span,
+.single-product .product-info .product-social-link .social-icons ul li a:hover,
+.single-product .product-info .product-social-link .social-icons ul li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a,
+#owl-main .owl-controls .owl-pagination .owl-page:active span,
+#owl-main .owl-controls .owl-pagination .owl-page:hover span,
+.product .tag.hot,
+.products .cart .action ul li.lnk:hover,
+.products .cart .action ul li.lnk:focus{
+  background: #ff6300!important;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li a:hover,
+.single-product .product-tabs .nav-tab-cell-detail li a:focus,
+.single-product .product-tabs .nav-tab-cell-detail li.active a {
+  background: #ff6300;
+  border: 2px solid #ff6300;
+}
+
+
+.top-bar .cnt-account > ul > li > a:hover,
+.top-bar .cnt-account > ul > li > a:focus,
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket .total-price,
+.info-box .info-box-heading.green,
+.info-boxes .info-box .icon,
+#owl-main:hover .owl-prev:hover .icon,
+#owl-main:hover .owl-next:hover .icon,
+.cart .action ul .lnk .add-to-cart:hover,
+.cart .action ul .lnk .add-to-cart:focus,
+.cart .action ul .lnk .compare:hover,
+.cart .action ul .lnk .compare:focus  {
+  color: #fff !important;
+}
+
+.sidebar .sidebar-module-container .search-area .search-button:after {
+  color: #333!important;
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff6300;
+}
+
+.top-bar .cnt-block ul li a .caret {
+  color: rgba(255,255,255,0.8);
+}
+
+.filters-container .pagination-container ul li.prev:hover,
+.filters-container .pagination-container ul li.next:hover,
+.filters-container .pagination-container ul li.prev:focus,
+.filters-container .pagination-container ul li.next:focus,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page.active span,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:hover,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:focus {
+  background: #ff6300 !important;
+}
+
+div.tag.sale {
+  background: #fdd922;
+  color:#333
+}
+
+.breadcrumb ul li.active,
+.breadcrumb ul a:hover,
+.breadcrumb ul a:focus {
+  color: #157ed2;
+}
+
+.price_slider_wrapper .ui-slider-handle {
+  border: 5px solid #ff6300;
+}
+
+.single-product .gallery-holder .gallery-thumbs .owl-item .item:hover {
+  border: 1px solid #ff6300;
+}
+
+.single-product .product-info .price-container .price-box ins span,
+.single-product .product-info .price-container .price-box > span {
+  color: #ff7878;
+}
+
+.cart .action .add-cart-button .btn.btn-primary.icon:hover,
+.cart .action .add-cart-button .btn.btn-primary.icon:focus,
+#owl-main:hover .owl-prev:hover,
+#owl-main:hover .owl-next:hover {
+  background: #ff6300;
+  color:#fff!important;
+}
+
+.cart .action .add-to-cart:hover,
+.cart .action .add-to-cart:focus {
+  color: #ff6300 !important;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:focus {
+  color: #f07c29;
+}
+.blog-post .social-media a:hover,
+.blog-post .social-media a:focus,
+.blog-post-author-details .author-social-network button .twitter-icon,
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title > a:not(.collapsed) span,
+.contact-info .contact-i {
+  background-color: #ff6300!important;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info .cart-product-info span span,
+.shopping-cart .cart-shopping-total table thead tr th .cart-grand-total {
+  color: #84b943;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail {
+  border-bottom: none;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.mega-menu .dropdown-menu {
+    width:100%;
+    left:0px 
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    box-shadow:0 4px 6px -1px rgba(0,0,0,0.4);
+}
+
+.single-product div.product div.images .flex-control-thumbs li .flex-active, 
+.woocommerce div.product div.images .flex-control-thumbs li img:hover {
+    border: 1px solid #ff6300;
+}
+
+.woocommerce .btn-primary, 
+.single-product .favorite-button a, 
+.woocs_converter_shortcode_button{
+    background: #ff6300;
+    border: none;
+}
+.woocommerce .btn-primary:hover, 
+.single-product .favorite-button a:hover, 
+.woocs_converter_shortcode_button:hover{
+    background: #dd5600!important;
+}

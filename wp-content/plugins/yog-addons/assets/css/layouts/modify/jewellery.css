@@ -1,0 +1,1344 @@
+/*
+Theme Name: Jewellery 
+Author: CKThemes
+Description:  Flipmart is a modern, clean and professional WordPress Woocommerce Theme, It is fully responsive, it looks stunning on all types of screens and devices. It is super for fashion shop, digital shop, games shop, food shop, devices shop, household appliances shop or any other categories
+Version: 2.6
+License: GNU General Public License v2 or later
+Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
+Text Domain:  flipmart
+/*===================================================================================*/
+/* GENERAL 
+/*===================================================================================*/
+ body {
+     font-family: 'Rajdhani', sans-serif !important;
+     background:#fff !important;
+}
+ h1 {
+     font-size:36px;
+}
+ h3 {
+     font-size:22px;
+}
+.faq-page,
+.shopping-cart,
+.my-wishlist-page,
+.track-order-page,
+.panel-group .panel {
+    box-shadow: none;
+    border: 1px solid #e6e6e6;
+}
+
+/*===================================================================================*/
+/* HEADER SECTION 
+/*===================================================================================*/
+body:not( .home ) .jewellery-header{
+    position: relative;
+    background: #000c;
+}
+.jewellery .jewellery-header{
+    position:absolute;
+    left:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.5)!important;
+    z-index:1;
+    border-bottom:0 !important;
+}
+ .jewellery .header-style-1 .header-nav{
+    background: transparent!important;
+}
+ .jewellery-header .top-info {
+    float:right;
+    padding:12px 0;
+}
+ .jewellery-header .top-info > li {
+    display: inline-table;
+    font-size: 16px;
+    margin-right:22px;
+}
+ .jewellery-header .top-info > li:last-child{
+    margin-right:0;
+}
+ .jewellery-header .top-info a,
+ header .woocommerce-currency-switcher-form .dd-selected > label {
+     color: #fff!important;
+    text-transform: capitalize;
+    display: inline-table;
+    text-align: center;
+    font-weight:500;
+    font-size:16px;
+    font-family: 'Rajdhani', sans-serif !important;
+}
+ header .dd-pointer-down{
+    border-top: solid 4px #ffd800!important;
+}
+ header .dd-container .dd-pointer-up{
+    border-bottom: solid 4px #ffd800!important;
+}
+ header .dd-container{
+    border: none;
+}
+.jewellery-header .top-info i {
+    vertical-align: middle;
+    color: #ffd800;
+    padding-right: 5px;
+}
+ .jewellery-top-search{
+    width:100%;
+    display:inline-table;
+    padding-top: 10px;
+}
+ .jewellery-top-search [class*="col-"]{
+    position: relative;
+ }
+ .jewellery-top-search input[type="text"]{
+    width:100%;
+    padding: 8px 40px 8px 12px;
+    background:rgba(0, 0, 0, 0.5);
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:30px;
+    position:relative;
+}
+ .jewellery-top-search button[type="submit"]{
+    padding:8px;
+    background:#fce163;
+    color:#000;
+    border:none;
+    border-radius:30px;
+    line-height:0;
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+ .jewellery-cart{
+    width:100%;
+    padding:8px;
+    background:rgba(0, 0, 0, 0.5);
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:30px;
+    position:relative;
+    text-align: left;
+}
+ .jewellery-cart span{
+    color:#fff;
+    font-weight:600;
+}
+ .jewellery-cart i{
+    color:#ffd800;
+}
+ .j-cart-sec{
+    position:absolute;
+    right: 4px;
+    top: 4px;
+}
+ .j-cart-sec p{
+    padding:4px 11px;
+    border-radius:50%;
+    color:#000;
+    background:#fce163;
+    margin: 0;
+    font-weight:bold;
+}
+ .jewellery-header .dropdown-menu {
+    float: right;
+    padding: 10px;
+    border-radius: 0;
+    min-width: 200px;
+    left:-165px;
+    padding: 10px;
+    border-radius: 0;
+    min-width: 200px;
+}
+ .jewellery-header .jewellery-drop-menu{
+    border-radius:0;
+    border:none !important;
+    background:#ffd800;
+    padding:0px 9px;
+    color:#000;
+    font-size:26px;
+    display:inline-table;
+}
+ .jewellery-header .jewellery-drop-menu:hover{
+    color:#fff;
+}
+.jewellery-header .dropdown-menu li{
+    width:100%;
+}
+ .jewellery-header .dropdown-menu a {
+    color: #1212.2;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    border: none;
+    font-weight: normal;
+    padding: 0;
+    text-align: left;
+}
+ .jewellery-header .dropdown-menu li a:hover{
+    background: #ffd800;
+    color:#fff;
+}
+ .cos-res-menu a{
+    padding:12px !important;
+    font-weight:500 !important;
+}
+ .cos-res-menu li{
+    padding-right:0 !important;
+}
+ .my-account-log .dropdown-menu{
+    left:0;
+    padding: 0;
+}
+ .my-account-log .dropdown-menu li{
+    width:100%;
+    display:inline-table;
+    margin-right:0;
+}
+ .my-account-log .dropdown-menu li a{
+    padding:10px;
+    text-transform:capitalize;
+    font-size:16px;
+}
+
+/*===================================================================================*/
+/* SLIDER SECTION 
+/*===================================================================================*/
+ .jewellery-slider #owl-main,
+ .jewellery-slider #owl-main .item{
+    height:718px !important;
+ }
+ .jewellery-slider #owl-main .owl-controls .owl-buttons .icon{
+    height: 0px;
+    line-height: 16px;
+}
+ .jewellery-slider #owl-main .item .caption.bg-color{
+    left: 118px;
+    padding-right: 0;
+    top:42%!important;
+}
+ .jewellery-slider h2{
+    color:#fff;
+    font-weight:300;
+    font-family: 'Rajdhani', sans-serif !important;
+    margin:0;
+    font-size:40px;
+    text-transform:uppercase;
+    text-align: left;
+}
+ .jewellery-slider h1{
+    color:#fff;
+    font-weight:bold;
+    font-family: 'Rajdhani', sans-serif !important;
+    text-transform:uppercase;
+    margin:0;
+    font-size:84px;
+    line-height:65px;
+    text-align: left;
+}
+ .jewellery-slider h3{
+    color:#ffd800;
+    font-weight:300;
+    font-family: 'Rajdhani', sans-serif !important;
+    text-transform:uppercase;
+    margin:0;
+    font-size:40px;
+    text-align: left;
+}
+ .jewellery-slider h3 span{
+    color:#000;
+}
+ .jewellery .jewellery-slider a{
+    color:#000!important;
+    text-transform:uppercase;
+    background:#fff;
+    padding:9px 40px;
+    font-weight:600;
+    font-family: 'Rajdhani', sans-serif !important;
+    display:inline-table;
+    margin-top:6px;
+    font-size:18px;
+    border-radius:30px;
+    text-align: left;
+}
+ .jewellery-slider a:hover{
+    background:#ffd800;
+}
+
+/*===================================================================================*/
+/* SERVICES SECTION 
+/*===================================================================================*/
+ .jewellery-service{
+    padding-top:80px;
+}
+.jewellery-service li{
+    width:100%;
+    display:inline-table;
+    margin-top:70px;
+}
+.jewellery-service li:hover h4{
+    color:#deb774;
+}
+ .jewellery-service .jewellery-heading{
+    margin-bottom:40px;
+}
+ .jewellery-service-icon{
+    width:81px;
+    height:81px;
+    display:inline-table;
+    background:#ffd800;
+    text-align:center;
+    padding-top: 28px;
+    margin-right:40px;
+    vertical-align:top;
+    position:relative;
+}
+ .jewellery-service-des{
+    width:71%;
+    display:inline-table;
+}
+ 
+ .jewellery-service-des h4{
+    margin-top:0;
+    vertical-align: top;
+    color:#0a1015;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:600;
+}
+ .jewellery-service-des p{
+    color:#919191;
+    margin:0;
+    font-size:16px;
+}
+ .jewellery-service-border{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:none;
+    border:3px solid #deb774;
+    width:81px;
+    height:81px;
+}
+
+/*===================================================================================*/
+/* SERVICES SECTION 
+/*===================================================================================*/
+ .about-policy{
+    width:100%;
+    float:left;
+    position:relative;
+    top:-19px;
+}
+.about-policy h2{
+    margin:0;
+    font-size:26px;
+    color:#000;
+    font-weight:bold;
+    text-transform:capitalize;
+    padding-bottom:10px;
+}
+ .about-policy h3{
+    margin:0;
+    font-size:22px;
+    color:#000;
+    font-weight:500;
+    text-transform:capitalize;
+    padding-bottom:10px;
+}
+ .secure-payment{
+    background:#ffd800;
+    padding-top:40px;
+    padding-bottom:20px;
+    padding-left: 8.8%;
+    text-align:left;
+}
+.free-delivery {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: left;
+    z-index: 1;
+    background-size:cover;
+    width:466px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-top: 20px;
+    top:19px;
+}
+ .money-back{
+    background:#ffd800;
+    padding-top:40px;
+    padding-bottom:20px;
+    padding-right: 8.8%;
+    text-align:right;
+    float:right;
+}
+
+/*===================================================================================*/
+/* HEADING SECTION 
+/*===================================================================================*/ 
+ .jewellery-heading{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+.jewellery-heading h3{
+    margin:0;
+    padding-bottom:6px;
+    color:#0a1015;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:35px;
+}
+ .jewellery-heading p{
+    color:#919191;
+    margin:0;
+    font-size:16px;
+}
+
+/*===================================================================================*/
+/* PRODUCTS SLIDER SECTION 
+/*===================================================================================*/ 
+ .jewellery-product-slider{
+    padding:80px 0px;
+}
+ .jewellery-product-slider .owl-buttons{
+    display:none;
+}
+ .jewellery-product-slider .product-slider .products{
+    margin-bottom:40px;
+}
+ .jewellery-product-slider .scroll-tabs{
+    box-shadow:none !important;
+}
+ .jewellery-product-slider .product{
+    border:1px solid #d8d8d8;
+    padding:15px;
+    margin: 0px;
+}
+ .jewellery-product-slider .custom-carousel .owl-controls {
+    right:94% !important;
+    top:25px !important;
+}
+ .jewellery-top-vs .owl-carousel .owl-item{
+    margin-top:40px;
+}
+ .jewellery-product-slider .products .product-image .tag{
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    right: 5px;
+    background:#96fc12;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    text-align: center;
+    padding-top:10px;
+}
+.jewellery-product-slider .products .product-image .tag.out-stock{
+   width: auto;
+   height: auto;
+   font-size:15px;
+   font-weight:600;
+   text-transform:uppercase;
+   background: transparent;
+   color:red !important;
+}
+ .jewellery-product-slider .products .product-image .tag span{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:600;
+}
+ .product .product-info .name a{
+    font-size: 18px;
+    color:#000000 !important;
+    font-family: 'Rajdhani', sans-serif !important;
+}
+ .products .product-info .product-price ins > span, 
+ .products .product-info .product-price .woocs_price_code > span, 
+ .products .product-info .product-price > span,
+ .products .product-info .product-price del > span{
+    color:#ebc702 !important;
+    font-size:18px !important;
+    font-weight:bold;
+    width:100%;
+    text-align:center;
+}
+ .jewellery-product-slider .add-cart-btn{
+    width:100%;
+    display:inline-table;
+    text-align:center;
+    margin-top:10px;
+}
+ .jewellery-product-slider .add-cart-btn a{
+    color:#000;
+    background:#deb774;
+    font-size:18px;
+    text-transform:capitalize;
+    font-weight:600;
+    padding:8px 35px;
+    display:inline-table;
+    border-radius:30px;
+}
+ .jewellery-product-slider .add-cart-btn a:hover{
+    background:#ffd800;
+}
+
+/*===================================================================================*/
+/* IMAGE BOX SECTION 
+/*===================================================================================*/
+ .image-box{
+    padding:70px 0;
+}
+ .image-box li{
+    float:left;
+    width:33.3333%;
+    text-align:center;
+    position:relative;
+}
+ .image-box img{
+    position:relative;
+}
+ .image-box-content{
+    position:absolute;
+    left:0;
+    right:0;
+    text-align:center;
+    bottom:0px;
+    padding: 25px;
+}
+ .image-box-content h3{
+    font-weight:bold;
+    font-size:35px;
+    text-transform:uppercase;
+    color:#ffd800;
+    margin-top:0;
+}
+ .image-box-content p{
+    font-size:16px;
+    color:#fff;
+}
+ .jewellery .image-box-content a{
+    color:#000!important;
+    font-size:18px;
+    text-transform:capitalize;
+    background:#ffd800;
+    border-radius:30px;
+    padding:8px 40px;
+    display:inline-table;
+    font-weight:600;
+}
+
+/*===================================================================================*/
+/* IMAGE BOX SECTION 
+/*===================================================================================*/
+ .banner{
+    background-size:cover;
+    float:left;
+    width:100%;
+}
+ .banner-content{
+    padding:145px 0;
+}
+ .banner-content h1{
+    font-weight:bold;
+    color:#fff;
+    font-size:64px;
+    margin: 0;
+    line-height: 60px;
+}
+ .banner-content h3{
+    font-weight:500;
+    color:#ffd800;
+    font-size:42px;
+    margin: 0;
+}
+ .banner-content p{
+    font-size:28px;
+    color:#fff;
+    font-weight:500;
+}
+ .jewellery .banner-content a{
+    color:#000!important;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:600;
+    background:#ffd800;
+    display:inline-table;
+    padding:9px 45px;
+    border-radius:30px;
+}
+ .banner-sec{
+    margin-top:40px;
+    background-size:cover
+}
+ .banner-sec-content{
+    width:100%;
+    display:inline-table;
+    text-align:center;
+    padding-top:80px;
+    padding-bottom:280px;
+}
+ .banner-sec-content h3{
+    font-weight:600;
+    color:#ffd800;
+    font-size:35px;
+    margin: 0;
+    text-transform:uppercase;
+}
+ .banner-sec-content p{
+    font-size:16px;
+    color:#fff;
+}
+ .jewellery .banner-sec-content a{
+    color:#000!important;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:600;
+    background:#ffd800;
+    display:inline-table;
+    padding:9px 45px;
+    border-radius:30px;
+    margin-top:20px;
+}
+ 
+
+/*===================================================================================*/
+/* IMAGE GALLERY SECTION 
+/*===================================================================================*/
+ .gallery-items{
+    width:100%;
+    display:inline-table;
+    margin-top:80px;
+ }
+ .gallery-items ul{
+    margin-top:40px;
+    display: inline-table;
+}
+ .gallery-items li{
+    float:left;
+    width:25%;
+}
+
+/*===================================================================================*/
+/* CLIENTS LOGO SECTION 
+/*===================================================================================*/
+ .popular-brand{
+    margin-top:65px;
+    text-align:center;
+}
+ .popular-brand ul{
+    display:inline-table;
+    margin-top:40px;
+    width:100%;
+}
+ .popular-brand li{
+    width:16%;
+    display:inline-table;
+}
+ .popular-brand li:last-child{
+    margin-right:0;
+}
+ .popular-brand ul li img{
+    border:1px solid #e6e6e6;
+}
+ .popular-brand ul li:hover img{
+    border-color:#ffd800;
+}
+
+/*===================================================================================*/
+/* FOOTER SECTION 
+/*===================================================================================*/
+ .footer-container{
+    width:100%;
+    display:inline-table;
+    background:url(../../../images/jewellery-footer.jpg);
+    margin-top:80px;
+}
+ .jewellery-newsletter{
+    position:relative;
+    background:#ffd800;
+    width:100%;
+    display:inline-table;
+    border-radius:4px;
+    padding:20px 15px;
+    bottom:35px;
+}
+ .jewellery-newsletter i{
+    font-size:45px;
+    color:#fff;
+    padding-top: 3px;
+}
+ .jewellery-content h3{
+    margin:0;
+    text-transform:capitalize;
+    font-size:30px;
+    color:#fff;
+    font-weight:600;
+}
+ .jewellery-content span{
+    color:#000;
+}
+ .jewellery-content p{
+    font-size:16px;
+    color:#fff;
+    margin-bottom:0;
+}
+ .newsletter-form{
+    position:relative;
+    padding-top:8px;
+}
+ .newsletter-form input[type="email"]{
+    width:100%;
+    border-radius:30px;
+    background:#000;
+    padding:9px 35px;
+    display:inline-table;
+    position:relative;
+    border:1px solid #fff;
+    color:#fff;
+}
+ .newsletter-form button[type="submit"]{
+    background:#fce163;
+    border-radius:50%;
+    position:absolute;
+    right:20px;
+    top:12px;
+    padding:5px 8px;
+    border:none;
+}
+ .newsletter-form i{
+    font-size:18px;
+    color:#000;
+    padding-top:0;
+}
+ .jewellery-footer-widgets{
+    padding-bottom:40px;
+    padding-top:20px;
+}
+ .jewellery-footer-widgets h3{
+    color:#fff;
+    font-size:22px;
+    text-transform:uppercase;
+    margin:0;
+    padding-bottom:8px;
+    font-weight:600;
+    border-bottom:1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom:25px;
+}
+ .jewellery-footer-widgets p{
+    line-height:30px;
+    font-size:16px;
+    color:#d1d1d1;
+    text-align:justify;
+}
+ .social-links{
+    width:100%;
+    float:left;
+    border-top:1px solid rgba(255, 255, 255, 0.3);
+}
+ .social-links h5{
+    color:#d1d1d1;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:600;
+    padding-right:6px;
+}
+ .social-links li{
+    width:auto;
+    display: inline-table;
+}
+ .social-links a{
+    color:#d1d1d1;
+    margin-right:10px;
+}
+ .widget_nav_menu a{
+    color:#d1d1d1;
+    font-size:16px;
+    text-transform:capitalize;
+}
+ .widget_nav_menu a:hover{
+    color:#ffd800;
+}
+ .widget_nav_menu li:before{
+    content: '';
+    display:inline-table;
+    width:8px;
+    height:8px;
+    margin-right:10px;
+    background:#d1d1d1;
+    vertical-align: middle;
+}
+ .widget_nav_menu li{
+    padding-bottom:4px;
+}
+ .widget_nav_menu li:hover:before{
+    background:#ffd800;
+}
+ .widget_nav_menu li:last-child{
+    padding-bottom:0;
+}
+ .instagram-lite {
+    margin-top:12px;
+}
+ .instagram-lite li{
+    display:inline-table;
+    width:32%;
+    padding-bottom:10px;
+}
+ .jewellery-contact-info li{
+    padding-bottom:12px;
+}
+ .jewellery-contact-info li:last-child{
+    padding-bottom:0;
+}
+ .jewellery-contact-info h5{
+    margin:0;
+    color:#fff;
+    font-weight:bold;
+    font-size:15px;
+}
+ .jewellery-contact-info p{
+    margin:0;
+    color:#d1d1d1;
+    line-height:20px;
+}
+.jewellery-contact-icon{
+    width:5%;
+    display:inline-table;
+    font-size:18px;
+    color:#ffd800;
+    margin-right:6px;
+    vertical-align: middle;
+}
+ .jewellery-contact-content{
+    width:86%;
+    display:inline-table;
+}
+ .copyright{
+    width:100%;
+    float:left;
+    padding:20px 0;
+    background:#070707;
+}
+ .copyright p{
+    color:#deb774;
+    font-size:18px;
+    text-align:center;
+    margin:0;
+}
+ .copyright span{
+    color:#ffd800;
+}
+/*---------------Responsive css---------------*/
+ @media screen and (max-width:1280px) {
+     .top-info li {
+        margin-right: 10px;
+    }
+}
+ @media screen and (max-width:1170px) {
+     .top-info li {
+        margin-right: 5px;
+    }
+     .top-info li a{
+        font-size:15px;
+    }
+     .top-info .dropdown-menu{
+        padding:0;
+    }
+     .secure-payment{
+        padding-left: 4.8%;
+    }
+     .money-back{
+        padding-right: 4.8%;
+    }
+     .jewellery-service-icon{
+        margin-right:30px;
+    }
+}
+ @media screen and (max-width:983px) {
+     .jewellery-header .col-sm-8 {
+        text-align: center;
+        float: left;
+        width: 100%;
+    }
+     .header-nav .col-sm-4{
+        width:100%;
+        text-align:center;
+    }
+    .top-info{
+        padding-top:0;
+        padding-bottom:15px;
+    }
+    
+     .jewellery-slider #owl-main .item .caption.bg-color{
+        left:145px;
+        padding:26px;
+        bottom:0;
+    }
+    .jewellery-slider h2{
+        font-size:26px;
+    }
+     .jewellery-slider h1{
+        font-size:40px;
+    }
+     .jewellery-slider h3{
+        font-size:20px;
+    }
+     .about-policy h2{
+        font-size:20px;
+    }
+     .about-policy h3{
+        font-size:18px;
+    }
+     .free-delivery{
+        width:400px;
+    }
+     .jewellery-service-icon{
+        margin-right:20px;
+    }
+     .jewellery-service-des{
+        width:67%;
+    }
+     .jewellery-service li{
+        margin-top:40px;
+    }
+     .jewellery-content h3{
+        font-size:20px;
+    }
+}
+ @media screen and (max-width:767px) {
+     .top-info li{
+        width:100%;
+        line-height:30px;
+    }
+    .top-info{
+        padding:0px !important;
+    }
+     .jewellery-top-search .col-xs-8{
+        width:100%;
+        padding-bottom:15px;
+    }
+     .jewellery-top-search .col-xs-3{
+        width:91%;
+    }
+     .my-account-log .dropdown-menu{
+        left:40px;
+    }
+     .jewellery-slider #owl-main .item .caption.bg-color{
+        left:20px;
+        right:0;
+        background:none;
+        top:56%!important;
+    }
+     .jewellery-slider .text-left{
+        min-height:71px;
+    }
+     .secure-payment{
+        text-align:center;
+        padding:40px;
+    }
+     .free-delivery{
+        position:relative;
+        width:100%;
+        top:0;
+        text-align:center;
+        padding:40px;
+    }
+     .money-back{
+        text-align:center;
+        float:left;
+        padding:40px;
+        width:100%;
+    }
+     .jewellery-product-slider{
+        padding:40px 0px;
+    }
+     .jewellery-heading h3{
+        font-size:26px;
+    }
+     .banner{
+        margin-top:10px;
+    }
+     .banner-content h1{
+        font-size:40px;
+    }
+     .banner-content h3{
+        font-size:30px;
+    }
+     .banner-sec-content{
+        padding-top:40px;
+    }
+     .image-box{
+        margin:0 auto;
+        width:74%;
+        padding:40px 0;
+    }
+     .image-box li{
+        width:100%;
+    }
+     .jewellery-service{
+        padding-top:40px;
+        margin-bottom:40px;
+    }
+     .gallery-items {
+        margin-top: 40px;
+    }
+     .gallery-items li{
+        width:50%;
+    }
+     .gallery-items li img{
+        width:100%;
+    }
+     .popular-brand li{
+        width:33.3333%;
+        margin-bottom:30px;
+    }
+     .footer-container{
+        margin-top:20px;
+    }
+    .jewellery-newsletter .col-sm-1{
+        width:12%;
+        display: inline-table;
+    }
+     .jewellery-newsletter .col-sm-5{
+        width:80%;
+        display: inline-table;
+        vertical-align: top;
+        margin-bottom:10px;
+        margin-bottom:30px;
+    }
+     .jewellery-content i{
+        padding-top:0;
+    }
+     .jewellery-footer-widgets{
+        padding-bottom:0;
+    }
+     .jewellery-footer-widgets h3{
+        padding-bottom:20px;
+    }
+     .jewellery-footer-widgets .col-sm-3{
+        margin-bottom:30px;
+    }
+     .copyright ul {
+        float: left;
+    }
+}
+ @media screen and (max-width:450px) {
+     .jewellery-top-search .col-xs-3 {
+        width: 82%;
+    }
+     .jewellery-slider .text-left{
+        min-height:0px;
+    }
+     .image-box h3{
+        font-size:24px;
+    }
+     .gallery-items li{
+        width:100%;
+    }
+     .jewellery-service-des{
+        width:100%;
+        margin-top:20px;
+    }
+     .popular-brand li{
+        width:100%;
+    }
+     .jewellery-newsletter .col-sm-1{
+        width:100%;
+        display: inline-table;
+        text-align:center;
+        padding-bottom:10px;
+    }
+     .jewellery-newsletter .col-sm-5{
+        width:100%;
+        display: inline-table;
+        text-align:center;
+        margin-bottom:10px;
+    }
+     .cos-res-menu{
+        right:0px;
+    }
+}
+
+/*===================================================================================*/
+/*  Colors CSS
+/*===================================================================================*/
+a,
+.top-bar .cnt-block ul li .dropdown-menu li a:hover,
+.top-bar .cnt-block ul li .dropdown-menu li a:focus,
+.main-header .top-search-holder .contact-row .icon,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a:focus,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:hover,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a:focus ,
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price ,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:hover,
+.main-header .top-search-holder .search-area .categories-filter .dropdown-menu li a:focus,
+.sidebar .side-menu nav .nav > li a:hover,
+.sidebar .side-menu nav .nav > li a:focus ,
+.sidebar .side-menu nav .nav > li a:hover:after,
+.sidebar .side-menu nav .nav > li a:focus:after,
+.scroll-tabs .nav-tab-line li a:hover,
+.scroll-tabs .nav-tab-line li a:focus,
+.product .product-info .name a:hover,
+.product .product-info .name a:focus,
+.copyright-bar .copyright a,
+.blog-slider-container .blog-slider .blog-post-info .name a:hover,
+.blog-slider-container .blog-slider .blog-post-info .name a:focus,
+.latest-tweet .re-twitter .comment a,
+.latest-tweet .re-twitter .comment .icon .fa-stack-2x ,
+.footer .contact-information .media .icon .fa-stack-2x,
+.footer .contact-information .media .media-body a:hover,
+.footer .contact-information .media .media-body a:focus,
+.footer .footer-bottom .module-body ul li a:hover,
+.footer .footer-bottom .module-body ul li a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:hover,
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a:focus,
+.product-comparison .compare-table tr td .product-price .price,
+.product-comparison .compare-table tr td .in-stock,
+.body-content .x-page .x-text h1,
+.body-content .x-page .x-text a,
+.sign-in-page .register-form .forgot-password,
+.sign-in-page .register-form .forgot-password:hover,
+.sign-in-page .register-form .forgot-password:focus,
+.my-wishlist-page ins span, 
+.my-wishlist-page .woocs_price_code > span,
+.terms-conditions-page .contact-form,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:hover,
+.shopping-cart .estimate-ship-tax table tbody .unicase-form-control .dropdown-menu.open ul li a:focus,
+.hot-deals .product-info .product-price > span,
+.hot-deals .product-info .name a:hover,
+.hot-deals .product-info .name a:focus,
+.yamm .dropdown-menu .title:hover,
+.yamm .dropdown-menu .title:focus,
+.yamm .dropdown-menu li a:hover,
+.yamm .dropdown-menu li a:focus,
+.filters-container .nav-tabs.nav-tab-box li.active a .icon,
+.filters-container .pagination-container ul .current,
+.filters-container .pagination-container ul li a:hover,
+.filters-container .pagination-container ul li a:focus,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:hover,
+.filters-container .lbl-cnt .dropdown.dropdown-med .dropdown-menu li a:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:hover,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:focus,
+.sidebar .accordion .accordion-group .accordion-heading .accordion-toggle:after,
+.sidebar .list li a:hover,
+.sidebar .list li a:focus,
+.sidebar .compare-report span,
+.single-product .product-info .rating-reviews .reviews .lnk:hover,
+.single-product .product-info .rating-reviews .reviews .lnk:focus,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:hover,
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow:focus,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:hover,
+.single-product .product-info-block .form-control .dropdown-menu ul li a:focus,
+.single-product .product-info-block .txt.txt-qty,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:hover,
+.single-product .product-info .quantity-container .cart-quantity .arrows .arrow:focus,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .review-title .date span,
+.product-tabs .tab-content .tab-pane .product-reviews .reviews .review .author span,
+.homepage-container .product .product-info .name a:hover,
+.homepage-container .product .product-info .name a:focus,
+.blog-post h1 a:hover,
+.blog-post h1 a:focus,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .blog-post h4 a:focus,
+.blog-review .review-action a,
+.blog-review .review-action a:hover,
+.blog-review .review-action a:focus,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:hover,
+.blog-post-author-details .author-social-network .dropdown-menu > li > a:focus,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:hover,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login a:focus,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:hover,
+.checkout-box .checkout-progress-sidebar .panel-body ul li a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a:focus,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:hover,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit a:focus{
+  color: #ffd800;
+}
+
+.show-theme-options:hover,
+.show-theme-options:focus,
+.btn-primary:hover,
+.btn-black:hover,
+.btn-primary:focus,
+.btn-black:focus,
+.product .cart .action ul li.add-cart-button .btn-primary:hover,
+.product .cart .action ul li.add-cart-button .btn-primary:focus,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:hover,
+.product .cart .action ul li.add-cart-button .btn-primary.icon:focus,
+.footer .links-social .social-icons a:hover,
+.footer .links-social .social-icons a:focus,
+.footer .links-social .social-icons a.active,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.custom-carousel .owl-controls .owl-prev:hover,
+.custom-carousel .owl-controls .owl-next:hover,
+.custom-carousel .owl-controls .owl-prev:focus,
+.custom-carousel .owl-controls .owl-next:focus,
+.sidebar .price-range-holder .slider .slider-track .slider-handle.max-slider-handle,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page.active span,
+.sidebar .sidebar-widget .advertisement .owl-controls .owl-pagination .owl-page:hover span,
+.single-product .product-info .product-social-link .social-icons ul li a:hover,
+.single-product .product-info .product-social-link .social-icons ul li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a,
+#owl-main .owl-controls .owl-pagination .owl-page:active span,
+#owl-main .owl-controls .owl-pagination .owl-page:hover span,
+.product .tag.hot,
+.products .cart .action ul li.lnk:hover,
+.products .cart .action ul li.lnk:focus{
+  background: #ffd800!important;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li a:hover,
+.single-product .product-tabs .nav-tab-cell-detail li a:focus,
+.single-product .product-tabs .nav-tab-cell-detail li.active a {
+  background: #ffd800;
+  border: 2px solid #ffd800;
+}
+
+
+.top-bar .cnt-account > ul > li > a:hover,
+.top-bar .cnt-account > ul > li > a:focus,
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket .total-price,
+.info-box .info-box-heading.green,
+.info-boxes .info-box .icon,
+#owl-main:hover .owl-prev:hover .icon,
+#owl-main:hover .owl-next:hover .icon,
+.cart .action ul .lnk .add-to-cart:hover,
+.cart .action ul .lnk .add-to-cart:focus,
+.cart .action ul .lnk .compare:hover,
+.cart .action ul .lnk .compare:focus  {
+  color: #fff !important;
+}
+
+.product .product-info .product-price ins span,
+.product .product-info .product-price .woocs_price_code > span,
+.product .product-info .product-price > span,
+.product .product-info .product-price .price,
+.products .product-info .product-price ins > span, 
+.products .product-info .product-price .woocs_price_code > span, 
+.products .product-info .product-price > span,
+.sidebar .sidebar-module-container .search-area .search-button:after {
+  color: #333!important;
+}
+
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:hover:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li a:focus:after,
+.single-product .product-tabs .nav.nav-tabs.nav-tab-cell li.active a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ffd800;
+}
+
+.top-bar .cnt-block ul li a .caret {
+  color: rgba(255,255,255,0.8);
+}
+
+.filters-container .pagination-container ul li.prev:hover,
+.filters-container .pagination-container ul li.next:hover,
+.filters-container .pagination-container ul li.prev:focus,
+.filters-container .pagination-container ul li.next:focus,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page.active span,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:hover,
+#owl-single-product-thumbnails .owl-controls .owl-pagination .owl-page span:focus {
+  background: #ffd800 !important;
+}
+
+div.tag.sale {
+  background: #fdd922;
+  color:#333
+}
+
+.breadcrumb ul li.active,
+.breadcrumb ul a:hover,
+.breadcrumb ul a:focus {
+  color: #157ed2;
+}
+
+.price_slider_wrapper .ui-slider-handle {
+  border: 5px solid #ffd800;
+}
+
+.single-product .gallery-holder .gallery-thumbs .owl-item .item:hover {
+  border: 1px solid #ffd800;
+}
+
+.single-product .product-info .price-container .price-box ins span,
+.single-product .product-info .price-container .price-box > span {
+  color: #ff7878;
+}
+
+.cart .action .add-cart-button .btn.btn-primary.icon:hover,
+.cart .action .add-cart-button .btn.btn-primary.icon:focus,
+#owl-main:hover .owl-prev:hover,
+#owl-main:hover .owl-next:hover {
+  background: #ffd800;
+  color:#fff!important;
+}
+
+.cart .action .add-to-cart:hover,
+.cart .action .add-to-cart:focus {
+  color: #ffd800 !important;
+}
+
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:hover,
+.sidebar .sidebar-module-container .sidebar-widget .nav-tabs > li.active > a:focus {
+  color: #ffd800;
+}
+.blog-post .social-media a:hover,
+.blog-post .social-media a:focus,
+.blog-post-author-details .author-social-network button .twitter-icon,
+.checkout-box .checkout-steps .panel .panel-heading .unicase-checkout-title > a:not(.collapsed) span,
+.contact-info .contact-i {
+  background-color: #ffd800!important;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info .cart-product-info span span,
+.shopping-cart .cart-shopping-total table thead tr th .cart-grand-total {
+  color: #84b943;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail {
+  border-bottom: none;
+}
+
+.single-product .product-tabs .nav-tab-cell-detail li {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.mega-menu .dropdown-menu {
+    width:100%;
+    left:0px 
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    box-shadow:0 4px 6px -1px rgba(0,0,0,0.4);
+}
+
+.single-product div.product div.images .flex-control-thumbs li .flex-active, 
+.woocommerce div.product div.images .flex-control-thumbs li img:hover {
+    border: 1px solid #ffd800;
+}
+.woocommerce .btn-primary, 
+.single-product .favorite-button a, 
+.woocs_converter_shortcode_button{
+    background: #ffd800;
+    border: none;
+}
+.woocommerce .btn-primary:hover, 
+.single-product .favorite-button a:hover, 
+.woocs_converter_shortcode_button:hover{
+    background: #ccad00!important;
+} 
